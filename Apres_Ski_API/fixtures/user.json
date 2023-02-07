@@ -1,0 +1,9 @@
+[
+  {
+    "model": "test_api.user",
+    "pk": 1,
+    "fields": {
+      "name": "Bill"
+    }
+  }
+]

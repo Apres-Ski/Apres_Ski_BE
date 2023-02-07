@@ -1,0 +1,13 @@
+[
+  {
+    "model": "test_api.engagement",
+    "pk": 1,
+    "fields": {
+      "vibe": "super cool",
+      "rating": "4.5",
+      "favorites": true,
+      "restaurant": [1],
+      "user": [1]
+    }
+  }
+]

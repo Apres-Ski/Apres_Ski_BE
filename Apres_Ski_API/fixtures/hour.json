@@ -1,0 +1,268 @@
+[
+  {
+    "model": "test_api.hour",
+    "pk": 1,
+    "fields": {
+      "sunday": "6:40 AM - 10:00 AM",
+      "monday": "6:40 AM - 10:00 AM",
+      "tuesday": "6:40 AM - 10:00 AM",
+      "wednesday": "6:40 AM - 10:00 AM",
+      "thursday": "6:30 AM - 10:00AM; 4:00PM - 9:00 PM",
+      "friday": "6:30 AM - 10:00AM; 4:00PM - 9:00 PM",
+      "saturday": "6:30 AM - 10:00AM; 4:00PM - 9:00 PM",
+      "restaurant": 1
+    }
+  },
+  {
+    "model": "test_api.hour",
+    "pk": 2,
+    "fields": {
+      "sunday": "8:00 AM - 8:00 PM",
+      "monday": "8:00 AM - 8:00 PM",
+      "tuesday": "8:00 AM - 8:00 PM",
+      "wednesday": "8:00 AM - 8:00 PM",
+      "thursday": "8:00 AM - 9:00 PM",
+      "friday": "8:00 AM - 9:00 PM",
+      "saturday": "8:00 AM - 9:00 PM",
+      "restaurant": 2
+    }
+  },
+  {
+    "model": "test_api.hour",
+    "pk": 3,
+    "fields": {
+      "sunday": "7:00 AM - 10:00 PM",
+      "monday": "7:00 AM - 10:00 PM",
+      "tuesday": "7:00 AM - 10:00 PM",
+      "wednesday": "7:00 AM - 10:00 PM",
+      "thursday": "7:00 AM - 10:00 PM",
+      "friday": "7:00 AM - 10:00 PM",
+      "saturday": "7:00 AM - 10:00 PM",
+      "restaurant": 3
+    }
+  },
+  {
+    "model": "test_api.hour",
+    "pk": 4,
+    "fields": {
+      "sunday": "10:00 - 5:00 PM",
+      "monday": "Closed",
+      "tuesday": "Closed",
+      "wednesday": "10:00 - 5:00 PM",
+      "thursday": "10:00 - 5:00 PM",
+      "friday": "10:00 - 5:00 PM",
+      "saturday": "10:00 - 5:00 PM",
+      "restaurant": 4
+    }
+  },
+  {
+    "model": "test_api.hour",
+    "pk": 5,
+    "fields": {
+      "sunday": "11:30 AM - 9:00 PM",
+      "monday": "11:30 AM - 9:00 PM",
+      "tuesday": "11:30 AM - 9:00 PM",
+      "wednesday": "11:30 AM - 9:00 PM",
+      "thursday": "11:30 AM - 9:00 PM",
+      "friday": "11:30 AM - 9:00 PM",
+      "saturday": "11:30 AM - 9:00 PM",
+      "restaurant": 5
+    }
+  },
+  {
+    "model": "test_api.hour",
+    "pk": 6,
+    "fields": {
+      "sunday": "11:00 AM - 9:00 PM",
+      "monday": "11:00 AM - 9:00 PM",
+      "tuesday": "11:00 AM - 9:00 PM",
+      "wednesday": "11:00 AM - 9:00 PM",
+      "thursday": "11:00 AM - 9:00 PM",
+      "friday": "11:00 AM - 10:00 PM",
+      "saturday": "11:00 AM - 10:00 PM",
+      "restaurant": 6
+    }
+  },
+  {
+    "model": "test_api.hour",
+    "pk": 7,
+    "fields": {
+      "sunday": "11:00 AM - 9:00 PM",
+      "monday": "11:00 AM - 10:00 PM",
+      "tuesday": "11:00 AM - 10:00 PM",
+      "wednesday": "11:00 AM - 10:00 PM",
+      "thursday": "11:00 AM - 10:00 PM",
+      "friday": "11:00 AM - 10:00 PM",
+      "saturday": "11:00 AM - 10:00 PM",
+      "restaurant": 7
+    }
+  },
+  {
+    "model": "test_api.hour",
+    "pk": 8,
+    "fields": {
+      "sunday": "3:00 PM - 9:00 PM",
+      "monday": "4:00 PM - 9:00 PM",
+      "tuesday": "4:00 PM - 9:00 PM",
+      "wednesday": "4:00 PM - 9:00 PM",
+      "thursday": "3:00 PM - 9:00 PM",
+      "friday": "11:00 AM - 10:00 PM",
+      "saturday": "11:00 AM - 10:00 PM",
+      "restaurant": 8
+    }
+  },
+  {
+    "model": "test_api.hour",
+    "pk": 9,
+    "fields": {
+      "sunday": "8:00 AM - 10:00 PM",
+      "monday": "8:00 AM - 10:00 PM",
+      "tuesday": "8:00 AM - 10:00 PM",
+      "wednesday": "8:00 AM - 10:00 PM",
+      "thursday": "8:00 AM - 9:00 PM",
+      "friday": "8:00 AM - 10:00 PM",
+      "saturday": "8:00 AM - 10:00 PM",
+      "restaurant": 9
+    }
+  },
+  {
+    "model": "test_api.hour",
+    "pk": 10,
+    "fields": {
+      "sunday": "9:30 AM - 3:00 PM",
+      "monday": "9:30 AM - 3:00 PM",
+      "tuesday": "9:30 AM - 3:00 PM",
+      "wednesday": "9:30 AM - 3:00 PM",
+      "thursday": "9:30 AM - 3:00 PM",
+      "friday": "9:30 AM - 3:00 PM",
+      "saturday": "9:30 AM - 3:00 PM",
+      "restaurant": 10
+    }
+  },
+  {
+    "model": "test_api.hour",
+    "pk": 11,
+    "fields": {
+      "sunday": "11:00 AM - 4:30 PM",
+      "monday": "11:00 AM - 4:30 PM",
+      "tuesday": "11:00 AM - 4:30 PM",
+      "wednesday": "11:00 AM - 4:30 PM",
+      "thursday": "11:00 AM - 4:30 PM",
+      "friday": "11:00 AM - 6:00 PM",
+      "saturday": "11:00 AM - 6:00 PM",
+      "restaurant": 11
+    }
+  },
+  {
+    "model": "test_api.hour",
+    "pk": 12,
+    "fields": {
+      "sunday": "12:00 PM - 9:30 PM",
+      "monday": "3:00 PM - 9:30 PM",
+      "tuesday": "3:00 PM - 9:30 PM",
+      "wednesday": "3:00 PM - 9:30 PM",
+      "thursday": "3:00 PM - 9:30 PM",
+      "friday": "3:00 PM - 9:30 PM",
+      "saturday": "12:00 PM - 9:30 PM",
+      "restaurant": 12
+    }
+  },
+  {
+    "model": "test_api.hour",
+    "pk": 13,
+    "fields": {
+      "sunday": "10:00 AM - 8:00 PM",
+      "monday": "10:00 AM - 8:00 PM",
+      "tuesday": "10:00 AM - 8:00 PM",
+      "wednesday": "10:00 AM - 8:00 PM",
+      "thursday": "10:00 AM - 8:00 PM",
+      "friday": "10:00 AM - 8:00 PM",
+      "saturday": "10:00 AM - 8:00 PM",
+      "restaurant": 13
+    }
+  },
+  {
+    "model": "test_api.hour",
+    "pk": 14,
+    "fields": {
+      "sunday": "11:30 AM - 1:00 AM",
+      "monday": "11:30 AM - 1:00 AM",
+      "tuesday": "11:30 AM - 1:00 AM",
+      "wednesday": "11:30 AM - 1:00 AM",
+      "thursday": "11:30 AM - 1:00 AM",
+      "friday": "11:30 AM - 1:00 AM",
+      "saturday": "11:30 AM - 1:00 AM",
+      "restaurant": 14
+    }
+  },
+  {
+    "model": "test_api.hour",
+    "pk": 15,
+    "fields": {
+      "sunday": "8:00 AM - 6:00 PM",
+      "monday": "8:00 AM - 6:00 PM",
+      "tuesday": "8:00 AM - 6:00 PM",
+      "wednesday": "8:00 AM - 6:00 PM",
+      "thursday": "8:00 AM - 6:00 PM",
+      "friday": "8:00 AM - 6:00 PM",
+      "saturday": "8:00 AM - 6:00 PM",
+      "restaurant": 15
+    }
+  },
+  {
+    "model": "test_api.hour",
+    "pk": 16,
+    "fields": {
+      "sunday": "11:00 AM - 5:00 PM",
+      "monday": "11:00 AM - 5:00 PM",
+      "tuesday": "11:00 AM - 5:00 PM",
+      "wednesday": "11:00 AM - 5:00 PM",
+      "thursday": "11:00 AM - 5:00 PM",
+      "friday": "11:00 AM - 5:00 PM",
+      "saturday": "11:00 AM - 5:00 PM",
+      "restaurant": 16
+    }
+  },
+  {
+    "model": "test_api.hour",
+    "pk": 17,
+    "fields": {
+      "sunday": "11:30 AM - 9:00 PM",
+      "monday": "11:30 AM - 9:00 PM",
+      "tuesday": "11:30 AM - 9:00 PM",
+      "wednesday": "11:30 AM - 9:00 PM",
+      "thursday": "11:30 AM - 9:00 PM",
+      "friday": "11:30 AM - 9:00 PM",
+      "saturday": "11:30 AM - 9:00 PM",
+      "restaurant": 17
+    }
+  },
+  {
+    "model": "test_api.hour",
+    "pk": 18,
+    "fields": {
+      "sunday": "11:00 AM - 10:00 PM",
+      "monday": "11:00 AM - 10:00 PM",
+      "tuesday": "11:00 AM - 10:00 PM",
+      "wednesday": "11:00 AM - 10:00 PM",
+      "thursday": "11:00 AM - 10:00 PM",
+      "friday": "11:00 AM - 10:00 PM",
+      "saturday": "11:00 AM - 10:00 PM",
+      "restaurant": 18
+    }
+  },
+  {
+    "model": "test_api.hour",
+    "pk": 19,
+    "fields": {
+      "sunday": "4:00 PM - 9:00 PM",
+      "monday": "4:00 PM - 9:00 PM",
+      "tuesday": "Closed",
+      "wednesday": "4:00 PM - 9:00 PM",
+      "thursday": "4:00 PM - 9:00 PM",
+      "friday": "4:00 PM - 9:00 PM",
+      "saturday": "4:00 PM - 9:00 PM",
+      "restaurant": 19
+    }
+  }
+]

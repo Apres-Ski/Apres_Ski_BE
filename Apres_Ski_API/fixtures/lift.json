@@ -1,0 +1,83 @@
+[
+  {
+    "model": "test_api.lift",
+    "pk": 1,
+    "fields": {
+      "name": "Imperial Express",
+      "lat": "39.485365",
+      "lon": "-106.047495"
+    }
+  },
+  {
+    "model": "test_api.lift",
+    "pk": 2,
+    "fields": {
+      "name": "Snowflake",
+      "lat": "39.478373",
+      "lon": "-106.053167"
+    }
+  },
+  {
+    "model": "test_api.lift",
+    "pk": 3,
+    "fields": {
+      "name": "QuickSilver SuperChair",
+      "lat": "39.475606",
+      "lon": "-106.047927"
+    }
+  },
+  {
+    "model": "test_api.lift",
+    "pk": 4,
+    "fields": {
+      "name": "Bever Run Super Chair",
+      "lat": "39.473446",
+      "lon": "-106.051877"
+    }
+  },
+  {
+    "model": "test_api.lift",
+    "pk": 5,
+    "fields": {
+      "name": "Rocky Mountain SuperChair",
+      "lat": "39.480935",
+      "lon": "-106.067852"
+    }
+  },
+  {
+    "model": "test_api.lift",
+    "pk": 6,
+    "fields": {
+      "name": "Independence SuperChair",
+      "lat": "39.4855",
+      "lon": "-106.067394"
+    }
+  },
+  {
+    "model": "test_api.lift",
+    "pk": 7,
+    "fields": {
+      "name": "8 Passenger BreckConnectGondola",
+      "lat": "39.485349",
+      "lon": "-106.047492"
+    }
+  },
+  {
+    "model": "test_api.lift",
+    "pk": 8,
+    "fields": {
+      "name": "5 Chair",
+      "lat": "39.480353",
+      "lon": "-106.067381"
+    }
+  },
+  {
+    "model": "test_api.lift",
+    "pk": 9,
+    "fields": {
+      "name": "Rip's Ride",
+      "lat": "39.479751",
+      "lon": "-106.066076"
+    }
+  }
+]

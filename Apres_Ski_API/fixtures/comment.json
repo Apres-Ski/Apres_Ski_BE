@@ -1,0 +1,15 @@
+[
+  {
+    "model": "test_api.comment",
+    "pk": 1,
+    "fields": {
+      "comment": "super cool",
+      "restaurant": [
+        1
+      ],
+      "user": [
+        1
+      ]
+    }
+  }
+]
