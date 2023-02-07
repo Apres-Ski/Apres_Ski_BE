@@ -1,6 +1,6 @@
 [
   {
-    "model": "test_api.engagement",
+    "model": "Apres_Ski_API.engagement",
     "pk": 1,
     "fields": {
       "vibe": "super cool",

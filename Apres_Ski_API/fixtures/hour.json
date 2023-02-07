@@ -1,6 +1,6 @@
 [
   {
-    "model": "test_api.hour",
+    "model": "Apres_Ski_API.hour",
     "pk": 1,
     "fields": {
       "sunday": "6:40 AM - 10:00 AM",
@@ -14,7 +14,7 @@
     }
   },
   {
-    "model": "test_api.hour",
+    "model": "Apres_Ski_API.hour",
     "pk": 2,
     "fields": {
       "sunday": "8:00 AM - 8:00 PM",
@@ -28,7 +28,7 @@
     }
   },
   {
-    "model": "test_api.hour",
+    "model": "Apres_Ski_API.hour",
     "pk": 3,
     "fields": {
       "sunday": "7:00 AM - 10:00 PM",
@@ -42,7 +42,7 @@
     }
   },
   {
-    "model": "test_api.hour",
+    "model": "Apres_Ski_API.hour",
     "pk": 4,
     "fields": {
       "sunday": "10:00 - 5:00 PM",
@@ -56,7 +56,7 @@
     }
   },
   {
-    "model": "test_api.hour",
+    "model": "Apres_Ski_API.hour",
     "pk": 5,
     "fields": {
       "sunday": "11:30 AM - 9:00 PM",
@@ -70,7 +70,7 @@
     }
   },
   {
-    "model": "test_api.hour",
+    "model": "Apres_Ski_API.hour",
     "pk": 6,
     "fields": {
       "sunday": "11:00 AM - 9:00 PM",
@@ -84,7 +84,7 @@
     }
   },
   {
-    "model": "test_api.hour",
+    "model": "Apres_Ski_API.hour",
     "pk": 7,
     "fields": {
       "sunday": "11:00 AM - 9:00 PM",
@@ -98,7 +98,7 @@
     }
   },
   {
-    "model": "test_api.hour",
+    "model": "Apres_Ski_API.hour",
     "pk": 8,
     "fields": {
       "sunday": "3:00 PM - 9:00 PM",
@@ -112,7 +112,7 @@
     }
   },
   {
-    "model": "test_api.hour",
+    "model": "Apres_Ski_API.hour",
     "pk": 9,
     "fields": {
       "sunday": "8:00 AM - 10:00 PM",
@@ -126,7 +126,7 @@
     }
   },
   {
-    "model": "test_api.hour",
+    "model": "Apres_Ski_API.hour",
     "pk": 10,
     "fields": {
       "sunday": "9:30 AM - 3:00 PM",
@@ -140,7 +140,7 @@
     }
   },
   {
-    "model": "test_api.hour",
+    "model": "Apres_Ski_API.hour",
     "pk": 11,
     "fields": {
       "sunday": "11:00 AM - 4:30 PM",
@@ -154,7 +154,7 @@
     }
   },
   {
-    "model": "test_api.hour",
+    "model": "Apres_Ski_API.hour",
     "pk": 12,
     "fields": {
       "sunday": "12:00 PM - 9:30 PM",
@@ -168,7 +168,7 @@
     }
   },
   {
-    "model": "test_api.hour",
+    "model": "Apres_Ski_API.hour",
     "pk": 13,
     "fields": {
       "sunday": "10:00 AM - 8:00 PM",
@@ -182,7 +182,7 @@
     }
   },
   {
-    "model": "test_api.hour",
+    "model": "Apres_Ski_API.hour",
     "pk": 14,
     "fields": {
       "sunday": "11:30 AM - 1:00 AM",
@@ -196,7 +196,7 @@
     }
   },
   {
-    "model": "test_api.hour",
+    "model": "Apres_Ski_API.hour",
     "pk": 15,
     "fields": {
       "sunday": "8:00 AM - 6:00 PM",
@@ -210,7 +210,7 @@
     }
   },
   {
-    "model": "test_api.hour",
+    "model": "Apres_Ski_API.hour",
     "pk": 16,
     "fields": {
       "sunday": "11:00 AM - 5:00 PM",
@@ -224,7 +224,7 @@
     }
   },
   {
-    "model": "test_api.hour",
+    "model": "Apres_Ski_API.hour",
     "pk": 17,
     "fields": {
       "sunday": "11:30 AM - 9:00 PM",
@@ -238,7 +238,7 @@
     }
   },
   {
-    "model": "test_api.hour",
+    "model": "Apres_Ski_API.hour",
     "pk": 18,
     "fields": {
       "sunday": "11:00 AM - 10:00 PM",
@@ -252,7 +252,7 @@
     }
   },
   {
-    "model": "test_api.hour",
+    "model": "Apres_Ski_API.hour",
     "pk": 19,
     "fields": {
       "sunday": "4:00 PM - 9:00 PM",

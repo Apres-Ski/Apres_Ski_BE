@@ -1,6 +1,6 @@
 [
   {
-    "model": "test_api.photo",
+    "model": "Apres_Ski_API.photo",
     "pk": 1,
     "fields": {
       "url": "https://s3-media0.fl.yelpcdn.com/bphoto/R104KwuibremdvBrwRiAAg/o.jpg",
@@ -9,7 +9,7 @@
     }
   },
   {
-    "model": "test_api.photo",
+    "model": "Apres_Ski_API.photo",
     "pk": 2,
     "fields": {
       "url": "https://media-cdn.tripadvisor.com/media/photo-m/1280/18/b5/e1/61/full-bar.jpg",
@@ -18,7 +18,7 @@
     }
   },
   {
-    "model": "test_api.photo",
+    "model": "Apres_Ski_API.photo",
     "pk": 3,
     "fields": {
       "url": "https://s3-media0.fl.yelpcdn.com/bphoto/wd0uTKvgdMiK47sgPF0zlA/l.jpg",
@@ -27,7 +27,7 @@
     }
   },
   {
-    "model": "test_api.photo",
+    "model": "Apres_Ski_API.photo",
     "pk": 4,
     "fields": {
       "url": "https://www.boldbreck.com/wp-content/uploads/2017/10/BoldFeb282017-1.jpg",
@@ -36,7 +36,7 @@
     }
   },
   {
-    "model": "test_api.photo",
+    "model": "Apres_Ski_API.photo",
     "pk": 5,
     "fields": {
       "url": "https://cabinjuice.com/wp-content/uploads/2020/05/gravity-haus-breckenridge-cabin-juice.jpg",
@@ -45,7 +45,7 @@
     }
   },
   {
-    "model": "test_api.photo",
+    "model": "Apres_Ski_API.photo",
     "pk": 6,
     "fields": {
       "url": "https://the-village-hotel-breckenridge-co.booked.net/data/Photos/OriginalPhoto/9537/953723/953723608/Gravity-Haus-Hotel-Breckenridge-Exterior.JPEG",
@@ -54,7 +54,7 @@
     }
   },
   {
-    "model": "test_api.photo",
+    "model": "Apres_Ski_API.photo",
     "pk": 7,
     "fields": {
       "url": "https://img.restaurantguru.com/cf01-Restaurant-Gyros-Delish-picture.jpg",
@@ -63,7 +63,7 @@
     }
   },
   {
-    "model": "test_api.photo",
+    "model": "Apres_Ski_API.photo",
     "pk": 8,
     "fields": {
       "url": "https://10619-2.s.cdn12.com/rests/original/502_503786245.jpg",
@@ -72,7 +72,7 @@
     }
   },
   {
-    "model": "test_api.photo",
+    "model": "Apres_Ski_API.photo",
     "pk": 9,
     "fields": {
       "url": "https://b.zmtcdn.com/data/reviews_photos/19a/176937b1f9e1c4ffa1f31ea844ec119a_1540298841.jpg?fit=around|750:500&crop=750:500;*,*",
@@ -81,7 +81,7 @@
     }
   },
   {
-    "model": "test_api.photo",
+    "model": "Apres_Ski_API.photo",
     "pk": 10,
     "fields": {
       "url": "https://b.zmtcdn.com/data/pictures/8/17308688/33c12577b601fcf0784ec78af126fba3.jpg",
@@ -90,7 +90,7 @@
     }
   },
   {
-    "model": "test_api.photo",
+    "model": "Apres_Ski_API.photo",
     "pk": 11,
     "fields": {
       "url": "https://s3-media0.fl.yelpcdn.com/bphoto/FU-_xNdrVQ8zjYGnyTMM-A/o.jpg",
@@ -99,7 +99,7 @@
     }
   },
   {
-    "model": "test_api.photo",
+    "model": "Apres_Ski_API.photo",
     "pk": 12,
     "fields": {
       "url": "https://s3-media0.fl.yelpcdn.com/bphoto/0cWrxxWsyzli3BXoibEj-g/o.jpg",
@@ -108,7 +108,7 @@
     }
   },
   {
-    "model": "test_api.photo",
+    "model": "Apres_Ski_API.photo",
     "pk": 13,
     "fields": {
       "url": "https://s3-media0.fl.yelpcdn.com/bphoto/uTzW36bngy5IM2FWHeDstg/o.jpg",
@@ -117,7 +117,7 @@
     }
   },
   {
-    "model": "test_api.photo",
+    "model": "Apres_Ski_API.photo",
     "pk": 14,
     "fields": {
       "url": "https://s3-media0.fl.yelpcdn.com/bphoto/RiQsqgFtHH_nIbfZ7RAOXQ/o.jpg",
@@ -126,7 +126,7 @@
     }
   },
   {
-    "model": "test_api.photo",
+    "model": "Apres_Ski_API.photo",
     "pk": 15,
     "fields": {
       "url": "https://sauceonthemaggie.com/content/files/uploads/2011/03/Taddeos-dining-room-empty.jpg",
@@ -135,7 +135,7 @@
     }
   },
   {
-    "model": "test_api.photo",
+    "model": "Apres_Ski_API.photo",
     "pk": 16,
     "fields": {
       "url": "https://cdn.summitdaily.com/wp-content/uploads/sites/2/2019/04/Bartender-shaking-martini-1024x659.jpg",
@@ -144,7 +144,7 @@
     }
   },
   {
-    "model": "test_api.photo",
+    "model": "Apres_Ski_API.photo",
     "pk": 17,
     "fields": {
       "url": "https://media-cdn.tripadvisor.com/media/photo-s/03/e9/a1/20/sevens-at-breckenridge.jpg",
@@ -153,7 +153,7 @@
     }
   },
   {
-    "model": "test_api.photo",
+    "model": "Apres_Ski_API.photo",
     "pk": 18,
     "fields": {
       "url": "https://media-cdn.tripadvisor.com/media/photo-s/12/21/30/a7/watch-the-game-at-the.jpg",
@@ -162,7 +162,7 @@
     }
   },
   {
-    "model": "test_api.photo",
+    "model": "Apres_Ski_API.photo",
     "pk": 19,
     "fields": {
       "url": "https://s3-media0.fl.yelpcdn.com/bphoto/2oTdvb3_tUyLyzGNHjSbgQ/o.jpg",
@@ -171,7 +171,7 @@
     }
   },
   {
-    "model": "test_api.photo",
+    "model": "Apres_Ski_API.photo",
     "pk": 20,
     "fields": {
       "url": "https://media-cdn.tripadvisor.com/media/photo-s/0e/ac/fe/6a/nachos-from-ski-hill.jpg",
@@ -180,7 +180,7 @@
     }
   },
   {
-    "model": "test_api.photo",
+    "model": "Apres_Ski_API.photo",
     "pk": 21,
     "fields": {
       "url": "https://s3-media0.fl.yelpcdn.com/bphoto/LFqy28fp0nM66MLrNGAa3w/o.jpg",
@@ -189,7 +189,7 @@
     }
   },
   {
-    "model": "test_api.photo",
+    "model": "Apres_Ski_API.photo",
     "pk": 22,
     "fields": {
       "url": "https://s3-media0.fl.yelpcdn.com/bphoto/YSnmtaAGFLc_cUoEBJhn8A/o.jpg",
@@ -198,7 +198,7 @@
     }
   },
   {
-    "model": "test_api.photo",
+    "model": "Apres_Ski_API.photo",
     "pk": 23,
     "fields": {
       "url": "https://s3-media0.fl.yelpcdn.com/bphoto/4Q7PDcuVyvUOONYi_gwqfg/o.jpg",
@@ -207,7 +207,7 @@
     }
   },
   {
-    "model": "test_api.photo",
+    "model": "Apres_Ski_API.photo",
     "pk": 24,
     "fields": {
       "url": "https://s3-media0.fl.yelpcdn.com/bphoto/Xvhmuu4rRCIq9mHHvdz8KQ/o.jpg",
@@ -216,7 +216,7 @@
     }
   },
   {
-    "model": "test_api.photo",
+    "model": "Apres_Ski_API.photo",
     "pk": 25,
     "fields": {
       "url": "https://s3-media0.fl.yelpcdn.com/bphoto/lBHDw82Nux9fmxj5D7XTew/348s.jpg",
@@ -225,7 +225,7 @@
     }
   },
   {
-    "model": "test_api.photo",
+    "model": "Apres_Ski_API.photo",
     "pk": 26,
     "fields": {
       "url": "https://s3-media0.fl.yelpcdn.com/bphoto/w5dasF93DgJP0S3T7WAuSw/o.jpg",
@@ -234,7 +234,7 @@
     }
   },
   {
-    "model": "test_api.photo",
+    "model": "Apres_Ski_API.photo",
     "pk": 27,
     "fields": {
       "url": "https://s3-media0.fl.yelpcdn.com/bphoto/oq-EkY38eOINXHY4QEt2OA/o.jpg",
@@ -243,7 +243,7 @@
     }
   },
   {
-    "model": "test_api.photo",
+    "model": "Apres_Ski_API.photo",
     "pk": 28,
     "fields": {
       "url": "https://s3-media0.fl.yelpcdn.com/bphoto/Vf-3RM7-_8lixn3PVw7tcw/o.jpg",
@@ -252,7 +252,7 @@
     }
   },
   {
-    "model": "test_api.photo",
+    "model": "Apres_Ski_API.photo",
     "pk": 29,
     "fields": {
       "url": "https://s3-media0.fl.yelpcdn.com/bphoto/MenjHWMBPvBsE1VzOIX8jA/o.jpg",
@@ -261,7 +261,7 @@
     }
   },
   {
-    "model": "test_api.photo",
+    "model": "Apres_Ski_API.photo",
     "pk": 30,
     "fields": {
       "url": "https://s3-media0.fl.yelpcdn.com/bphoto/spxK4RmxZiR5RXKN9FtvWg/o.jpg",
@@ -270,7 +270,7 @@
     }
   },
   {
-    "model": "test_api.photo",
+    "model": "Apres_Ski_API.photo",
     "pk": 31,
     "fields": {
       "url": "https://media-cdn.tripadvisor.com/media/photo-s/10/97/96/4d/inside-dining-area-with.jpg",
@@ -279,7 +279,7 @@
     }
   },
   {
-    "model": "test_api.photo",
+    "model": "Apres_Ski_API.photo",
     "pk": 32,
     "fields": {
       "url": "https://media-cdn.tripadvisor.com/media/photo-s/10/97/96/3e/coppertop-view.jpg",
@@ -288,7 +288,7 @@
     }
   },
   {
-    "model": "test_api.photo",
+    "model": "Apres_Ski_API.photo",
     "pk": 33,
     "fields": {
       "url": "https://s3-media0.fl.yelpcdn.com/bphoto/6eVwbYY7FfInO-EqozjN5A/o.jpg",
@@ -297,7 +297,7 @@
     }
   },
   {
-    "model": "test_api.photo",
+    "model": "Apres_Ski_API.photo",
     "pk": 34,
     "fields": {
       "url": "https://s3-media0.fl.yelpcdn.com/bphoto/sFbMhzRMLbzF-IdHdI8BjA/o.jpg",
@@ -306,7 +306,7 @@
     }
   },
   {
-    "model": "test_api.photo",
+    "model": "Apres_Ski_API.photo",
     "pk": 35,
     "fields": {
       "url": "https://lh3.googleusercontent.com/p/AF1QipP93tFtqtUXu05rqOTztRZ54RHeVzaq5geaBCZD=s680-w680-h510",
@@ -315,7 +315,7 @@
     }
   },
   {
-    "model": "test_api.photo",
+    "model": "Apres_Ski_API.photo",
     "pk": 36,
     "fields": {
       "url": "https://lh3.googleusercontent.com/p/AF1QipNKju-FttqIxldKzvXl-s1moaEw-tVkd8_RfnHf=s680-w680-h510",
@@ -324,7 +324,7 @@
     }
   },
   {
-    "model": "test_api.photo",
+    "model": "Apres_Ski_API.photo",
     "pk": 37,
     "fields": {
       "url": "https://southridgeseafoodgrill.com/templates/yootheme/cache/ce/c0ffd710-ff73-4a31-bf00-0f7c409bcd2c-ce45a292.webp",
@@ -333,7 +333,7 @@
     }
   },
   {
-    "model": "test_api.photo",
+    "model": "Apres_Ski_API.photo",
     "pk": 38,
     "fields": {
       "url": "https://southridgeseafoodgrill.com/templates/yootheme/cache/3a/7d3722db-6c2f-4a6c-8299-90195f124301-3a59803b.webp",

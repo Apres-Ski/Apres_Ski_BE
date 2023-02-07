@@ -1,6 +1,6 @@
 [
   {
-    "model": "test_api.comment",
+    "model": "Apres_Ski_API.comment",
     "pk": 1,
     "fields": {
       "comment": "super cool",

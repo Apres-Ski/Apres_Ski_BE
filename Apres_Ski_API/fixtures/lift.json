@@ -1,6 +1,6 @@
 [
   {
-    "model": "test_api.lift",
+    "model": "Apres_Ski_API.lift",
     "pk": 1,
     "fields": {
       "name": "Imperial Express",
@@ -9,7 +9,7 @@
     }
   },
   {
-    "model": "test_api.lift",
+    "model": "Apres_Ski_API.lift",
     "pk": 2,
     "fields": {
       "name": "Snowflake",
@@ -18,7 +18,7 @@
     }
   },
   {
-    "model": "test_api.lift",
+    "model": "Apres_Ski_API.lift",
     "pk": 3,
     "fields": {
       "name": "QuickSilver SuperChair",
@@ -27,7 +27,7 @@
     }
   },
   {
-    "model": "test_api.lift",
+    "model": "Apres_Ski_API.lift",
     "pk": 4,
     "fields": {
       "name": "Bever Run Super Chair",
@@ -36,7 +36,7 @@
     }
   },
   {
-    "model": "test_api.lift",
+    "model": "Apres_Ski_API.lift",
     "pk": 5,
     "fields": {
       "name": "Rocky Mountain SuperChair",
@@ -45,7 +45,7 @@
     }
   },
   {
-    "model": "test_api.lift",
+    "model": "Apres_Ski_API.lift",
     "pk": 6,
     "fields": {
       "name": "Independence SuperChair",
@@ -54,7 +54,7 @@
     }
   },
   {
-    "model": "test_api.lift",
+    "model": "Apres_Ski_API.lift",
     "pk": 7,
     "fields": {
       "name": "8 Passenger BreckConnectGondola",
@@ -63,7 +63,7 @@
     }
   },
   {
-    "model": "test_api.lift",
+    "model": "Apres_Ski_API.lift",
     "pk": 8,
     "fields": {
       "name": "5 Chair",
@@ -72,7 +72,7 @@
     }
   },
   {
-    "model": "test_api.lift",
+    "model": "Apres_Ski_API.lift",
     "pk": 9,
     "fields": {
       "name": "Rip's Ride",

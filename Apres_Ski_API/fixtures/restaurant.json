@@ -1,6 +1,6 @@
 [
   {
-    "model": "test_api.restaurant",
+    "model": "Apres_Ski_API.restaurant",
     "pk": 1,
     "fields": {
       "name": "9600 Kitchen",
@@ -17,7 +17,7 @@
     }
   },
   {
-    "model": "test_api.restaurant",
+    "model": "Apres_Ski_API.restaurant",
     "pk": 2,
     "fields": {
       "name": "BoLD Restaurant and Bar",
@@ -34,7 +34,7 @@
     }
   },
   {
-    "model": "test_api.restaurant",
+    "model": "Apres_Ski_API.restaurant",
     "pk": 3,
     "fields": {
       "name": "Cabin Juice",
@@ -51,7 +51,7 @@
     }
   },
   {
-    "model": "test_api.restaurant",
+    "model": "Apres_Ski_API.restaurant",
     "pk": 4,
     "fields": {
       "name": "Gyros Delish",
@@ -68,7 +68,7 @@
     }
   },
   {
-    "model": "test_api.restaurant",
+    "model": "Apres_Ski_API.restaurant",
     "pk": 5,
     "fields": {
       "name": "Mi Casa Mexican Restaurant and Cantina",
@@ -85,7 +85,7 @@
     }
   },
   {
-    "model": "test_api.restaurant",
+    "model": "Apres_Ski_API.restaurant",
     "pk": 6,
     "fields": {
       "name": "Quandary Tequila Bistro",
@@ -102,7 +102,7 @@
     }
   },
   {
-    "model": "test_api.restaurant",
+    "model": "Apres_Ski_API.restaurant",
     "pk": 7,
     "fields": {
       "name": "Robbie's Tavern",
@@ -119,7 +119,7 @@
     }
   },
   {
-    "model": "test_api.restaurant",
+    "model": "Apres_Ski_API.restaurant",
     "pk": 8,
     "fields": {
       "name": "Sauce on the Maggie",
@@ -136,7 +136,7 @@
     }
   },
   {
-    "model": "test_api.restaurant",
+    "model": "Apres_Ski_API.restaurant",
     "pk": 9,
     "fields": {
       "name": "Sevens",
@@ -153,7 +153,7 @@
     }
   },
   {
-    "model": "test_api.restaurant",
+    "model": "Apres_Ski_API.restaurant",
     "pk": 10,
     "fields": {
       "name": "Ski Hill Grill",
@@ -170,7 +170,7 @@
     }
   },
   {
-    "model": "test_api.restaurant",
+    "model": "Apres_Ski_API.restaurant",
     "pk": 11,
     "fields": {
       "name": "TBar",
@@ -187,7 +187,7 @@
     }
   },
   {
-    "model": "test_api.restaurant",
+    "model": "Apres_Ski_API.restaurant",
     "pk": 12,
     "fields": {
       "name": "The Boot Saloon",
@@ -204,7 +204,7 @@
     }
   },
   {
-    "model": "test_api.restaurant",
+    "model": "Apres_Ski_API.restaurant",
     "pk": 13,
     "fields": {
       "name": "Trolley Crepes",
@@ -221,7 +221,7 @@
     }
   },
   {
-    "model": "test_api.restaurant",
+    "model": "Apres_Ski_API.restaurant",
     "pk": 14,
     "fields": {
       "name": "The Blue Stag Saloon",
@@ -238,7 +238,7 @@
     }
   },
   {
-    "model": "test_api.restaurant",
+    "model": "Apres_Ski_API.restaurant",
     "pk": 15,
     "fields": {
       "name": "The Maggie",
@@ -255,7 +255,7 @@
     }
   },
   {
-    "model": "test_api.restaurant",
+    "model": "Apres_Ski_API.restaurant",
     "pk": 16,
     "fields": {
       "name": "Coppertop",
@@ -272,7 +272,7 @@
     }
   },
   {
-    "model": "test_api.restaurant",
+    "model": "Apres_Ski_API.restaurant",
     "pk": 17,
     "fields": {
       "name": "Kenosha Steakhouse",
@@ -289,7 +289,7 @@
     }
   },
   {
-    "model": "test_api.restaurant",
+    "model": "Apres_Ski_API.restaurant",
     "pk": 18,
     "fields": {
       "name": "Fatty's Pizzeria",
@@ -306,7 +306,7 @@
     }
   },
   {
-    "model": "test_api.restaurant",
+    "model": "Apres_Ski_API.restaurant",
     "pk": 19,
     "fields": {
       "name": "South Ridge Seafood's rooftop deck",

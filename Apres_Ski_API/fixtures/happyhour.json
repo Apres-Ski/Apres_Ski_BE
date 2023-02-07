@@ -1,6 +1,6 @@
 [
   {
-    "model": "test_api.happyhour",
+    "model": "Apres_Ski_API.happyhour",
     "pk": 1,
     "fields": {
       "sunday": "2:00 PM - 6:00 PM",
@@ -15,7 +15,7 @@
     }
   },
   {
-    "model": "test_api.happyhour",
+    "model": "Apres_Ski_API.happyhour",
     "pk": 2,
     "fields": {
       "sunday": "3:00 PM - 5:00 PM",
@@ -30,7 +30,7 @@
     }
   },
   {
-    "model": "test_api.happyhour",
+    "model": "Apres_Ski_API.happyhour",
     "pk": 3,
     "fields": {
       "sunday": "3:00 PM - 6:00 PM",
@@ -45,7 +45,7 @@
     }
   },
   {
-    "model": "test_api.happyhour",
+    "model": "Apres_Ski_API.happyhour",
     "pk": 4,
     "fields": {
       "sunday": "3:00 PM - 5:00 PM",
@@ -60,7 +60,7 @@
     }
   },
   {
-    "model": "test_api.happyhour",
+    "model": "Apres_Ski_API.happyhour",
     "pk": 5,
     "fields": {
       "sunday": "4:00 PM - 5:00 PM",
@@ -75,7 +75,7 @@
     }
   },
   {
-    "model": "test_api.happyhour",
+    "model": "Apres_Ski_API.happyhour",
     "pk": 6,
     "fields": {
       "sunday": null,
@@ -90,7 +90,7 @@
     }
   },
   {
-    "model": "test_api.happyhour",
+    "model": "Apres_Ski_API.happyhour",
     "pk": 7,
     "fields": {
       "sunday": "2:00 PM - 5:00 PM",
@@ -105,7 +105,7 @@
     }
   },
   {
-    "model": "test_api.happyhour",
+    "model": "Apres_Ski_API.happyhour",
     "pk": 8,
     "fields": {
       "sunday": null,
@@ -120,7 +120,7 @@
     }
   },
   {
-    "model": "test_api.happyhour",
+    "model": "Apres_Ski_API.happyhour",
     "pk": 9,
     "fields": {
       "sunday": "4:00 PM - 5:30 PM",
@@ -135,7 +135,7 @@
     }
   },
   {
-    "model": "test_api.happyhour",
+    "model": "Apres_Ski_API.happyhour",
     "pk": 10,
     "fields": {
       "sunday": "2:00 PM - 5:00 PM",
@@ -150,7 +150,7 @@
     }
   },
   {
-    "model": "test_api.happyhour",
+    "model": "Apres_Ski_API.happyhour",
     "pk": 11,
     "fields": {
       "sunday": "3:00 PM - 6:00 PM",
@@ -165,7 +165,7 @@
     }
   },
   {
-    "model": "test_api.happyhour",
+    "model": "Apres_Ski_API.happyhour",
     "pk": 12,
     "fields": {
       "sunday": "4:00 PM - 6:00 PM",
