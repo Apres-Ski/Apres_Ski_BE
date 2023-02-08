@@ -20,6 +20,6 @@ router.register(r'comment', CommentViewSet)
 router.register(r'lift', LiftViewSet)
 
 urlpatterns = [
-  path('', include(router.urls)),
+  path('api/v1/', include(router.urls)),
   path('api_auth/', include('rest_framework.urls', namespace='rest_framework'))
 ]
