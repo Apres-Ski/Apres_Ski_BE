@@ -3,7 +3,9 @@
     "model": "Apres_Ski_API.user",
     "pk": 1,
     "fields": {
-      "name": "Bill"
+      "name": "Lily White",
+      "lat": "39.47677682",
+      "lon": "-106.0476996"
     }
   }
 ]
