@@ -1,0 +1,29 @@
+[
+  {
+    "model": "Apres_Ski_API.user",
+    "pk": 1,
+    "fields": {
+      "name": "Lily White",
+      "lat": "39.47677682",
+      "lon": "-106.0476996"
+    }
+  },
+  {
+    "model": "Apres_Ski_API.user",
+    "pk": 2,
+    "fields": {
+      "name": "Jack Hill",
+      "lat": "39.483421213997",
+      "lon": "-106.066812539715"
+    }
+  },
+  {
+    "model": "Apres_Ski_API.user",
+    "pk": 3,
+    "fields": {
+      "name": "Thomas Pena",
+      "lat": "39.4786490224492",
+      "lon": "-106.052519920665"
+    }
+  }
+]

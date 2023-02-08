@@ -1,0 +1,182 @@
+[
+  {
+    "model": "Apres_Ski_API.happyhour",
+    "pk": 1,
+    "fields": {
+      "sunday": "2:00 PM - 6:00 PM",
+      "monday": "2:00 PM - 6:00 PM",
+      "tuesday": "2:00 PM - 6:00 PM",
+      "wednesday": "2:00 PM - 6:00 PM",
+      "thursday": "2:00 PM - 6:00 PM",
+      "friday": "2:00 PM - 6:00 PM",
+      "saturday": "2:00 PM - 6:00 PM",
+      "special": "Free Beer",
+      "restaurant": 2
+    }
+  },
+  {
+    "model": "Apres_Ski_API.happyhour",
+    "pk": 2,
+    "fields": {
+      "sunday": "3:00 PM - 5:00 PM",
+      "monday": "3:00 PM - 5:00 PM",
+      "tuesday": "3:00 PM - 5:00 PM",
+      "wednesday": "3:00 PM - 5:00 PM",
+      "thursday": "3:00 PM - 5:00 PM",
+      "friday": "3:00 PM - 5:00 PM",
+      "saturday": "3:00 PM - 5:00 PM",
+      "special": "Half off",
+      "restaurant": 3
+    }
+  },
+  {
+    "model": "Apres_Ski_API.happyhour",
+    "pk": 3,
+    "fields": {
+      "sunday": "3:00 PM - 6:00 PM",
+      "monday": "3:00 PM - 6:00 PM",
+      "tuesday": "3:00 PM - 6:00 PM",
+      "wednesday": "3:00 PM - 6:00 PM",
+      "thursday": "3:00 PM - 6:00 PM",
+      "friday": "3:00 PM - 6:00 PM",
+      "saturday": "3:00 PM - 6:00 PM",
+      "special": "Be happy",
+      "restaurant": 5
+    }
+  },
+  {
+    "model": "Apres_Ski_API.happyhour",
+    "pk": 4,
+    "fields": {
+      "sunday": "3:00 PM - 5:00 PM",
+      "monday": "3:00 PM - 5:00 PM",
+      "tuesday": "3:00 PM - 5:00 PM",
+      "wednesday": "3:00 PM - 5:00 PM",
+      "thursday": "3:00 PM - 5:00 PM",
+      "friday": "3:00 PM - 5:00 PM",
+      "saturday": "3:00 PM - 5:00 PM",
+      "special": "Think Happy Thoughts",
+      "restaurant": 6
+    }
+  },
+  {
+    "model": "Apres_Ski_API.happyhour",
+    "pk": 5,
+    "fields": {
+      "sunday": "4:00 PM - 5:00 PM",
+      "monday": "4:00 PM - 5:00 PM",
+      "tuesday": "4:00 PM - 5:00 PM",
+      "wednesday": "4:00 PM - 5:00 PM",
+      "thursday": "4:00 PM - 5:00 PM",
+      "friday": "4:00 PM - 5:00 PM",
+      "saturday": "4:00 PM - 5:00 PM",
+      "special": "More Free Beer",
+      "restaurant": 8
+    }
+  },
+  {
+    "model": "Apres_Ski_API.happyhour",
+    "pk": 6,
+    "fields": {
+      "sunday": null,
+      "monday": "4:00 PM - 6:00 PM",
+      "tuesday": "4:00 PM - 6:00 PM",
+      "wednesday": "4:00 PM - 6:00 PM",
+      "thursday": "4:00 PM - 6:00 PM",
+      "friday": "4:00 PM - 6:00 PM",
+      "saturday": null,
+      "special": "Beer is good",
+      "restaurant": 9
+    }
+  },
+  {
+    "model": "Apres_Ski_API.happyhour",
+    "pk": 7,
+    "fields": {
+      "sunday": "2:00 PM - 5:00 PM",
+      "monday": "3:00 PM - 5:00 PM",
+      "tuesday": "3:00 PM - 5:00 PM",
+      "wednesday": "3:00 PM - 5:00 PM",
+      "thursday": "3:00 PM - 5:00 PM",
+      "friday": "3:00 PM - 5:00 PM",
+      "saturday": "2:00 PM - 5:00 PM",
+      "special": "Beer!",
+      "restaurant": 12
+    }
+  },
+  {
+    "model": "Apres_Ski_API.happyhour",
+    "pk": 8,
+    "fields": {
+      "sunday": null,
+      "monday": "3:00 PM - 5:00 PM",
+      "tuesday": "3:00 PM - 5:00 PM",
+      "wednesday": "3:00 PM - 5:00 PM",
+      "thursday": "3:00 PM - 5:00 PM",
+      "friday": "3:00 PM - 5:00 PM",
+      "saturday": null,
+      "special": "Beer!",
+      "restaurant": 14
+    }
+  },
+  {
+    "model": "Apres_Ski_API.happyhour",
+    "pk": 9,
+    "fields": {
+      "sunday": "4:00 PM - 5:30 PM",
+      "monday": "4:00 PM - 5:30 PM",
+      "tuesday": "4:00 PM - 5:30 PM",
+      "wednesday": "4:00 PM - 5:30 PM",
+      "thursday": "4:00 PM - 5:30 PM",
+      "friday": "4:00 PM - 5:30 PM",
+      "saturday": "4:00 PM - 5:30 PM",
+      "special": "Beer!",
+      "restaurant": 15
+    }
+  },
+  {
+    "model": "Apres_Ski_API.happyhour",
+    "pk": 10,
+    "fields": {
+      "sunday": "2:00 PM - 5:00 PM",
+      "monday": "2:00 PM - 5:00 PM",
+      "tuesday": "2:00 PM - 5:00 PM",
+      "wednesday": "2:00 PM - 5:00 PM",
+      "thursday": "2:00 PM - 5:00 PM",
+      "friday": "2:00 PM - 5:00 PM",
+      "saturday": "2:00 PM - 5:00 PM",
+      "special": "Beer!",
+      "restaurant": 17
+    }
+  },
+  {
+    "model": "Apres_Ski_API.happyhour",
+    "pk": 11,
+    "fields": {
+      "sunday": "3:00 PM - 6:00 PM",
+      "monday": "3:00 PM - 6:00 PM",
+      "tuesday": "3:00 PM - 6:00 PM",
+      "wednesday": "3:00 PM - 6:00 PM",
+      "thursday": "3:00 PM - 6:00 PM",
+      "friday": "3:00 PM - 6:00 PM",
+      "saturday": "3:00 PM - 6:00 PM",
+      "special": "Beer!",
+      "restaurant": 18
+    }
+  },
+  {
+    "model": "Apres_Ski_API.happyhour",
+    "pk": 12,
+    "fields": {
+      "sunday": "4:00 PM - 6:00 PM",
+      "monday": "4:00 PM - 6:00 PM",
+      "tuesday": "4:00 PM - 6:00 PM",
+      "wednesday": "4:00 PM - 6:00 PM",
+      "thursday": "4:00 PM - 6:00 PM",
+      "friday": "4:00 PM - 6:00 PM",
+      "saturday": "4:00 PM - 6:00 PM",
+      "special": "Beer!",
+      "restaurant": 19
+    }
+  }
+]
