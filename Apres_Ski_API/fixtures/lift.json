@@ -30,7 +30,7 @@
     "model": "Apres_Ski_API.lift",
     "pk": 4,
     "fields": {
-      "name": "Bever Run Super Chair",
+      "name": "Bever Run SuperChair",
       "lat": "39.473446",
       "lon": "-106.051877"
     }
@@ -57,7 +57,7 @@
     "model": "Apres_Ski_API.lift",
     "pk": 7,
     "fields": {
-      "name": "8 Passenger BreckConnectGondola",
+      "name": "8 Passenger BreckConnect Gondola",
       "lat": "39.485349",
       "lon": "-106.047492"
     }
