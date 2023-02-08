@@ -8,7 +8,6 @@ class Restaurant(models.Model):
   address = models.CharField(max_length=200, unique=True)
   food_type = models.CharField(max_length=200)
   cost = models.CharField(max_length=200)
-  vibe = models.CharField(max_length=200)
   cover_img = models.CharField(max_length=200, unique=True)
   alt_text = models.CharField(max_length=200)
   lat = models.CharField(max_length=60)
