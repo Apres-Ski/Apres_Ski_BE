@@ -231,7 +231,7 @@
       "address": "605 S Park Ave Peak 9 Breckenridge, CO 80424",
       "food_type": "American",
       "cost": "2",
-      "cover_img": "15https://s3-media0.fl.yelpcdn.com/bphoto/q3iN6iDl3cVaknBEE6ba5A/o.jpg",
+      "cover_img": "https://s3-media0.fl.yelpcdn.com/bphoto/q3iN6iDl3cVaknBEE6ba5A/o.jpg",
       "alt_text": "maggie_exterior",
       "lat": "39.4760796",
       "lon": "-106.0493048",
