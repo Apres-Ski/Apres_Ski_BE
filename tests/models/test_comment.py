@@ -16,6 +16,6 @@ class CommentTests(TestCase):
     assert isinstance(self.comment, Comment)
 
   def test_comment_state(self):
-    assert self.comment.comment == "This is my comment"
+    assert self.comment.comment == "This is a comment"
     assert self.comment.restaurant.count() == 1
     assert self.comment.user.count() == 1
