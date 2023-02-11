@@ -2,7 +2,7 @@ import pytest
 import json
 from django.test import TestCase, Client
 
-class UserViewTests(TestCase):
+class RoutingViewTests(TestCase):
   def test_routing_get(self):
     data = {
       "user_lat": 39.47677682,
