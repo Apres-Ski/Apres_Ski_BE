@@ -5,7 +5,7 @@ from tests.factories import UserFactory
 
 class UserTests(TestCase):
   def setUp(self):
-    self.user = UserFactory(name="name",
+    self.user = UserFactory(name='name',
                             lat='lat',
                             lon='lon')
 
