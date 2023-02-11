@@ -8,8 +8,7 @@ class RestaurantTests(TestCase):
       self.restaurant = RestaurantFactory(name='name',
                                           address='address',
                                           food_type='food_type',
-                                          cost='cost',
-                                          vibe='vibe',
+                                          cost='cost',                               
                                           cover_img='cover_img',
                                           alt_text='alt_text',
                                           lat='lat',
@@ -24,7 +23,6 @@ class RestaurantTests(TestCase):
      assert self.restaurant.name == 'name'
      assert self.restaurant.address == 'address'
      assert self.restaurant.food_type == 'food_type'
-     assert self.restaurant.vibe == 'vibe'
      assert self.restaurant.cover_img == 'cover_img'
      assert self.restaurant.alt_text == 'alt_text'
      assert self.restaurant.lat == 'lat'
