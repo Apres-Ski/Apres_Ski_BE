@@ -12,11 +12,3 @@ class LiftViewTests(TestCase):
     lift = LiftFactory()
     response = view(request, pk=lift.pk)
     assert response.status_code == status.HTTP_200_OK
-
-  # Sad path test? How do I get a 404?
-  # def test_lift_404_Not_Found(self):
-    # request = RequestFactory().get("api/v1/lift")
-    # view = LiftViewSet.as_view({'get': 'retrieve'})
-    # lift = LiftFactory()
-    # response = view(request, pk=lift.pk)
-    # assert response.status_code == status.HTTP_200_OK

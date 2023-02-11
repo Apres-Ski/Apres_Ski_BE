@@ -12,11 +12,3 @@ class HourViewTests(TestCase):
     hour = HourFactory()
     response = view(request, pk=hour.pk)
     assert response.status_code == status.HTTP_200_OK
-
-  # Sad path test? How do I get a 404?
-  # def test_hour_404_Not_Found(self):
-    # request = RequestFactory().get("api/v1/hour")
-    # view = HourViewSet.as_view({'get': 'retrieve'})
-    # hour = HourFactory()
-    # response = view(request, pk=hour.pk)
-    # assert response.status_code == status.HTTP_200_OK

@@ -12,11 +12,3 @@ class CommentViewTests(TestCase):
     comment = CommentFactory()
     response = view(request, pk=comment.pk)
     assert response.status_code == status.HTTP_200_OK
-
-  # Sad path test? How do I get a 404?
-  # def test_comment_404_Not_Found(self):
-    # request = RequestFactory().get("api/v1/comment")
-    # view = CommentViewSet.as_view({'get': 'retrieve'})
-    # comment = CommentFactory()
-    # response = view(request, pk=comment.pk)
-    # assert response.status_code == status.HTTP_200_OK

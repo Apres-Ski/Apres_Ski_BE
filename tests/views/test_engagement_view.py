@@ -12,18 +12,3 @@ class EngagementViewTests(TestCase):
     engagement = EngagementFactory()
     response = view(request, pk=engagement.pk)
     assert response.status_code == status.HTTP_200_OK
-
-  # def test_engagement_201_POST(self):
-  #   request = RequestFactory().post("api/v1/engagement")
-  #   view = EngagementViewSet.as_view({'post': 'create'})
-  #   engagement = EngagementFactory()
-  #   response = view(request, pk=engagement.pk)
-  #   assert response.status_code == status.HTTP_200_OK
-
-  # Sad path test? How do I get a 404?
-  # def test_engagement_404_Not_Found(self):
-    # request = RequestFactory().get("api/v1/engagement")
-    # view = EngagementViewSet.as_view({'get': 'retrieve'})
-    # engagement = EngagementFactory()
-    # response = view(request, pk=engagement.pk)
-    # assert response.status_code == status.HTTP_200_OK

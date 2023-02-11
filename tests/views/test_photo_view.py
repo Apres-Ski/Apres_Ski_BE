@@ -12,11 +12,3 @@ class PhotoViewTests(TestCase):
     photo = PhotoFactory()
     response = view(request, pk=photo.pk)
     assert response.status_code == status.HTTP_200_OK
-
-  # Sad path test? How do I get a 404?
-  # def test_photo_404_Not_Found(self):
-    # request = RequestFactory().get("api/v1/photo")
-    # view = PhotoViewSet.as_view({'get': 'retrieve'})
-    # photo = PhotoFactory()
-    # response = view(request, pk=photo.pk)
-    # assert response.status_code == status.HTTP_200_OK
