@@ -4,7 +4,7 @@ from django.test import TestCase, Client
 from tests.factories import RestaurantFactory
 
 class RestaurantIndexTests(TestCase):
-    def test_restaurant_list(self):
+    def test_restaurant_index(self):
         RestaurantFactory.create_batch(3)
         client = Client()
         response = client.get('/api/v1/restaurant/')
