@@ -1,11 +1,11 @@
 import pytest
 from django.test import TestCase
-from Apres_Ski_API.models.restaurant import restaurant
+from Apres_Ski_API.models.restaurant import Restaurant
 from tests.factories import RestaurantFactory
 
 class RestaurantTests(TestCase): 
   def setUp(self): 
-      self.restaurant = RestaurantFactory(name="name",
+      self.restaurant = RestaurantFactory(name='name',
                                           address='address',
                                           food_type='food_type',
                                           cost='cost',
@@ -14,8 +14,8 @@ class RestaurantTests(TestCase):
                                           alt_text='alt_text',
                                           lat='lat',
                                           lon='lon',
-                                          alcoholic_drinks='alcoholic_drinks',
-                                          has_happy_hour='has_happy_hour')
+                                          alcoholic_drinks=True,
+                                          has_happy_hour=True)
   
   def test_restaurant_instance(self):
      assert isinstance(self.restaurant, Restaurant)
@@ -29,5 +29,5 @@ class RestaurantTests(TestCase):
      assert self.restaurant.alt_text == 'alt_text'
      assert self.restaurant.lat == 'lat'
      assert self.restaurant.lon == 'lon'
-     assert self.restaurant.alcoholic_drinks == 'alcoholic_drinks'
-     assert self.restaurant.has_happy_hour == 'has_happy_hour'
+     assert self.restaurant.alcoholic_drinks == True
+     assert self.restaurant.has_happy_hour == True
