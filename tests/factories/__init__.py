@@ -25,7 +25,6 @@ class RestaurantFactory(factory.django.DjangoModelFactory):
     address = factory.LazyAttribute(lambda x: faker.address())
     food_type = factory.LazyAttribute(lambda x: faker.name())
     cost = factory.LazyAttribute(lambda x: faker.pricetag())
-    vibe = factory.LazyAttribute(lambda x: faker.name())
     cover_img = factory.LazyAttribute(lambda x: faker.name())
     alt_text = factory.LazyAttribute(lambda x: faker.name())
     lat = factory.LazyAttribute(lambda x: faker.aba())
