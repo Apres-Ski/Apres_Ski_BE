@@ -11,7 +11,7 @@ class LiftTests(TestCase):
                             lon='lon')
 
   def test_lift_instance(self):
-    assert isinstance(self.userlift, Lift)
+    assert isinstance(self.lift, Lift)
 
   def test_lift_state(self):
   assert self.lift.name == "name"
