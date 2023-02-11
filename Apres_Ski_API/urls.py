@@ -8,7 +8,7 @@ from Apres_Ski_API.views.photo import PhotoViewSet
 from Apres_Ski_API.views.comment import CommentViewSet
 from Apres_Ski_API.views.engagement import EngagementViewSet
 from Apres_Ski_API.views.lift import LiftViewSet
-from Apres_Ski_API.views.routing import RoutingViewSet
+# from Apres_Ski_API.views.routing import RoutingViewSet
 
 router = routers.DefaultRouter()
 router.register(r'user', UserViewSet)
@@ -21,7 +21,7 @@ router.register(r'comment', CommentViewSet)
 router.register(r'lift', LiftViewSet)
 
 urlpatterns = [
-  path('api/v1/routing/', RoutingViewSet.as_view({'get': 'retrieve'})),
+  # path('api/v1/routing/', RoutingViewSet.as_view({'get': 'retrieve'})),
   path('api/v1/', include(router.urls)),
   path('api_auth/', include('rest_framework.urls', namespace='rest_framework'))
 ]
