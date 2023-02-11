@@ -1,7 +1,7 @@
 import json
 import pytest
 from rest_framework import status
-from django.test import RequestFactory, TestCase, Client
+from django.test import RequestFactory, TestCase
 
 from tests.factories import UserFactory
 from Apres_Ski_API.models.user import User
@@ -61,13 +61,3 @@ class UserViewTests(TestCase):
     view = UserViewSet.as_view({'get': 'retrieve'})
     response = view(request, pk=user.pk + 1)
     assert response.status_code == 404
-
-
-# {
-#     'get': 'retrieve',
-#     'get': 'list',
-#     'post': 'create',
-#     'put': 'update',
-#     'patch': 'partial_update',
-#     'delete': 'destroy'
-# }
