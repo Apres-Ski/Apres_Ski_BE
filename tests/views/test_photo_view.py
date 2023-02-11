@@ -1,5 +1,4 @@
 import pytest
-from rest_framework import status
 from django.test import RequestFactory, TestCase
 
 from tests.factories import PhotoFactory
@@ -11,4 +10,4 @@ class PhotoViewTests(TestCase):
     view = PhotoViewSet.as_view({'get': 'retrieve'})
     photo = PhotoFactory()
     response = view(request, pk=photo.pk)
-    assert response.status_code == status.HTTP_200_OK
+    assert response.status_code == 200

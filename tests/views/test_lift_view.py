@@ -1,5 +1,4 @@
 import pytest
-from rest_framework import status
 from django.test import RequestFactory, TestCase
 
 from tests.factories import LiftFactory
@@ -11,4 +10,4 @@ class LiftViewTests(TestCase):
     view = LiftViewSet.as_view({'get': 'retrieve'})
     lift = LiftFactory()
     response = view(request, pk=lift.pk)
-    assert response.status_code == status.HTTP_200_OK
+    assert response.status_code == 200

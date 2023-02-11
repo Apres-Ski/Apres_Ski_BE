@@ -1,5 +1,4 @@
 import pytest
-from rest_framework import status
 from django.test import RequestFactory, TestCase
 
 from tests.factories import HourFactory
@@ -11,4 +10,4 @@ class HourViewTests(TestCase):
     view = HourViewSet.as_view({'get': 'retrieve'})
     hour = HourFactory()
     response = view(request, pk=hour.pk)
-    assert response.status_code == status.HTTP_200_OK
+    assert response.status_code == 200

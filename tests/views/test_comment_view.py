@@ -1,5 +1,4 @@
 import pytest
-from rest_framework import status
 from django.test import RequestFactory, TestCase
 
 from tests.factories import CommentFactory
@@ -11,4 +10,4 @@ class CommentViewTests(TestCase):
     view = CommentViewSet.as_view({'get': 'retrieve'})
     comment = CommentFactory()
     response = view(request, pk=comment.pk)
-    assert response.status_code == status.HTTP_200_OK
+    assert response.status_code == 200

@@ -1,5 +1,4 @@
 import pytest
-from rest_framework import status
 from django.test import RequestFactory, TestCase
 
 from tests.factories import RestaurantFactory
@@ -11,4 +10,4 @@ class RestaurantViewTests(TestCase):
     view = RestaurantViewSet.as_view({'get': 'retrieve'})
     restaurant = RestaurantFactory()
     response = view(request, pk=restaurant.pk)
-    assert response.status_code == status.HTTP_200_OK
+    assert response.status_code == 200

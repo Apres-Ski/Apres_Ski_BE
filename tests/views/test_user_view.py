@@ -1,6 +1,5 @@
 import json
 import pytest
-from rest_framework import status
 from django.test import RequestFactory, TestCase
 
 from tests.factories import UserFactory
