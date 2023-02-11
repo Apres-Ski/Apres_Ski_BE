@@ -4,7 +4,7 @@ from django.test import TestCase, Client
 from tests.factories import RestaurantFactory
 
 class RestaurantCreateTests(TestCase):
-    def test_restaurant_list(self):
+    def test_restaurant_create(self):
         client = Client()
         restaurant = {
                       "name": "name",
