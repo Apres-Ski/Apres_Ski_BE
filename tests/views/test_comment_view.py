@@ -1,7 +1,9 @@
+import json
 import pytest
 from django.test import RequestFactory, TestCase
 
-from tests.factories import CommentFactory
+from tests.factories import CommentFactory, RestaurantFactory, UserFactory
+from Apres_Ski_API.models.comment import Comment
 from Apres_Ski_API.views.comment import CommentViewSet
 
 class CommentViewTests(TestCase):
@@ -23,8 +25,9 @@ class CommentViewTests(TestCase):
 
 
   def test_commment_post(self): 
-
-    comment = {"comment": "Terrible food", "restaurant": , "user": }
+    restaurant_1 = RestaurantFactory()
+    user_1 = UserFactory()
+    comment = {"comment": "Terrible food", "restaurant": f"{restaurant_1.pk}" , "user": f"{user_1.pk }"}
     request = RequestFactory().post("api/v1/comment/", comment)
     view = CommentViewSet.as_view({'post': 'create'})
     assert not Comment.objects.exists()
@@ -40,7 +43,7 @@ class CommentViewTests(TestCase):
     request = RequestFactory().delete(f"api/v1/comment/{comment.pk}")
     view = CommentViewSet.as_view({'delete': 'destroy'})
     response = view(request, pk=comment.pk)
-    assert not Comment.objcts.exists()
+    assert not Comment.objects.exists()
     assert response.status_code == 204
 
   def test_comment_patch(self): 
@@ -51,7 +54,7 @@ class CommentViewTests(TestCase):
     view = CommentViewSet.as_view({'patch': 'partial_update'})
     response = view(request, pk=comment.pk)
     updated_comment = Comment.objects.get(pk = comment.pk)
-    assert updated_comment.coment == "Terrible food"
+    assert updated_comment.comment == "Terrible food"
     assert response.status_code == 200 
 
   def test_user_404(self):
@@ -60,4 +63,3 @@ class CommentViewTests(TestCase):
     view = CommentViewSet.as_view({'get': 'retrieve'})
     response = view(request, pk=comment.pk + 1)
     assert response.status_code == 404
-    
