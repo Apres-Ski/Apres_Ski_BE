@@ -47,7 +47,7 @@ class PhotoViewTests(TestCase):
 
   def test_photo_patch(self):
     photo = PhotoFactory()
-    photo_update = {"data": {"type": "photo",
+    photo_update = {"data": {"type": "Photo",
                                   "id": f"{photo.pk}", "attributes": {"url": "url_2.com"}}}
     data = json.dumps(photo_update)
     request = RequestFactory().patch(

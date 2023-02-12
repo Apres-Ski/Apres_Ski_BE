@@ -47,7 +47,7 @@ class HappyHourViewTests(TestCase):
 
   def test_happyhour_patch(self):
     happyhour = HappyHourFactory()
-    happyhour_update = {"data": {"type": "happyhour",
+    happyhour_update = {"data": {"type": "HappyHour",
                                   "id": f"{happyhour.pk}", "attributes": {"monday": "5:00 PM - 6:00 PM"}}}
     data = json.dumps(happyhour_update)
     request = RequestFactory().patch(

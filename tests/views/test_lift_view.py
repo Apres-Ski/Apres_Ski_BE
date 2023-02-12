@@ -45,15 +45,16 @@ class LiftViewTests(TestCase):
 
   def test_lift_patch(self):
     lift = LiftFactory(name='paul')
-    lift_update = {"data": {"type": "lift",
-                            "id": f"{lift.pk}", "attributes": {"name": "john"}}}
+    lift_update = {"data": {"type": "Lift",
+                            "id": f"{lift.pk}", "attributes": {"name": "lift_1"}}}
     data = json.dumps(lift_update)
     request = RequestFactory().patch(
         f"api/v1/lift/{lift.pk}", data, content_type='application/vnd.api+json')
     view = LiftViewSet.as_view({'patch': 'partial_update'})
     response = view(request, pk=lift.pk)
     updated_lift = Lift.objects.get(pk=lift.pk)
-    assert updated_lift.name == 'lift_1'== 200
+    assert updated_lift.name == 'lift_1'
+    assert response.status_code == 200
 
   def test_lift_404(self):
     lift = LiftFactory()

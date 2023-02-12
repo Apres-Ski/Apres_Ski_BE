@@ -54,7 +54,7 @@ class RestaurantViewTests(TestCase):
 
   def test_restaurant_patch(self):
     restaurant = RestaurantFactory()
-    restaurant_update = {"data": {"type": "restaurant",
+    restaurant_update = {"data": {"type": "Restaurant",
                                "id": f"{restaurant.pk}", "attributes": {"name": "correct name"}}}
     data = json.dumps(restaurant_update)
     request = RequestFactory().patch(
