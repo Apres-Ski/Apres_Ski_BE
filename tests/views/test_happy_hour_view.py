@@ -34,7 +34,7 @@ class HappyHourViewTests(TestCase):
     response = view(request, data)
     assert response.status_code == 201
     assert HappyHour.objects.count() == 1
-    assert HappyHour.objects.get(pk=1).monday
+    assert HappyHour.objects.get(pk=HappyHour.objects.last().pk).monday
 
   def test_happyhour_delete(self):
     happyhour = HappyHourFactory()

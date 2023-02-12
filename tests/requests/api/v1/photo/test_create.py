@@ -5,12 +5,12 @@ from tests.factories import PhotoFactory, RestaurantFactory
 
 class PhotoCreateTests(TestCase):
     def test_photo_create(self):
-        resturant = RestaurantFactory()
+        restaurant = RestaurantFactory()
         client = Client()
         photo = {
                 "url": 'url',
                 "alt_text": 'alt_text',
-                "restaurant": 1
+                "restaurant": restaurant.pk
         }
         response = client.post("/api/v1/photo/", photo)
 
@@ -30,4 +30,4 @@ class PhotoCreateTests(TestCase):
         assert len(entry['attributes']) == 2
         assert isinstance(entry['attributes']['url'], str)
         assert isinstance(entry['attributes']['alt_text'], str)
-   
+
