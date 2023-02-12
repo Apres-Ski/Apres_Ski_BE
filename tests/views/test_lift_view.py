@@ -51,7 +51,7 @@ class LiftViewTests(TestCase):
     view = liftViewSet.as_view({'patch': 'partial_update'})
     response = view(request, pk=lift.pk)
     updated_lift = lift.objects.get(pk=lift.pk)
-    assert updated_lift.name == 'lift_1'= 200
+    assert updated_lift.name == 'lift_1'== 200
 
   def test_lift_404(self):
     lift = LiftFactory()
