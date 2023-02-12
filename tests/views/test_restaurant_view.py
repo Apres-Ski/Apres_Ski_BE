@@ -23,7 +23,6 @@ class RestaurantViewTests(TestCase):
     assert len(response.data) == 4
 
   def test_commment_post(self):
-    # restaurant_1 = RestaurantFactory()
     restaurant = {"name":'name 1',
                   "address":'address',
                   "food_type":'food_type',
