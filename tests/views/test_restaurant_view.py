@@ -8,9 +8,9 @@ from Apres_Ski_API.views.restaurant import RestaurantViewSet
 
 class RestaurantViewTests(TestCase):
   def test_restaurant_200_OK(self):
+    restaurant = RestaurantFactory()
     request = RequestFactory().get(f"api/v1/restaurant/{restaurant.pk}")
     view = RestaurantViewSet.as_view({'get': 'retrieve'})
-    restaurant = RestaurantFactory()
     response = view(request, pk=restaurant.pk)
     assert response.status_code == 200
 
@@ -23,7 +23,7 @@ class RestaurantViewTests(TestCase):
     assert len(response.data) == 4
 
   def test_commment_post(self):
-    restaurant_1 = RestaurantFactory()
+    # restaurant_1 = RestaurantFactory()
     restaurant = {"name":'name 1',
                   "address":'address',
                   "food_type":'food_type',
@@ -35,13 +35,13 @@ class RestaurantViewTests(TestCase):
                   "alcoholic_drinks":True,
                   "has_happy_hour":True}
     request = RequestFactory().post("api/v1/restaurant/", restaurant)
-    view = restaurantViewSet.as_view({'post': 'create'})
-    assert not restaurant.objects.exists()
+    view = RestaurantViewSet.as_view({'post': 'create'})
+    assert not Restaurant.objects.exists()
     data = json.dumps(restaurant)
     response = view(request, data)
     assert response.status_code == 201
-    assert restaurant.objects.count() == 1
-    assert restaurant.objects.get(pk=1).name == "name 1"
+    assert Restaurant.objects.count() == 1
+    assert Restaurant.objects.get(pk=1).name == "name 1"
 
   def test_restaurant_delete(self):
     restaurant = RestaurantFactory()
@@ -53,7 +53,7 @@ class RestaurantViewTests(TestCase):
     assert response.status_code == 204
 
   def test_restaurant_patch(self):
-    restaurant = RestaurantFactory(name='plae name')
+    restaurant = RestaurantFactory()
     restaurant_update = {"data": {"type": "restaurant",
                                "id": f"{restaurant.pk}", "attributes": {"name": "correct name"}}}
     data = json.dumps(restaurant_update)
@@ -62,7 +62,7 @@ class RestaurantViewTests(TestCase):
     view = RestaurantViewSet.as_view({'patch': 'partial_update'})
     response = view(request, pk=restaurant.pk)
     updated_restaurant = Restaurant.objects.get(pk=restaurant.pk)
-    assert updated_restaurant.name == "updated name"
+    assert updated_restaurant.name == "correct name"
     assert response.status_code == 200
 
   def test_user_404(self):

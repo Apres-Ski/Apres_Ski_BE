@@ -46,7 +46,7 @@ class HappyHourViewTests(TestCase):
     assert response.status_code == 204
 
   def test_happyhour_patch(self):
-    happyhour = HappyHourFactory(monday='1:00 PM - 2:00 PM')
+    happyhour = HappyHourFactory()
     happyhour_update = {"data": {"type": "happyhour",
                                   "id": f"{happyhour.pk}", "attributes": {"monday": "5:00 PM - 6:00 PM"}}}
     data = json.dumps(happyhour_update)

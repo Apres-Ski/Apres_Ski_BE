@@ -1,7 +1,9 @@
+import json
 import pytest
 from django.test import RequestFactory, TestCase
 
 from tests.factories import LiftFactory
+from Apres_Ski_API.views.lift import Lift
 from Apres_Ski_API.views.lift import LiftViewSet
 
 class LiftViewTests(TestCase):
@@ -48,9 +50,9 @@ class LiftViewTests(TestCase):
     data = json.dumps(lift_update)
     request = RequestFactory().patch(
         f"api/v1/lift/{lift.pk}", data, content_type='application/vnd.api+json')
-    view = liftViewSet.as_view({'patch': 'partial_update'})
+    view = LiftViewSet.as_view({'patch': 'partial_update'})
     response = view(request, pk=lift.pk)
-    updated_lift = lift.objects.get(pk=lift.pk)
+    updated_lift = Lift.objects.get(pk=lift.pk)
     assert updated_lift.name == 'lift_1'== 200
 
   def test_lift_404(self):

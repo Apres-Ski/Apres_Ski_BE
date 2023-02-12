@@ -25,17 +25,17 @@ class HourViewTests(TestCase):
 
   def test_hour_post(self):
     restaurant_1 = RestaurantFactory()
-   
+    
     hour = {"monday": "8:00 AM - 10:00 AM",
-                  "restaurant": f"{restaurant_1.pk}", "user": f"{user_1.pk }"}
+                  "restaurant": f"{restaurant_1.pk}"}
     request = RequestFactory().post("api/v1/hour/", hour)
     view = HourViewSet.as_view({'post': 'create'})
     assert not Hour.objects.exists()
     data = json.dumps(hour)
     response = view(request, data)
     assert response.status_code == 201
-    assert  hour.objects.count() == 1
-    assert hour.objects.get(pk = 1).monday == '8:00 AM - 10:00 AM'
+    assert  Hour.objects.count() == 1
+    assert Hour.objects.get(pk = 1).monday == '8:00 AM - 10:00 AM'
 
   def test_hour_delete(self): 
     hour = HourFactory()
@@ -47,8 +47,9 @@ class HourViewTests(TestCase):
     assert response.status_code == 204
 
   def test_hour_patch(self):
-    hour = HourFactory(monday='9:00 AM - 11:00 AM', "id": f"{hour.pk}")
-    hour_update = { "data": { "type": "Hour", "id": f"{hour.pk}", "attributes": {"monday"}}}
+    hour = HourFactory()
+    hour_update = {"data": {"type": "Hour", "id": f"{hour.pk}",
+                            "attributes": {"monday": '9:00 AM - 10:00 AM'}}}
     data = json.dumps(hour_update)
     request = RequestFactory().patch(f"api/v1/hour/{hour.pk}", data, content_type='application/vnd.api+json') 
     view = HourViewSet.as_view({'patch': 'partial_update'})
