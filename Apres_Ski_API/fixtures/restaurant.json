@@ -10,7 +10,7 @@
       "cover_img": "https://fastly.4sqi.net/img/general/600x600/10347336_-AfgRKaweM3ElaFLOunj2UAXv6kVmoEdJkzywBasoG4.jpg",
       "alt_text": "9600_kitchen_entrance",
       "lat": "39.475289",
-      "lon": "-106.0524277",
+      "lon": "-106.0502334",
       "alcoholic_drinks": true,
       "has_happy_hour": false
     }
@@ -26,7 +26,7 @@
       "cover_img": "https://cdn.usarestaurants.info/assets/uploads/d84e73ab12703c30b8caf9e0afafc214_-united-states-colorado-summit-county-breckenridge-bold-restaurant-and-bar-970-423-5150htm.jpg",
       "alt_text": "bold_exterior",
       "lat": "39.4766722",
-      "lon": "-106.0474915",
+      "lon": "-106.0453018",
       "alcoholic_drinks": true,
       "has_happy_hour": true
     }
@@ -42,7 +42,7 @@
       "cover_img": "https://gravityhaus.com/wp-content/uploads/2020/04/Cabin-Juice-Restaurant-Bar.jpg",
       "alt_text": "cabin_juice_sign",
       "lat": "39.4771665",
-      "lon": "-106.0486628",
+      "lon": "-106.0464772",
       "alcoholic_drinks": true,
       "has_happy_hour": true
     }
@@ -74,7 +74,7 @@
       "cover_img": "https://media-cdn.tripadvisor.com/media/photo-s/06/af/cd/31/mi-casa-mexican-restaurant.jpg",
       "alt_text": "mi_casa_exterior_sign",
       "lat": "39.4776417",
-      "lon": "-106.0483415",
+      "lon": "-106.0461819",
       "alcoholic_drinks": true,
       "has_happy_hour": true
     }
@@ -90,7 +90,7 @@
       "cover_img": "https://s3-media0.fl.yelpcdn.com/bphoto/9loM2SX7V93PMUroZjLnSw/o.jpg",
       "alt_text": "quandary_exterior",
       "lat": "39.4762897",
-      "lon": "-106.0806934",
+      "lon": "-106.0456727",
       "alcoholic_drinks": true,
       "has_happy_hour": true
     }
@@ -106,7 +106,7 @@
       "cover_img": "https://s3-media0.fl.yelpcdn.com/bphoto/hMDS4f-9NchplgwgNydRnw/o.jpg",
       "alt_text": "robbies_exterior",
       "lat": "39.4811655",
-      "lon": "-106.1025046",
+      "lon": "-106.0674855",
       "alcoholic_drinks": true,
       "has_happy_hour": false
     }
@@ -122,7 +122,7 @@
       "cover_img": "https://s3-media0.fl.yelpcdn.com/bphoto/ECmodajD3zEtaPHYDmE1gw/o.jpg",
       "alt_text": "sauce_on_the_maggie_sign",
       "lat": "39.4763999",
-      "lon": "-106.0814531",
+      "lon": "-106.0464339",
       "alcoholic_drinks": true,
       "has_happy_hour": true
     }
@@ -137,8 +137,8 @@
       "cost": "2",
       "cover_img": "https://cdn.vacatia.com/property/1/0/1062/wm_thumb_1170x780_grand-lodge-on-peak-7-5276c15134edb.jpg",
       "alt_text": "sevens_exterior",
-      "lat": "39.4855777",
-      "lon": "-106.0667517",
+      "lat": "39.4857102",
+      "lon": "-106.0668792",
       "alcoholic_drinks": true,
       "has_happy_hour": true
     }
@@ -154,7 +154,7 @@
       "cover_img": "https://fastly.4sqi.net/img/general/600x600/9aV4ZdtJx95x5Szutmu44W6d67Lmjagy3n4hnsXeaaw.jpg",
       "alt_text": "ski_hill_grill_exterior",
       "lat": "39.4800728",
-      "lon": "-106.1011545",
+      "lon": "-106.0661375",
       "alcoholic_drinks": true,
       "has_happy_hour": false
     }
@@ -169,8 +169,8 @@
       "cost": "2",
       "cover_img": "https://s3-media0.fl.yelpcdn.com/bphoto/xuMFnFbnsY704e3zeRDzFg/o.jpg",
       "alt_text": "tbar_exterior",
-      "lat": "39.4807205",
-      "lon": "-106.1020797",
+      "lat": "39.4807584",
+      "lon": "-106.0667369",
       "alcoholic_drinks": true,
       "has_happy_hour": false
     }
@@ -186,7 +186,7 @@
       "cover_img": "https://s3-media0.fl.yelpcdn.com/bphoto/E0-sH0nccTQ7csx77ANHPw/o.jpg",
       "alt_text": "boot_saloon_interior",
       "lat": "39.4749343",
-      "lon": "-106.0879141",
+      "lon": "-106.0528935",
       "alcoholic_drinks": true,
       "has_happy_hour": true
     }
@@ -201,8 +201,8 @@
       "cost": "1",
       "cover_img": "https://s3-media0.fl.yelpcdn.com/bphoto/TtoyzwDbNb7pCvkhlNiAhw/348s.jpg",
       "alt_text": "trolley_crepes_exterior",
-      "lat": "39.4763251",
-      "lon": "-106.0810255",
+      "lat": "39.4763329",
+      "lon": "-106.0460073",
       "alcoholic_drinks": false,
       "has_happy_hour": false
     }
@@ -218,7 +218,7 @@
       "cover_img": "https://s3-media0.fl.yelpcdn.com/bphoto/SR6QKQpPbbRNcsj2h96jPQ/o.jpg",
       "alt_text": "blue_stag_exterior",
       "lat": "39.4785645",
-      "lon": "-106.0807373",
+      "lon": "-106.0456504",
       "alcoholic_drinks": true,
       "has_happy_hour": false
     }
@@ -250,7 +250,7 @@
       "cover_img": "https://s3-media0.fl.yelpcdn.com/bphoto/P-LhzNLM0Or-3aIA6F3b5g/o.jpg",
       "alt_text": "coppertop_exterior",
       "lat": "39.473644",
-      "lon": "-106.0862995",
+      "lon": "-106.0512623",
       "alcoholic_drinks": true,
       "has_happy_hour": false
     }
@@ -266,7 +266,7 @@
       "cover_img": "https://s4894.pcdn.co/wp-content/uploads/2019/08/Kenosha.jpg",
       "alt_text": "kenosha_exterior",
       "lat": "39.4792797",
-      "lon": "-106.0809783",
+      "lon": "-106.0458769",
       "alcoholic_drinks": true,
       "has_happy_hour": false
     }
@@ -281,8 +281,8 @@
       "cost": "2",
       "cover_img": "https://lh3.googleusercontent.com/p/AF1QipN7GVVzji5yfLY7gB_g3Gp7tbcUXy2VAU9c4YbO=s680-w680-h510",
       "alt_text": "fattys_exterior",
-      "lat": "39.4792797",
-      "lon": "-106.0809783",
+      "lat": "39.4818418",
+      "lon": "-106.0446721",
       "alcoholic_drinks": true,
       "has_happy_hour": true
     }
@@ -298,7 +298,7 @@
       "cover_img": "https://southridgeseafoodgrill.com/templates/yootheme/cache/ef/9fff3b87-9b96-4b2d-a625-a7fa79a73b79-efc46a5b.webp",
       "alt_text": "far_exterior_shot",
       "lat": "39.4774225",
-      "lon": "-106.0796829",
+      "lon": "-106.0446634",
       "alcoholic_drinks": true,
       "has_happy_hour": true
     }
