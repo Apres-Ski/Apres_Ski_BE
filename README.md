@@ -31,22 +31,24 @@ The web application geared towards snowsport entheusiests looking to find their 
 <details>
   <summary>Table of Contents</summary>
 
-  :skier: [MVP](#mvp)
+  :skier: [Getting Started](#getting-started)
   <br>
-  :skier: [Learning Goals](#learning-goals)
+  :skier: [API Endpoints](#api-endpoints)
   <br>
   :skier: [Project Overview](#project-overview)
   <br>
-  :skier: [Planning](#planning)
-  <br>
-  :skier: [Tech Stack](#tech-stack)
-  <br>
   :skier: [Contributors](#contributors)
+  <br>
+  :skier: [Contributing](#contributing)
+  <br>
+  :skier: [Acknowledgments](#acknowledgments)
   <br>
 
 </details>
 
  <br>
+
+<!-- GETTING STARTED -->
 
 ## Getting Started
 
@@ -69,30 +71,23 @@ This back-end application was made with the following:
 To install and run on your personal computer you will need to do the following:
 
 1. Get a free API Key for Geoapify's Routing-API at [Geoapify](https://www.geoapify.com/).
-
 2. Fork and clone the repo to your local machine.
-
 3. In the root directory of APRES_SKI_BE, create a file named `keys.py`.
-
 4. Inside `keys.py` create a variable named `routing_key = 'your_key_as_string'`
-
     * Note: `keys.py` should be *grayed out*. If it is not, check the `.gitignore` and resolve the issue before pushing any changes.
-
 5. Install requirements.
-
     ```zsh
     pip3 install -r requirements.txt
     ```
-
 6. Start a server.
-
     ```zsh
     python3 manage.py runserver
     ```
-
 7. Navigate to <http://localhost:8000/api/v1/>
 
 <br />
+
+<!-- API ENDPOINTS -->
 
 ## API Endpoints
 ### GET
@@ -102,74 +97,125 @@ To install and run on your personal computer you will need to do the following:
 
 ### GET /api/v1/restaurants
 
-> Get a list of recipes from a random country (if no params are passed) OR by selected country, through params.
+> - Get a list of restaurants.
 
 **Parameters**
 
-> | Name | Required | Type | Description |
-
-> | -------------:|:--------:|:-------:| ---------------- |
-
-> | `country` | no | string | The country you want to get recipes from. |
+> - N/A
 
 **Response**
 
-> ```
-> {
+#### 200 OK
+
+> ```json
+>{
 > "data": [
-> {
-> "id": null,
-> "type": "recipe",
-> "attributes": {
-> "title": "Andy Ricker's Naam Cheuam Naam Taan Piip (Palm Sugar Simple Syrup)",
-> "url": "https://www.seriouseats.com/recipes/2013/11/andy-rickers-naam-cheuam-naam-taan-piip-palm-sugar-simple-syrup.html",
-> "country": "Thailand",
-> "image": "https://edamam-product-images.s3.amazonaws.com..."
-> }
-> },
-> {
-> "id": null,
-> "type": "recipe",
-> "attributes": {
-> "title": "Sriracha",
-> "url": "http://www.jamieoliver.com/recipes/vegetables-recipes/sriracha/",
-> "country": "Thailand",
-> "image": "https://edamam-product-images.s3.amazonaws.com/."
-> }
-> },
-> {...},
-> {...},
-> {...},
-> {etc},
+>  {
+>   "type": "str",
+>   "id": "int",
+>   "attributes": {
+>    "name": "str",
+>    "address": "str",
+>    "food_type": "str",
+>    "cost": "str",
+>    "cover_img": "str",
+>    "alt_text": "str",
+>    "lat": "str",
+>    "lon": "str",
+>    "alcoholic_drinks": "bool",
+>    "has_happy_hour": "bool"
+>    "hour": [
+>     {
+>      "id": "int",
+>      "sunday": "str",
+>      "monday": "str",
+>      "tuesday": "str",
+>      "wednesday": "str",
+>      "thursday": "str",
+>      "friday": "str",
+>      "saturday": "str",
+>      "restaurant": "int (id)"
+>     }
+>    ],
+>    "happyhour": [
+>     {
+>      "id": "int",
+>      "sunday": "str",
+>      "monday": "str",
+>      "tuesday": "str",
+>      "wednesday": "str",
+>      "thursday": "str",
+>      "friday": "str",
+>      "saturday": "str",
+>      "special": "str",
+>      "restaurant": "int (id)"
+>     }
+>    ],
+>    "engagement": [
+>     {
+>      "id": "int",
+>      "vibe": "str",
+>      "rating": "str",
+>      "favorites": "bool",
+>      "restaurant": [
+>       "int"
+>      ],
+>      "user": [
+>       "int"
+>      ]
+>     },
+>     {"..."}
+>    ]
+>   }
+>  },
+>  {"..."}
 > ]
-> }
-> ```
+>}
+>```
+
+#### 404 Not Found
+
+>```json
+>{
+> "errors": [
+>  {
+>   "detail": "Not found.",
+>   "status": "404",
+>   "code": "not_found"
+>  }
+> ]
+>}
+>```
+
+#### Notes
+>
+> * `hour`, `happyhour`, and `engagement` will return empty arrays if there is no associated table for the given restaurant.
 
 </details>
 
-
-
-
-
-
 <br>
+
+<!-- PROJECT OVERVIEW -->
 
 ## Project Overview
-### Planning
-
-<br>
-
-### MVP
-
-<br>
 
 ### Learning Goals
+
+<br>
+
+### Planning
 
 <br>
 
 ### Tech Stack
 
 <br>
+
+### MVP and Extensions Roadmap
+
+<br>
+
+<!-- CONTRIBUTORS -->
 
 ## Contributors
 
@@ -243,6 +289,8 @@ To install and run on your personal computer you will need to do the following:
   </tr>
 </table>
 
+<!-- CONTRIBUTING -->
+
 ## Contributing
 
 Do you have a better & cooler way of doing what I did? Your contribution would be **greatly appreciated**.
@@ -250,41 +298,33 @@ Do you have a better & cooler way of doing what I did? Your contribution would b
 Please fork the repo, create your branch, and create a pull request. You can also simply open an issue with the tag "enhancement".
 
 1. Fork the Project
-
 2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-
 3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
-
 5. Open a Pull Request
 
 Thanks again!
 
+<!-- ACKNOWLEDGMENTS -->
 
 ## Acknowledgments
 
+Special *thank you!*, for your insight and help, as we designed and built an API in a totally new language and framework:
+
+* [Mike Hernandez](https://github.com/mikez321)
+* [Jake Cohen]()
+
+
+This project was the capstone for our team at:
 * Turing School of Software Design: [https://turing.edu/](https://turing.edu/)
-
-* DBdiagram.io: [https://dbdiagram.io/home](https://dbdiagram.io/home)
-
-* Best-README-Template: [https://github.com/othneildrew/Best-README-Template](https://github.com/othneildrew/Best-README-Template)
-
-* API-endpoints: [https://github.com/bufferapp/README/blob/master/billing/api-endpoints.md](https://github.com/bufferapp/README/blob/master/billing/api-endpoints.md)
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
 
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-
 [contributors-shield]: https://img.shields.io/github/contributors/josephhilby/lunch_and_learn.svg?style=for-the-badge
-
 [contributors-url]: https://github.com/Apres-Ski/Apres_Ski_BE/graphs/contributors
-
 [forks-shield]: https://img.shields.io/github/forks/Apres-Ski/Apres_Ski_BE.svg?style=for-the-badge
-
 [forks-url]: https://github.com/othneildrew/Apres-Ski/Apres_Ski_BE/network/members
-
 [issues-shield]: https://img.shields.io/github/issues/Apres-Ski/Apres_Ski_BE.svg?style=for-the-badge
-
 [issues-url]: https://github.com/Apres-Ski/Apres_Ski_BE/issues
