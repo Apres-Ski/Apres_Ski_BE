@@ -35,3 +35,32 @@ class HappyHourViewTests(TestCase):
     assert response.status_code == 201
     assert HappyHour.objects.count() == 1
     assert HappyHour.objects.get(pk=1).monday
+
+  def test_happyhour_delete(self):
+    happyhour = HappyHourFactory()
+    assert HappyHour.objects.count() == 1
+    request = RequestFactory().delete(f"api/v1/happyhour/{happyhour.pk}")
+    view = HappyHourViewSet.as_view({'delete': 'destroy'})
+    response = view(request, pk=happyhour.pk)
+    assert not HappyHour.objects.exists()
+    assert response.status_code == 204
+
+  def test_happyhour_patch(self):
+    happyhour = HappyHourFactory(monday='1:00 PM - 2:00 PM')
+    happyhour_update = {"data": {"type": "happyhour",
+                                  "id": f"{happyhour.pk}", "attributes": {"monday": "5:00 PM - 6:00 PM"}}}
+    data = json.dumps(happyhour_update)
+    request = RequestFactory().patch(
+        f"api/v1/happyhour/{happyhour.pk}", data, content_type='application/vnd.api+json')
+    view = HappyHourViewSet.as_view({'patch': 'partial_update'})
+    response = view(request, pk=happyhour.pk)
+    updated_happyhour = HappyHour.objects.get(pk=happyhour.pk)
+    assert updated_happyhour.monday == "5:00 PM - 6:00 PM"
+    assert response.status_code == 200
+
+  def test_happyhour_404(self):
+    happyhour = HappyHourFactory()
+    request = RequestFactory().get(f"api/v1/happyhour/{happyhour.pk + 1}")
+    view = HappyHourViewSet.as_view({'get': 'retrieve'})
+    response = view(request, pk=happyhour.pk + 1)
+    assert response.status_code == 404
