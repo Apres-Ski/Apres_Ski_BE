@@ -5,15 +5,15 @@ from tests.factories import EngagementFactory, RestaurantFactory, UserFactory
 
 class EngagementCreateTests(TestCase):
     def test_engagement_create(self):
-        resturant = RestaurantFactory()
+        restaurant = RestaurantFactory()
         user = UserFactory()
         client = Client()
         engagement = {
                       "vibe": "casual",
                       "rating": "4.5",
                       "favorites": True,
-                      "restaurant": [1],
-                      "user": [1]
+                      "restaurant": [restaurant.pk],
+                      "user": [user.pk]
         }
         response = client.post("/api/v1/engagement/", engagement)
 

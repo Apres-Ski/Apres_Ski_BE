@@ -35,9 +35,9 @@ class EngagementViewTests(TestCase):
     response = view(request, data)
     assert response.status_code == 201
     assert  Engagement.objects.count() == 1
-    assert Engagement.objects.get(pk = 1).vibe == 'Lively'
+    assert Engagement.objects.get(pk = Engagement.objects.last().pk).vibe == 'Lively'
 
-  def test_engagement_delete(self): 
+  def test_engagement_delete(self):
     engagement = EngagementFactory()
     assert Engagement.objects.count() == 1
     request = RequestFactory().delete(f"api/v1/engagement/{engagement.pk}")
@@ -50,7 +50,7 @@ class EngagementViewTests(TestCase):
     engagement = EngagementFactory(vibe='Lively')
     engagement_update = { "data": { "type": "Engagement", "id": f"{engagement.pk}", "attributes": {"vibe": "Family Friendly"}}}
     data = json.dumps(engagement_update)
-    request = RequestFactory().patch(f"api/v1/engagement/{engagement.pk}", data, content_type='application/vnd.api+json') 
+    request = RequestFactory().patch(f"api/v1/engagement/{engagement.pk}", data, content_type='application/vnd.api+json')
     view = EngagementViewSet.as_view({'patch': 'partial_update'})
     response = view(request, pk=engagement.pk)
     updated_engagement = Engagement.objects.get(pk = engagement.pk)
@@ -64,4 +64,3 @@ class EngagementViewTests(TestCase):
     response = view(request, pk=engagement.pk + 1)
     assert response.status_code == 404
 
-                                                                   

@@ -32,7 +32,7 @@ class LiftViewTests(TestCase):
     response = view(request, data)
     assert response.status_code == 201
     assert Lift.objects.count() == 1
-    assert Lift.objects.get(pk=1).name == 'lift_1'
+    assert Lift.objects.get(pk=Lift.objects.last().pk).name == 'lift_1'
 
   def test_lift_delete(self):
     lift = LiftFactory()

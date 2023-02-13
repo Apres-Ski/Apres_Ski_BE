@@ -32,7 +32,7 @@ class UserViewTests(TestCase):
     response = view(request, data)
     assert response.status_code == 201
     assert User.objects.count() == 1
-    assert User.objects.get(pk = 1).name == 'john'
+    assert User.objects.get(pk = User.objects.last().pk).name == 'john'
 
   def test_user_delete(self):
     user = UserFactory()
