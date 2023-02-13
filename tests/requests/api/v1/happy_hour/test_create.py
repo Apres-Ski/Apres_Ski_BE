@@ -5,7 +5,7 @@ from tests.factories import HappyHourFactory, RestaurantFactory
 
 class HappyHourCreateTests(TestCase):
     def test_hour_create(self):
-        resturant = RestaurantFactory()
+        restaurant = RestaurantFactory()
         client = Client()
         hour = {
                 "sunday": "6:40 AM - 10:00 AM",
@@ -15,7 +15,7 @@ class HappyHourCreateTests(TestCase):
                 "thursday": "6:30 AM - 10:00AM; 4:00PM - 9:00 PM",
                 "friday": "6:30 AM - 10:00AM; 4:00PM - 9:00 PM",
                 "saturday": "6:30 AM - 10:00AM; 4:00PM - 9:00 PM",
-                "restaurant": 1
+                "restaurant": restaurant.pk
         }
         response = client.post("/api/v1/hour/", hour)
 
@@ -41,4 +41,4 @@ class HappyHourCreateTests(TestCase):
         assert isinstance(entry['attributes']['friday'], str)
         assert isinstance(entry['attributes']['saturday'], str)
 
-   
+

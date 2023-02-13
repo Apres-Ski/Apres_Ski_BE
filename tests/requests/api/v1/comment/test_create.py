@@ -5,12 +5,12 @@ from tests.factories import CommentFactory, RestaurantFactory, UserFactory
 
 class CommentCreateTests(TestCase):
     def test_comment_create(self):
-        resturant = RestaurantFactory()
+        restaurant = RestaurantFactory()
         user = UserFactory()
         client = Client()
         comment = { "comment": "super cool",
-                    "restaurant": [1],
-                    "user": [1]
+                    "restaurant": [restaurant.pk],
+                    "user": [user.pk]
         }
         response = client.post("/api/v1/comment/", comment)
 

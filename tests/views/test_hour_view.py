@@ -25,7 +25,6 @@ class HourViewTests(TestCase):
 
   def test_hour_post(self):
     restaurant_1 = RestaurantFactory()
-    
     hour = {"monday": "8:00 AM - 10:00 AM",
                   "restaurant": f"{restaurant_1.pk}"}
     request = RequestFactory().post("api/v1/hour/", hour)
@@ -35,9 +34,9 @@ class HourViewTests(TestCase):
     response = view(request, data)
     assert response.status_code == 201
     assert  Hour.objects.count() == 1
-    assert Hour.objects.get(pk = 1).monday == '8:00 AM - 10:00 AM'
+    assert Hour.objects.get(pk = Hour.objects.last().pk).monday == '8:00 AM - 10:00 AM'
 
-  def test_hour_delete(self): 
+  def test_hour_delete(self):
     hour = HourFactory()
     assert Hour.objects.count() == 1
     request = RequestFactory().delete(f"api/v1/hour/{hour.pk}")
@@ -51,7 +50,7 @@ class HourViewTests(TestCase):
     hour_update = {"data": {"type": "Hour", "id": f"{hour.pk}",
                             "attributes": {"monday": '9:00 AM - 10:00 AM'}}}
     data = json.dumps(hour_update)
-    request = RequestFactory().patch(f"api/v1/hour/{hour.pk}", data, content_type='application/vnd.api+json') 
+    request = RequestFactory().patch(f"api/v1/hour/{hour.pk}", data, content_type='application/vnd.api+json')
     view = HourViewSet.as_view({'patch': 'partial_update'})
     response = view(request, pk=hour.pk)
     updated_hour = Hour.objects.get(pk = hour.pk)

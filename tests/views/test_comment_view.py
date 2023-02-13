@@ -15,16 +15,16 @@ class CommentViewTests(TestCase):
     assert response.status_code == 200
     assert response.data['id'] == comment.id
 
-  def test_comment_get_all(self): 
+  def test_comment_get_all(self):
     CommentFactory.create_batch(4)
     request = RequestFactory().get(f"api/v1/comment/")
     view = CommentViewSet.as_view({'get': 'list'})
     response = view(request)
-    assert response.status_code == 200 
+    assert response.status_code == 200
     assert len(response.data) == 4
 
 
-  def test_commment_post(self): 
+  def test_comment_post(self):
     restaurant_1 = RestaurantFactory()
     user_1 = UserFactory()
     comment = {"comment": "Terrible food", "restaurant": f"{restaurant_1.pk}" , "user": f"{user_1.pk }"}
@@ -35,7 +35,7 @@ class CommentViewTests(TestCase):
     response = view(request, data)
     assert response.status_code == 201
     assert Comment.objects.count() == 1
-    assert Comment.objects.get(pk = 1).comment == "Terrible food"
+    assert Comment.objects.get(pk = Comment.objects.last().pk).comment == "Terrible food"
 
   def test_comment_delete(self):
     comment = CommentFactory()
@@ -46,7 +46,7 @@ class CommentViewTests(TestCase):
     assert not Comment.objects.exists()
     assert response.status_code == 204
 
-  def test_comment_patch(self): 
+  def test_comment_patch(self):
     comment = CommentFactory(comment = 'Actually good food')
     comment_update = {"data": {"type": "Comment", "id": f"{comment.pk}", "attributes": {"comment": "Terrible food" } } }
     data = json.dumps(comment_update)
@@ -55,7 +55,7 @@ class CommentViewTests(TestCase):
     response = view(request, pk=comment.pk)
     updated_comment = Comment.objects.get(pk = comment.pk)
     assert updated_comment.comment == "Terrible food"
-    assert response.status_code == 200 
+    assert response.status_code == 200
 
   def test_user_404(self):
     comment = CommentFactory()

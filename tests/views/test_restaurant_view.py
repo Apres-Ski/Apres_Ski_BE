@@ -40,7 +40,7 @@ class RestaurantViewTests(TestCase):
     response = view(request, data)
     assert response.status_code == 201
     assert Restaurant.objects.count() == 1
-    assert Restaurant.objects.get(pk=1).name == "name 1"
+    assert Restaurant.objects.get(pk=Restaurant.objects.last().pk).name == "name 1"
 
   def test_restaurant_delete(self):
     restaurant = RestaurantFactory()
@@ -54,7 +54,9 @@ class RestaurantViewTests(TestCase):
   def test_restaurant_patch(self):
     restaurant = RestaurantFactory()
     restaurant_update = {"data": {"type": "Restaurant",
-                               "id": f"{restaurant.pk}", "attributes": {"name": "correct name"}}}
+                                  "id": f"{restaurant.pk}",
+                                  "attributes": {"name": "correct name"}
+                                  }}
     data = json.dumps(restaurant_update)
     request = RequestFactory().patch(
         f"api/v1/restaurant/{restaurant.pk}", data, content_type='application/vnd.api+json')

@@ -34,7 +34,7 @@ class PhotoViewTests(TestCase):
     response = view(request, data)
     assert response.status_code == 201
     assert Photo.objects.count() == 1
-    assert Photo.objects.get(pk=1).url == "photo.com"
+    assert Photo.objects.get(pk=Photo.objects.last().pk).url == "photo.com"
 
   def test_photo_delete(self):
     photo = PhotoFactory()

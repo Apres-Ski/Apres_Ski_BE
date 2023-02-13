@@ -6,6 +6,18 @@ jobs:
   build:
 
     runs-on: ubuntu-latest
+
+    services:
+      postgres:
+        image: postgres:latest
+        env:
+          POSTGRES_USER: hero
+          POSTGRES_PASSWORD: passowrd
+          POSTGRES_DB: apres_ski_db
+        ports:
+          - 5432:5432
+        options: --health-cmd pg_isready --health-interval 10s --health-timeout 5s --health-retries 5
+
     strategy:
       matrix:
         python-version: ["3.11.1"]
@@ -19,12 +31,14 @@ jobs:
       - name: Install dependencies
         run: |
           python3 -m pip install --upgrade pip
-          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+          pip install -r requirements.txt
       - name: Lint with flake8
         run: |
           pip install flake8
           flake8 .
         continue-on-error: true
-      - name: Test with pytest
+      - name: Run Migrations
+        run: python3 manage.py migrate
+      - name: Test with Pytest
         run: |
           pytest -s
