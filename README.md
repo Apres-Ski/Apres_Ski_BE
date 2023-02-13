@@ -209,6 +209,13 @@ To install and run on your personal computer you will need to do the following:
 
 ### Tech Stack
 
+Après-Ski's Back-end API is a ***Django REST Framework*** API, built with **Python**, and hosted on Heroku.
+
+<br>
+<div align='center'>
+  <img src="assets/apres_ski_tech_stack.png" alt="tech_stack" width="70%">
+</div>
+
 <br>
 
 ### MVP and Extensions Roadmap
@@ -229,12 +236,12 @@ To install and run on your personal computer you will need to do the following:
     <th>Matt Walter</th>
   </tr>
   <tr>
-    <td><img style="max-width:300px;width:100%" src="https://media.licdn.com/dms/image/C4E03AQEdZUKFgryaqg/profile-displayphoto-shrink_800_800/0/1567961066772?e=1680739200&v=beta&t=TFQt8RiDDMpJHbytApiShBpLVCCZlfeuUwLffp95tG8"></td>
-    <td><img style="max-width:300px;width:100%" src="https://media.licdn.com/dms/image/D4E03AQF88CLqrqQ1uA/profile-displayphoto-shrink_800_800/0/1663436465329?e=1680739200&v=beta&t=2cbhih9hldc3dkTuiAK5uBr0ZsaVKiTwM4349AAAd-o"></td>
-    <td><img style="max-width:300px;width:100%" src="https://avatars.githubusercontent.com/u/108195380?v=4"></td>
-    <td><img style="max-width:300px;width:100%" src="https://media.licdn.com/dms/image/D4E03AQESEnUYGJprLA/profile-displayphoto-shrink_800_800/0/1673023729512?e=1680739200&v=beta&t=PhhX0_wEMPxiu2nO-OfDyCv73Ro_iyyGPjQ4YUnXSC4"></td>
-    <td><img style="max-width:300px;width:100%" src="https://avatars.githubusercontent.com/u/36166420?v=4"></td>
-    <td><img style="max-width:300px;width:100%" src="https://avatars.githubusercontent.com/u/106847513?v=4"></td>
+    <td><img width="300px" src="https://media.licdn.com/dms/image/C4E03AQEdZUKFgryaqg/profile-displayphoto-shrink_800_800/0/1567961066772?e=1680739200&v=beta&t=TFQt8RiDDMpJHbytApiShBpLVCCZlfeuUwLffp95tG8"></td>
+    <td><img width="300px" src="https://media.licdn.com/dms/image/D4E03AQF88CLqrqQ1uA/profile-displayphoto-shrink_800_800/0/1663436465329?e=1680739200&v=beta&t=2cbhih9hldc3dkTuiAK5uBr0ZsaVKiTwM4349AAAd-o"></td>
+    <td><img width="300px" src="https://avatars.githubusercontent.com/u/108195380?v=4"></td>
+    <td><img width="300px" src="https://media.licdn.com/dms/image/D4E03AQESEnUYGJprLA/profile-displayphoto-shrink_800_800/0/1673023729512?e=1680739200&v=beta&t=PhhX0_wEMPxiu2nO-OfDyCv73Ro_iyyGPjQ4YUnXSC4"></td>
+    <td><img width="300px" src="https://avatars.githubusercontent.com/u/36166420?v=4"></td>
+    <td><img width="300px" src="https://avatars.githubusercontent.com/u/106847513?v=4"></td>
   </tr>
 
   <tr>
