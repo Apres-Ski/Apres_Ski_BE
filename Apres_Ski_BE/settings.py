@@ -87,8 +87,8 @@ DATABASES = {
 'NAME': 'apres_ski_db',
 'USER' : 'hero',
 'PASSWORD' : 'passowrd',
-# 'HOST' : 'localhost',
-# 'PORT' : '5432',
+'HOST' : 'localhost',
+'PORT' : '5432',
 }
 }
 
