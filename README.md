@@ -212,7 +212,7 @@ Après-Ski's Back-end is a ***Django REST Framework*** API, built with **Python*
 
 <br>
 <div align='center'>
-  <img src="assets/apres_ski_tech_stack.png" alt="tech_stack" width="70%">
+  <img src="assets/apres_ski_tech_stack.png" alt="tech_stack" width="50%">
 </div>
 
 <br>
