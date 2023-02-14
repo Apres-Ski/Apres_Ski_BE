@@ -221,26 +221,20 @@ Après-Ski's Back-end is a ***Django REST Framework*** API, built with **Python*
 
 <br>
 
-<!-- CONTRIBUTORS -->
+<!-- COLLABORATORS -->
 
-## Contributors
+## Collaborators
 
 <table>
   <tr>
     <th>Joseph Hilby</th>
-    <th>Tricia Holmes</th>
-    <th>Ryan Nagel</th>
     <th>Kristen Nestler</th>
     <th>Kevin Ta</th>
-    <th>Matt Walter</th>
   </tr>
   <tr>
-    <td><img width="300px" src="https://media.licdn.com/dms/image/C4E03AQEdZUKFgryaqg/profile-displayphoto-shrink_800_800/0/1567961066772?e=1680739200&v=beta&t=TFQt8RiDDMpJHbytApiShBpLVCCZlfeuUwLffp95tG8"></td>
-    <td><img width="300px" src="https://media.licdn.com/dms/image/D4E03AQF88CLqrqQ1uA/profile-displayphoto-shrink_800_800/0/1663436465329?e=1680739200&v=beta&t=2cbhih9hldc3dkTuiAK5uBr0ZsaVKiTwM4349AAAd-o"></td>
-    <td><img width="300px" src="https://avatars.githubusercontent.com/u/108195380?v=4"></td>
-    <td><img width="300px" src="https://media.licdn.com/dms/image/D4E03AQESEnUYGJprLA/profile-displayphoto-shrink_800_800/0/1673023729512?e=1680739200&v=beta&t=PhhX0_wEMPxiu2nO-OfDyCv73Ro_iyyGPjQ4YUnXSC4"></td>
-    <td><img width="300px" src="https://avatars.githubusercontent.com/u/36166420?v=4"></td>
-    <td><img width="300px" src="https://avatars.githubusercontent.com/u/106847513?v=4"></td>
+    <td><img width="150px" src="https://media.licdn.com/dms/image/C4E03AQEdZUKFgryaqg/profile-displayphoto-shrink_800_800/0/1567961066772?e=1680739200&v=beta&t=TFQt8RiDDMpJHbytApiShBpLVCCZlfeuUwLffp95tG8"></td>
+    <td><img width="150px" src="https://media.licdn.com/dms/image/D4E03AQESEnUYGJprLA/profile-displayphoto-shrink_800_800/0/1673023729512?e=1680739200&v=beta&t=PhhX0_wEMPxiu2nO-OfDyCv73Ro_iyyGPjQ4YUnXSC4"></td>
+    <td><img width="150px" src="https://avatars.githubusercontent.com/u/36166420?v=4"></td>
   </tr>
 
   <tr>
@@ -251,22 +245,6 @@ Après-Ski's Back-end is a ***Django REST Framework*** API, built with **Python*
         <a href="https://www.linkedin.com/in/josephmhilby" rel="nofollow noreferrer">
           <img src="https://i.stack.imgur.com/gVE0j.png" alt="linkedin"> LinkedIn
       </a>
-    </td>
-    <td>
-      <a href="https://github.com/tricia-holmes"  rel="nofollow noreferrer">
-          <img src="https://i.stack.imgur.com/tskMh.png" alt="github"> Github
-        </a><br>
-      <a href="https://www.linkedin.com/in/triciaholmes/" rel="nofollow noreferrer">
-    <img src="https://i.stack.imgur.com/gVE0j.png" alt="linkedin"> LinkedIn
-        </a>
-    </td>
-    <td>
-      <a href="https://github.com/Nagel29"  rel="nofollow noreferrer">
-          <img src="https://i.stack.imgur.com/tskMh.png" alt="github"> Github
-        </a><br>
-      <a href="https://www.linkedin.com/in/ryan-nagel-000280173/" rel="nofollow noreferrer">
-    <img src="https://i.stack.imgur.com/gVE0j.png" alt="linkedin"> LinkedIn
-        </a>
     </td>
     <td>
       <a href="https://github.com/knestler" rel="nofollow noreferrer">
@@ -283,14 +261,6 @@ Après-Ski's Back-end is a ***Django REST Framework*** API, built with **Python*
       <a href="https://github.com/KevinT001" rel="nofollow noreferrer">
     <img src="https://i.stack.imgur.com/gVE0j.png" alt="linkedin"> LinkedIn
         </a>
-    </td>
-    <td>
-      <a href="https://github.com/MattWalterTX" rel="nofollow noreferrer">
-          <img src="https://i.stack.imgur.com/tskMh.png" alt="github"> Github
-            </a><br>
-            <a href="https://www.linkedin.com/in/matt-walter-67b810246/" rel="nofollow noreferrer">
-    <img src="https://i.stack.imgur.com/gVE0j.png" alt="linkedin"> LinkedIn
-        </a><br>
     </td>
   </tr>
 </table>
@@ -319,6 +289,8 @@ Special *thank you!*, for your insight and help, as we designed and built an API
 
 * [Mike Hernandez](https://github.com/mikez321)
 * [Jake Cohen]()
+
+Thank you [Tricia Holmes](https://github.com/tricia-holmes) on our Front-End Team for your PR setting up CORS!
 
 This project was the capstone for our team at:
 * [Turing School of Software Design](https://turing.edu/)
