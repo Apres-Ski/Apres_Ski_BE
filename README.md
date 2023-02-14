@@ -9,7 +9,9 @@
   <a href="https://github.com/Apres-Ski">
     <img src="https://media.giphy.com/media/xEBZR96wLedVHzOeqw/giphy.gif">
   </a>
-  <h2 align="center">Après-Ski</h2>
+  <h2 align="center">
+    <a herf="https://apres-ski-fe.vercel.app/">Après-Ski App</a>
+  </h2>
 
   <h3 align="center">
     <a href="https://github.com/Apres-Ski/Apres_Ski_BE/issues">Report Bug</a>
