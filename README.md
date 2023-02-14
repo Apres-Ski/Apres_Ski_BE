@@ -10,7 +10,9 @@
     <img src="https://media.giphy.com/media/xEBZR96wLedVHzOeqw/giphy.gif">
   </a>
   <h2 align="center">
-    <a herf="https://apres-ski-fe.vercel.app/">Après-Ski App</a>
+
+[Après-Ski App](https://apres-ski-fe.vercel.app/)
+
   </h2>
 
   <h3 align="center">
@@ -37,7 +39,7 @@ The web application geared towards snowsport entheusiests looking to find their 
 > <br>
 > :skier: [Project Overview](#project-overview)
 > <br>
-> :skier: [Contributors](#contributors)
+> :skier: [Collaborators](#collaborators)
 > <br>
 > :skier: [Contributing](#contributing)
 > <br>
