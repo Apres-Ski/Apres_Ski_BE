@@ -230,7 +230,6 @@ Après-Ski's Back-end is a ***Django REST Framework*** API, built with **Python*
 <tr>
 <th>Joseph Hilby</th>
 <th></th>
-<th></th>
 </tr>
 <tr>
 <td>
@@ -253,7 +252,6 @@ Après-Ski's Back-end is a ***Django REST Framework*** API, built with **Python*
 <tr>
 <th>Kristen Nestler</th>
 <th></th>
-<th></th>
 </tr>
 <tr>
 <td>
@@ -274,7 +272,6 @@ Après-Ski's Back-end is a ***Django REST Framework*** API, built with **Python*
 <table style='border: none'>
 <tr>
 <th>Kevin Ta</th>
-<th></th>
 <th></th>
 </tr>
 <tr>
@@ -347,5 +344,3 @@ This project was the capstone for our team at:
 [joe-GitHub]: https://github.com/josephhilby
 [kristen-GitHub]: https://github.com/knestler
 [kevin-GitHub]: https://github.com/KevinT001
-
-<https://www.linkedin.com/in/kristen-nestler/>
