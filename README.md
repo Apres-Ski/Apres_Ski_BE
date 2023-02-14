@@ -232,55 +232,73 @@ Après-Ski's Back-end is a ***Django REST Framework*** API, built with **Python*
 
 ## Collaborators
 
-<div align='center' id='headshot'>
+<div align='left' id='headshot'>
 <table style='border: none'>
 <tr>
 <th>Joseph Hilby</th>
-<th>Kristen Nestler</th>
-<th>Kevin Ta</th>
-</tr>
-<tr>
-<td><img width="150px" style='border-radius: 6px 12px 18px 24px;' src="https://media.licdn.com/dms/image/C4E03AQEdZUKFgryaqg/profile-displayphoto-shrink_800_800/0/1567961066772?e=1680739200&v=beta&t=TFQt8RiDDMpJHbytApiShBpLVCCZlfeuUwLffp95tG8"></td>
-<td><img width="150px" style='border-radius: 6px 12px 18px 24px;' src="https://media.licdn.com/dms/image/D4E03AQESEnUYGJprLA/profile-displayphoto-shrink_800_800/0/1673023729512?e=1680739200&v=beta&t=PhhX0_wEMPxiu2nO-OfDyCv73Ro_iyyGPjQ4YUnXSC4"></td>
-<td><img width="150px" style='border-radius: 6px 12px 18px 24px;' src="https://avatars.githubusercontent.com/u/36166420?v=4"></td>
+<th></th>
+<th></th>
 </tr>
 <tr>
 <td>
-
-<div align='center'>
+  <img width="150px" style='border-radius: 6px 12px 18px 24px;' src="https://media.licdn.com/dms/image/C4E03AQEdZUKFgryaqg/profile-displayphoto-shrink_800_800/0/1567961066772?e=1680739200&v=beta&t=TFQt8RiDDMpJHbytApiShBpLVCCZlfeuUwLffp95tG8">
+</td>
+<td>
 
 [![GitHub: josephhilby][joe-github-follow-badge]][joe-GitHub]
 <br>
 [![LinkedIn: josephmhilby][linkedin-badge]][joe-LinkedIn]
 
+</td>
+
+</tr>
+</table>
 </div>
 
+<div align='left' id='headshot'>
+<table style='border: none'>
+<tr>
+<th>Kristen Nestler</th>
+<th></th>
+<th></th>
+</tr>
+<tr>
+<td>
+<img width="150px" style='border-radius: 6px 12px 18px 24px;' src="https://media.licdn.com/dms/image/D4E03AQESEnUYGJprLA/profile-displayphoto-shrink_800_800/0/1673023729512?e=1680739200&v=beta&t=PhhX0_wEMPxiu2nO-OfDyCv73Ro_iyyGPjQ4YUnXSC4">
 </td>
 <td>
-
-<div align='center'>
 
 [![GitHub: knestler][kristen-github-follow-badge]][kristen-GitHub]
 <br>
 [![LinkedIn: kristen-nestler][linkedin-badge]][kristen-LinkedIn]
 
+</td>
+</tr>
+</table>
 </div>
 
+<div align='' id='headshot'>
+<table style='border: none'>
+<tr>
+<th>Kevin Ta</th>
+<th></th>
+<th></th>
+</tr>
+<tr>
+<td>
+<img width="150px" style='border-radius: 6px 12px 18px 24px;' src="https://avatars.githubusercontent.com/u/36166420?v=4">
 </td>
 <td>
-
-<div align='center'>
 
 [![GitHub: KevinT001][kevin-github-follow-badge]][kevin-GitHub]
 <br>
 [![LinkedIn: kevin-ta-b1a36723b][linkedin-badge]][kevin-LinkedIn]
 
-</div>
-
 </td>
 </tr>
 </table>
 </div>
+
 
 <!-- CONTRIBUTING -->
 
