@@ -30,10 +30,6 @@ The web application geared towards snowsport entheusiests looking to find their 
 
 ---
 <h2>Table of Contents</h2>
-<details>
-<summary>
-:skier:
-</summary>
 
 > :skier: [Getting Started](#getting-started)
 > <br>
@@ -48,9 +44,6 @@ The web application geared towards snowsport entheusiests looking to find their 
 > :skier: [Acknowledgments](#acknowledgments)
 > <br>
 
-</details>
-
- <br>
 
 <!-- GETTING STARTED -->
 
