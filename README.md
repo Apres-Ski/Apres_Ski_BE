@@ -271,7 +271,7 @@ Après-Ski's Back-end is a ***Django REST Framework*** API, built with **Python*
 
 ## Contributing
 
-Do you have a better & cooler way of doing what I did? Your contribution would be **greatly appreciated**.
+Do you have a better & cooler way of doing what we did? Your contribution would be **greatly appreciated**.
 
 Please fork the repo, create your branch, and create a pull request. You can also simply open an issue with the tag "enhancement".
 
