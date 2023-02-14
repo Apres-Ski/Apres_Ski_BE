@@ -29,22 +29,24 @@ The web application geared towards snowsport entheusiests looking to find their 
 <br>
 
 ---
-
+<h2>Table of Contents</h2>
 <details>
-  <summary>Table of Contents</summary>
+<summary>
+:skier:
+</summary>
 
-  :skier: [Getting Started](#getting-started)
-  <br>
-  :skier: [API Endpoints](#api-endpoints)
-  <br>
-  :skier: [Project Overview](#project-overview)
-  <br>
-  :skier: [Contributors](#contributors)
-  <br>
-  :skier: [Contributing](#contributing)
-  <br>
-  :skier: [Acknowledgments](#acknowledgments)
-  <br>
+> :skier: [Getting Started](#getting-started)
+> <br>
+> :skier: [API Endpoints](#api-endpoints)
+> <br>
+> :skier: [Project Overview](#project-overview)
+> <br>
+> :skier: [Contributors](#contributors)
+> <br>
+> :skier: [Contributing](#contributing)
+> <br>
+> :skier: [Acknowledgments](#acknowledgments)
+> <br>
 
 </details>
 
