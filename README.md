@@ -1,3 +1,10 @@
+<style>
+  headshot {
+    width: 150px;
+    border-radius: 6px 12px 18px 24px;
+}
+</style>
+
 # README
 
 <div align="center">
@@ -9,7 +16,9 @@
   <a href="https://github.com/Apres-Ski">
     <img src="https://media.giphy.com/media/xEBZR96wLedVHzOeqw/giphy.gif">
   </a>
-  <h2 align="center">Après-Ski</h2>
+  <h2 align="center">
+    <a herf="https://apres-ski-fe.vercel.app/">Après-Ski App</a>
+  </h2>
 
   <h3 align="center">
     <a href="https://github.com/Apres-Ski/Apres_Ski_BE/issues">Report Bug</a>
@@ -27,22 +36,24 @@ The web application geared towards snowsport entheusiests looking to find their 
 <br>
 
 ---
-
+<h2>Table of Contents</h2>
 <details>
-  <summary>Table of Contents</summary>
+<summary>
+:skier:
+</summary>
 
-  :skier: [Getting Started](#getting-started)
-  <br>
-  :skier: [API Endpoints](#api-endpoints)
-  <br>
-  :skier: [Project Overview](#project-overview)
-  <br>
-  :skier: [Contributors](#contributors)
-  <br>
-  :skier: [Contributing](#contributing)
-  <br>
-  :skier: [Acknowledgments](#acknowledgments)
-  <br>
+> :skier: [Getting Started](#getting-started)
+> <br>
+> :skier: [API Endpoints](#api-endpoints)
+> <br>
+> :skier: [Project Overview](#project-overview)
+> <br>
+> :skier: [Contributors](#contributors)
+> <br>
+> :skier: [Contributing](#contributing)
+> <br>
+> :skier: [Acknowledgments](#acknowledgments)
+> <br>
 
 </details>
 
@@ -52,12 +63,15 @@ The web application geared towards snowsport entheusiests looking to find their 
 
 ## Getting Started
 
-### Web Usage [Work In Progress]
+### Web Usage
 
-This is a Django REST Framework API designed for a React web application. To get started, follow the link below and select one of our test-users. Once you selected a user you will be able to:
+This is a Django REST Framework API designed for a React web application. To get started in the application, follow [this link](https://apres-ski-fe.vercel.app/) and select one of our test-users. Once you selected a user you will be able to:
 
-* Search for restaurants by proximity to the user.
-* [get with FE to finish feature list]
+* Search for restaurants by:
+    * Vibe
+    * Proximity to the user
+    * Price
+    * Happy Hour
 
 <br>
 
@@ -225,43 +239,51 @@ Après-Ski's Back-end is a ***Django REST Framework*** API, built with **Python*
 
 ## Collaborators
 
-<div align='center'>
-<table>
+<div align='center' id='headshot'>
+<table style='border: none'>
 <tr>
 <th>Joseph Hilby</th>
 <th>Kristen Nestler</th>
 <th>Kevin Ta</th>
 </tr>
 <tr>
-<td><img width="150px" src="https://media.licdn.com/dms/image/C4E03AQEdZUKFgryaqg/profile-displayphoto-shrink_800_800/0/1567961066772?e=1680739200&v=beta&t=TFQt8RiDDMpJHbytApiShBpLVCCZlfeuUwLffp95tG8"></td>
-<td><img width="150px" src="https://media.licdn.com/dms/image/D4E03AQESEnUYGJprLA/profile-displayphoto-shrink_800_800/0/1673023729512?e=1680739200&v=beta&t=PhhX0_wEMPxiu2nO-OfDyCv73Ro_iyyGPjQ4YUnXSC4"></td>
-<td><img width="150px" src="https://avatars.githubusercontent.com/u/36166420?v=4"></td>
+<td><img width="150px" style='border-radius: 6px 12px 18px 24px;' src="https://media.licdn.com/dms/image/C4E03AQEdZUKFgryaqg/profile-displayphoto-shrink_800_800/0/1567961066772?e=1680739200&v=beta&t=TFQt8RiDDMpJHbytApiShBpLVCCZlfeuUwLffp95tG8"></td>
+<td><img width="150px" style='border-radius: 6px 12px 18px 24px;' src="https://media.licdn.com/dms/image/D4E03AQESEnUYGJprLA/profile-displayphoto-shrink_800_800/0/1673023729512?e=1680739200&v=beta&t=PhhX0_wEMPxiu2nO-OfDyCv73Ro_iyyGPjQ4YUnXSC4"></td>
+<td><img width="150px" style='border-radius: 6px 12px 18px 24px;' src="https://avatars.githubusercontent.com/u/36166420?v=4"></td>
 </tr>
-
 <tr>
 <td>
-<a href="https://github.com/josephhilby" rel="nofollow noreferrer">
-<img src="https://i.stack.imgur.com/tskMh.png" alt="github"> Github
-</a><br>
-<a href="https://www.linkedin.com/in/josephmhilby" rel="nofollow noreferrer">
-<img src="https://i.stack.imgur.com/gVE0j.png" alt="linkedin"> LinkedIn
-</a>
+
+<div align='center'>
+
+[![GitHub: josephhilby][joe-github-follow-badge]][joe-GitHub]
+<br>
+[![LinkedIn: josephmhilby][linkedin-badge]][joe-LinkedIn]
+
+</div>
+
 </td>
 <td>
-<a href="https://github.com/knestler" rel="nofollow noreferrer">
-<img src="https://i.stack.imgur.com/tskMh.png" alt="github"> Github
-</a><br>
-<a href="https://www.linkedin.com/in/kristen-nestler/" rel="nofollow noreferrer">
-<img src="https://i.stack.imgur.com/gVE0j.png" alt="linkedin"> LinkedIn
-</a>
+
+<div align='center'>
+
+[![GitHub: knestler][kristen-github-follow-badge]][kristen-GitHub]
+<br>
+[![LinkedIn: kristen-nestler][linkedin-badge]][kristen-LinkedIn]
+
+</div>
+
 </td>
 <td>
-<a href="https://www.linkedin.com/in/kevin-ta-b1a36723b/" rel="nofollow noreferrer">
-<img src="https://i.stack.imgur.com/tskMh.png" alt="github"> Github
-</a><br>
-<a href="https://github.com/KevinT001" rel="nofollow noreferrer">
-<img src="https://i.stack.imgur.com/gVE0j.png" alt="linkedin"> LinkedIn
-</a>
+
+<div align='center'>
+
+[![GitHub: KevinT001][kevin-github-follow-badge]][kevin-GitHub]
+<br>
+[![LinkedIn: kevin-ta-b1a36723b][linkedin-badge]][kevin-LinkedIn]
+
+</div>
+
 </td>
 </tr>
 </table>
@@ -299,8 +321,8 @@ This project was the capstone for our team at:
 
 <p align="right">(<a href="#README">back to top</a>)</p>
 
-<!-- MARKDOWN LINKS & IMAGES -->
 
+<!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://img.shields.io/github/contributors/Apres-Ski/Apres_Ski_BE.svg?style=for-the-badge
 [contributors-url]: https://github.com/Apres-Ski/Apres_Ski_BE/graphs/contributors
@@ -308,3 +330,18 @@ This project was the capstone for our team at:
 [forks-url]: https://github.com/othneildrew/Apres-Ski/Apres_Ski_BE/network/members
 [issues-shield]: https://img.shields.io/github/issues/Apres-Ski/Apres_Ski_BE.svg?style=for-the-badge
 [issues-url]: https://github.com/Apres-Ski/Apres_Ski_BE/issues
+
+[linkedin-badge]: https://img.shields.io/badge/LinkedIn-%23?style=flat&logo=Linkedin&logoColor=black&color=0A66C2
+[joe-LinkedIn]: https://www.linkedin.com/in/josephmhilby/
+[kristen-LinkedIn]: https://www.linkedin.com/in/kristen-nestler/
+[kevin-LinkedIn]: https://www.linkedin.com/in/kevin-ta-b1a36723b/
+
+[joe-github-follow-badge]: https://img.shields.io/github/followers/josephhilby?label=GitHub&style=social
+[kristen-github-follow-badge]: https://img.shields.io/github/followers/knestler?label=GitHub&style=social
+[kevin-github-follow-badge]: https://img.shields.io/github/followers/KevinT001?label=GitHub&style=social
+
+[joe-GitHub]: https://github.com/josephhilby
+[kristen-GitHub]: https://github.com/knestler
+[kevin-GitHub]: https://github.com/KevinT001
+
+<https://www.linkedin.com/in/kristen-nestler/>
