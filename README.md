@@ -54,12 +54,15 @@ The web application geared towards snowsport entheusiests looking to find their 
 
 ## Getting Started
 
-### Web Usage [Work In Progress]
+### Web Usage
 
-This is a Django REST Framework API designed for a React web application. To get started, follow the link below and select one of our test-users. Once you selected a user you will be able to:
+This is a Django REST Framework API designed for a React web application. To get started in the application, follow [this link](https://apres-ski-fe.vercel.app/) and select one of our test-users. Once you selected a user you will be able to:
 
-* Search for restaurants by proximity to the user.
-* [get with FE to finish feature list]
+* Search for restaurants by:
+    * Vibe
+    * Proximity to the user
+    * Price
+    * Happy Hour
 
 <br>
 
