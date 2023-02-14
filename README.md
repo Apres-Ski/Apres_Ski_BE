@@ -1,10 +1,3 @@
-<style>
-  headshot {
-    width: 150px;
-    border-radius: 6px 12px 18px 24px;
-}
-</style>
-
 # README
 
 <div align="center">
