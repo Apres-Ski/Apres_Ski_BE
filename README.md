@@ -1,3 +1,10 @@
+<style>
+  headshot {
+    width: 150px;
+    border-radius: 6px 12px 18px 24px;
+}
+</style>
+
 # README
 
 <div align="center">
@@ -232,17 +239,17 @@ Après-Ski's Back-end is a ***Django REST Framework*** API, built with **Python*
 
 ## Collaborators
 
-<div align='center'>
-<table>
+<div align='center' id='headshot'>
+<table style='border: none'>
 <tr>
 <th>Joseph Hilby</th>
 <th>Kristen Nestler</th>
 <th>Kevin Ta</th>
 </tr>
 <tr>
-<td><img width="150px" src="https://media.licdn.com/dms/image/C4E03AQEdZUKFgryaqg/profile-displayphoto-shrink_800_800/0/1567961066772?e=1680739200&v=beta&t=TFQt8RiDDMpJHbytApiShBpLVCCZlfeuUwLffp95tG8"></td>
-<td><img width="150px" src="https://media.licdn.com/dms/image/D4E03AQESEnUYGJprLA/profile-displayphoto-shrink_800_800/0/1673023729512?e=1680739200&v=beta&t=PhhX0_wEMPxiu2nO-OfDyCv73Ro_iyyGPjQ4YUnXSC4"></td>
-<td><img width="150px" src="https://avatars.githubusercontent.com/u/36166420?v=4"></td>
+<td><img width="150px" style='border-radius: 6px 12px 18px 24px;' src="https://media.licdn.com/dms/image/C4E03AQEdZUKFgryaqg/profile-displayphoto-shrink_800_800/0/1567961066772?e=1680739200&v=beta&t=TFQt8RiDDMpJHbytApiShBpLVCCZlfeuUwLffp95tG8"></td>
+<td><img width="150px" style='border-radius: 6px 12px 18px 24px;' src="https://media.licdn.com/dms/image/D4E03AQESEnUYGJprLA/profile-displayphoto-shrink_800_800/0/1673023729512?e=1680739200&v=beta&t=PhhX0_wEMPxiu2nO-OfDyCv73Ro_iyyGPjQ4YUnXSC4"></td>
+<td><img width="150px" style='border-radius: 6px 12px 18px 24px;' src="https://avatars.githubusercontent.com/u/36166420?v=4"></td>
 </tr>
 <tr>
 <td>
