@@ -123,7 +123,7 @@ To install and run on your personal computer you will need to do the following:
 >    "lat": "str",
 >    "lon": "str",
 >    "alcoholic_drinks": "bool",
->    "has_happy_hour": "bool"
+>    "has_happy_hour": "bool",
 >    "hour": [
 >     {
 >      "id": "int",
@@ -209,7 +209,7 @@ To install and run on your personal computer you will need to do the following:
 
 ### Tech Stack
 
-Après-Ski's Back-end API is a ***Django REST Framework*** API, built with **Python**, and hosted on Heroku.
+Après-Ski's Back-end is a ***Django REST Framework*** API, built with **Python**, and hosted on Heroku.
 
 <br>
 <div align='center'>
@@ -321,15 +321,15 @@ Special *thank you!*, for your insight and help, as we designed and built an API
 * [Mike Hernandez](https://github.com/mikez321)
 * [Jake Cohen]()
 
-
 This project was the capstone for our team at:
-* Turing School of Software Design: [https://turing.edu/](https://turing.edu/)
+* [Turing School of Software Design](https://turing.edu/)
 
+<p align="right">(<a href="#README">back to top</a>)</p>
 
 <!-- MARKDOWN LINKS & IMAGES -->
 
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/josephhilby/lunch_and_learn.svg?style=for-the-badge
+[contributors-shield]: https://img.shields.io/github/contributors/Apres-Ski/Apres_Ski_BE.svg?style=for-the-badge
 [contributors-url]: https://github.com/Apres-Ski/Apres_Ski_BE/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/Apres-Ski/Apres_Ski_BE.svg?style=for-the-badge
 [forks-url]: https://github.com/othneildrew/Apres-Ski/Apres_Ski_BE/network/members
