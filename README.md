@@ -225,45 +225,47 @@ Après-Ski's Back-end is a ***Django REST Framework*** API, built with **Python*
 
 ## Collaborators
 
+<div align='center'>
 <table>
-  <tr>
-    <th>Joseph Hilby</th>
-    <th>Kristen Nestler</th>
-    <th>Kevin Ta</th>
-  </tr>
-  <tr>
-    <td><img width="150px" src="https://media.licdn.com/dms/image/C4E03AQEdZUKFgryaqg/profile-displayphoto-shrink_800_800/0/1567961066772?e=1680739200&v=beta&t=TFQt8RiDDMpJHbytApiShBpLVCCZlfeuUwLffp95tG8"></td>
-    <td><img width="150px" src="https://media.licdn.com/dms/image/D4E03AQESEnUYGJprLA/profile-displayphoto-shrink_800_800/0/1673023729512?e=1680739200&v=beta&t=PhhX0_wEMPxiu2nO-OfDyCv73Ro_iyyGPjQ4YUnXSC4"></td>
-    <td><img width="150px" src="https://avatars.githubusercontent.com/u/36166420?v=4"></td>
-  </tr>
+<tr>
+<th>Joseph Hilby</th>
+<th>Kristen Nestler</th>
+<th>Kevin Ta</th>
+</tr>
+<tr>
+<td><img width="150px" src="https://media.licdn.com/dms/image/C4E03AQEdZUKFgryaqg/profile-displayphoto-shrink_800_800/0/1567961066772?e=1680739200&v=beta&t=TFQt8RiDDMpJHbytApiShBpLVCCZlfeuUwLffp95tG8"></td>
+<td><img width="150px" src="https://media.licdn.com/dms/image/D4E03AQESEnUYGJprLA/profile-displayphoto-shrink_800_800/0/1673023729512?e=1680739200&v=beta&t=PhhX0_wEMPxiu2nO-OfDyCv73Ro_iyyGPjQ4YUnXSC4"></td>
+<td><img width="150px" src="https://avatars.githubusercontent.com/u/36166420?v=4"></td>
+</tr>
 
-  <tr>
-    <td>
-       <a href="https://github.com/josephhilby" rel="nofollow noreferrer">
-          <img src="https://i.stack.imgur.com/tskMh.png" alt="github"> Github
-      </a><br>
-        <a href="https://www.linkedin.com/in/josephmhilby" rel="nofollow noreferrer">
-          <img src="https://i.stack.imgur.com/gVE0j.png" alt="linkedin"> LinkedIn
-      </a>
-    </td>
-    <td>
-      <a href="https://github.com/knestler" rel="nofollow noreferrer">
-          <img src="https://i.stack.imgur.com/tskMh.png" alt="github"> Github
-        </a><br>
-      <a href="https://www.linkedin.com/in/kristen-nestler/" rel="nofollow noreferrer">
-    <img src="https://i.stack.imgur.com/gVE0j.png" alt="linkedin"> LinkedIn
-        </a>
-    </td>
-    <td>
-      <a href="https://www.linkedin.com/in/kevin-ta-b1a36723b/" rel="nofollow noreferrer">
-          <img src="https://i.stack.imgur.com/tskMh.png" alt="github"> Github
-        </a><br>
-      <a href="https://github.com/KevinT001" rel="nofollow noreferrer">
-    <img src="https://i.stack.imgur.com/gVE0j.png" alt="linkedin"> LinkedIn
-        </a>
-    </td>
-  </tr>
+<tr>
+<td>
+<a href="https://github.com/josephhilby" rel="nofollow noreferrer">
+<img src="https://i.stack.imgur.com/tskMh.png" alt="github"> Github
+</a><br>
+<a href="https://www.linkedin.com/in/josephmhilby" rel="nofollow noreferrer">
+<img src="https://i.stack.imgur.com/gVE0j.png" alt="linkedin"> LinkedIn
+</a>
+</td>
+<td>
+<a href="https://github.com/knestler" rel="nofollow noreferrer">
+<img src="https://i.stack.imgur.com/tskMh.png" alt="github"> Github
+</a><br>
+<a href="https://www.linkedin.com/in/kristen-nestler/" rel="nofollow noreferrer">
+<img src="https://i.stack.imgur.com/gVE0j.png" alt="linkedin"> LinkedIn
+</a>
+</td>
+<td>
+<a href="https://www.linkedin.com/in/kevin-ta-b1a36723b/" rel="nofollow noreferrer">
+<img src="https://i.stack.imgur.com/tskMh.png" alt="github"> Github
+</a><br>
+<a href="https://github.com/KevinT001" rel="nofollow noreferrer">
+<img src="https://i.stack.imgur.com/gVE0j.png" alt="linkedin"> LinkedIn
+</a>
+</td>
+</tr>
 </table>
+</div>
 
 <!-- CONTRIBUTING -->
 
