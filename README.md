@@ -95,18 +95,17 @@ To install and run on your personal computer you will need to do the following:
 <details>
 <summary> <code>localhost:8000/api/v1/restaurants</code> </summary>
 
-### GET /api/v1/restaurants
-
+>**Description**
 > - Get a list of restaurants.
-
-**Parameters**
-
+>
+>**Parameters**
+>
 > - N/A
-
-**Response**
-
-#### 200 OK
-
+>
+>**Response**
+>
+>#### 200 OK
+>
 > ```json
 >{
 > "data": [
@@ -172,9 +171,9 @@ To install and run on your personal computer you will need to do the following:
 > ]
 >}
 >```
-
-#### 404 Not Found
-
+>
+>#### 404 Not Found
+>
 >```json
 >{
 > "errors": [
@@ -186,8 +185,8 @@ To install and run on your personal computer you will need to do the following:
 > ]
 >}
 >```
-
-#### Notes
+>
+>**Notes**
 >
 > * `hour`, `happyhour`, and `engagement` will return empty arrays if there is no associated table for the given restaurant.
 
