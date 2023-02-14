@@ -19,7 +19,7 @@
 </div>
 <br>
 
-Hungry and tired after a day at Breckenridge? Looking to find somewhere that's: fun, good vibes, close enough to walk?
+Hungry and tired after a day at Breckenridge? Looking to find somewhere that's fun, good vibes, and close enough to walk?
 
 **Find it with Après-Ski!**
 
