@@ -95,18 +95,17 @@ To install and run on your personal computer you will need to do the following:
 <details>
 <summary> <code>localhost:8000/api/v1/restaurants</code> </summary>
 
-### GET /api/v1/restaurants
-
+>**Description**
 > - Get a list of restaurants.
-
-**Parameters**
-
+>
+>**Parameters**
+>
 > - N/A
-
-**Response**
-
-#### 200 OK
-
+>
+>**Response**
+>
+>#### 200 OK
+>
 > ```json
 >{
 > "data": [
@@ -123,7 +122,7 @@ To install and run on your personal computer you will need to do the following:
 >    "lat": "str",
 >    "lon": "str",
 >    "alcoholic_drinks": "bool",
->    "has_happy_hour": "bool"
+>    "has_happy_hour": "bool",
 >    "hour": [
 >     {
 >      "id": "int",
@@ -172,9 +171,9 @@ To install and run on your personal computer you will need to do the following:
 > ]
 >}
 >```
-
-#### 404 Not Found
-
+>
+>#### 404 Not Found
+>
 >```json
 >{
 > "errors": [
@@ -186,8 +185,8 @@ To install and run on your personal computer you will need to do the following:
 > ]
 >}
 >```
-
-#### Notes
+>
+>**Notes**
 >
 > * `hour`, `happyhour`, and `engagement` will return empty arrays if there is no associated table for the given restaurant.
 
@@ -209,11 +208,11 @@ To install and run on your personal computer you will need to do the following:
 
 ### Tech Stack
 
-Après-Ski's Back-end API is a ***Django REST Framework*** API, built with **Python**, and hosted on Heroku.
+Après-Ski's Back-end is a ***Django REST Framework*** API, built with **Python**, and hosted on Heroku.
 
 <br>
 <div align='center'>
-  <img src="assets/apres_ski_tech_stack.png" alt="tech_stack" width="70%">
+  <img src="assets/apres_ski_tech_stack.png" alt="tech_stack" width="50%">
 </div>
 
 <br>
@@ -222,79 +221,51 @@ Après-Ski's Back-end API is a ***Django REST Framework*** API, built with **Pyt
 
 <br>
 
-<!-- CONTRIBUTORS -->
+<!-- COLLABORATORS -->
 
-## Contributors
+## Collaborators
 
+<div align='center'>
 <table>
-  <tr>
-    <th>Joseph Hilby</th>
-    <th>Tricia Holmes</th>
-    <th>Ryan Nagel</th>
-    <th>Kristen Nestler</th>
-    <th>Kevin Ta</th>
-    <th>Matt Walter</th>
-  </tr>
-  <tr>
-    <td><img width="300px" src="https://media.licdn.com/dms/image/C4E03AQEdZUKFgryaqg/profile-displayphoto-shrink_800_800/0/1567961066772?e=1680739200&v=beta&t=TFQt8RiDDMpJHbytApiShBpLVCCZlfeuUwLffp95tG8"></td>
-    <td><img width="300px" src="https://media.licdn.com/dms/image/D4E03AQF88CLqrqQ1uA/profile-displayphoto-shrink_800_800/0/1663436465329?e=1680739200&v=beta&t=2cbhih9hldc3dkTuiAK5uBr0ZsaVKiTwM4349AAAd-o"></td>
-    <td><img width="300px" src="https://avatars.githubusercontent.com/u/108195380?v=4"></td>
-    <td><img width="300px" src="https://media.licdn.com/dms/image/D4E03AQESEnUYGJprLA/profile-displayphoto-shrink_800_800/0/1673023729512?e=1680739200&v=beta&t=PhhX0_wEMPxiu2nO-OfDyCv73Ro_iyyGPjQ4YUnXSC4"></td>
-    <td><img width="300px" src="https://avatars.githubusercontent.com/u/36166420?v=4"></td>
-    <td><img width="300px" src="https://avatars.githubusercontent.com/u/106847513?v=4"></td>
-  </tr>
+<tr>
+<th>Joseph Hilby</th>
+<th>Kristen Nestler</th>
+<th>Kevin Ta</th>
+</tr>
+<tr>
+<td><img width="150px" src="https://media.licdn.com/dms/image/C4E03AQEdZUKFgryaqg/profile-displayphoto-shrink_800_800/0/1567961066772?e=1680739200&v=beta&t=TFQt8RiDDMpJHbytApiShBpLVCCZlfeuUwLffp95tG8"></td>
+<td><img width="150px" src="https://media.licdn.com/dms/image/D4E03AQESEnUYGJprLA/profile-displayphoto-shrink_800_800/0/1673023729512?e=1680739200&v=beta&t=PhhX0_wEMPxiu2nO-OfDyCv73Ro_iyyGPjQ4YUnXSC4"></td>
+<td><img width="150px" src="https://avatars.githubusercontent.com/u/36166420?v=4"></td>
+</tr>
 
-  <tr>
-    <td>
-       <a href="https://github.com/josephhilby" rel="nofollow noreferrer">
-          <img src="https://i.stack.imgur.com/tskMh.png" alt="github"> Github
-      </a><br>
-        <a href="https://www.linkedin.com/in/josephmhilby" rel="nofollow noreferrer">
-          <img src="https://i.stack.imgur.com/gVE0j.png" alt="linkedin"> LinkedIn
-      </a>
-    </td>
-    <td>
-      <a href="https://github.com/tricia-holmes"  rel="nofollow noreferrer">
-          <img src="https://i.stack.imgur.com/tskMh.png" alt="github"> Github
-        </a><br>
-      <a href="https://www.linkedin.com/in/triciaholmes/" rel="nofollow noreferrer">
-    <img src="https://i.stack.imgur.com/gVE0j.png" alt="linkedin"> LinkedIn
-        </a>
-    </td>
-    <td>
-      <a href="https://github.com/Nagel29"  rel="nofollow noreferrer">
-          <img src="https://i.stack.imgur.com/tskMh.png" alt="github"> Github
-        </a><br>
-      <a href="https://www.linkedin.com/in/ryan-nagel-000280173/" rel="nofollow noreferrer">
-    <img src="https://i.stack.imgur.com/gVE0j.png" alt="linkedin"> LinkedIn
-        </a>
-    </td>
-    <td>
-      <a href="https://github.com/knestler" rel="nofollow noreferrer">
-          <img src="https://i.stack.imgur.com/tskMh.png" alt="github"> Github
-        </a><br>
-      <a href="https://www.linkedin.com/in/kristen-nestler/" rel="nofollow noreferrer">
-    <img src="https://i.stack.imgur.com/gVE0j.png" alt="linkedin"> LinkedIn
-        </a>
-    </td>
-    <td>
-      <a href="https://www.linkedin.com/in/kevin-ta-b1a36723b/" rel="nofollow noreferrer">
-          <img src="https://i.stack.imgur.com/tskMh.png" alt="github"> Github
-        </a><br>
-      <a href="https://github.com/KevinT001" rel="nofollow noreferrer">
-    <img src="https://i.stack.imgur.com/gVE0j.png" alt="linkedin"> LinkedIn
-        </a>
-    </td>
-    <td>
-      <a href="https://github.com/MattWalterTX" rel="nofollow noreferrer">
-          <img src="https://i.stack.imgur.com/tskMh.png" alt="github"> Github
-            </a><br>
-            <a href="https://www.linkedin.com/in/matt-walter-67b810246/" rel="nofollow noreferrer">
-    <img src="https://i.stack.imgur.com/gVE0j.png" alt="linkedin"> LinkedIn
-        </a><br>
-    </td>
-  </tr>
+<tr>
+<td>
+<a href="https://github.com/josephhilby" rel="nofollow noreferrer">
+<img src="https://i.stack.imgur.com/tskMh.png" alt="github"> Github
+</a><br>
+<a href="https://www.linkedin.com/in/josephmhilby" rel="nofollow noreferrer">
+<img src="https://i.stack.imgur.com/gVE0j.png" alt="linkedin"> LinkedIn
+</a>
+</td>
+<td>
+<a href="https://github.com/knestler" rel="nofollow noreferrer">
+<img src="https://i.stack.imgur.com/tskMh.png" alt="github"> Github
+</a><br>
+<a href="https://www.linkedin.com/in/kristen-nestler/" rel="nofollow noreferrer">
+<img src="https://i.stack.imgur.com/gVE0j.png" alt="linkedin"> LinkedIn
+</a>
+</td>
+<td>
+<a href="https://www.linkedin.com/in/kevin-ta-b1a36723b/" rel="nofollow noreferrer">
+<img src="https://i.stack.imgur.com/tskMh.png" alt="github"> Github
+</a><br>
+<a href="https://github.com/KevinT001" rel="nofollow noreferrer">
+<img src="https://i.stack.imgur.com/gVE0j.png" alt="linkedin"> LinkedIn
+</a>
+</td>
+</tr>
 </table>
+</div>
 
 <!-- CONTRIBUTING -->
 
@@ -321,15 +292,17 @@ Special *thank you!*, for your insight and help, as we designed and built an API
 * [Mike Hernandez](https://github.com/mikez321)
 * [Jake Cohen]()
 
+Thank you [Tricia Holmes](https://github.com/tricia-holmes) on our Front-End Team for your PR setting up CORS!
 
 This project was the capstone for our team at:
-* Turing School of Software Design: [https://turing.edu/](https://turing.edu/)
+* [Turing School of Software Design](https://turing.edu/)
 
+<p align="right">(<a href="#README">back to top</a>)</p>
 
 <!-- MARKDOWN LINKS & IMAGES -->
 
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/josephhilby/lunch_and_learn.svg?style=for-the-badge
+[contributors-shield]: https://img.shields.io/github/contributors/Apres-Ski/Apres_Ski_BE.svg?style=for-the-badge
 [contributors-url]: https://github.com/Apres-Ski/Apres_Ski_BE/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/Apres-Ski/Apres_Ski_BE.svg?style=for-the-badge
 [forks-url]: https://github.com/othneildrew/Apres-Ski/Apres_Ski_BE/network/members
