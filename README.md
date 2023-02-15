@@ -196,13 +196,13 @@ To install and run on your personal computer you will need to do the following:
 
 <details>
  <summary><code>localhost:8000/api/v1/users</code></summary>
- 
+
 ### Response Body (JSON)
 
 #### 200 OK
 
 > ```json
->{ 
+>{
 >	"data": [
 >		{
 >			"type": "str",
@@ -222,7 +222,7 @@ To install and run on your personal computer you will need to do the following:
 #### 404 Not Found
 
 >```json
->{ 
+>{
 >	"errors": [
 >		{
 >			"detail": "Not found.",
@@ -232,20 +232,20 @@ To install and run on your personal computer you will need to do the following:
 >	]
 >}
 >```
-	
+
 #### Notes:
 
 </details>
 
 <details>
  <summary><code>localhost:8000/api/v1/lifts</code></summary>
- 
+
 ### Response Body (JSON)
 
 #### 200 OK
 
 > ```json
->{ 
+>{
 >	"data": [
 >		{
 >			"type": "str",
@@ -264,7 +264,7 @@ To install and run on your personal computer you will need to do the following:
 #### 404 Not Found
 
 >```json
->{ 
+>{
 >	"errors": [
 >		{
 >			"detail": "Not found.",
@@ -274,7 +274,7 @@ To install and run on your personal computer you will need to do the following:
 >	]
 >}
 >```
-	
+
 #### Notes:
 
 </details>
@@ -286,23 +286,30 @@ To install and run on your personal computer you will need to do the following:
 ## Project Overview
 
 ### Learning Goals
-Backend team learning goals were:
+The Back-End Team's learning goals were:
 
-- Gain exposure and experience to Python and Django Framework.
+- Gain exposure and experience to ***Python*** and ***Django REST Framework***.
 - Implement Agile work process throughout development.
 - Use Service Oriented Architecture concepts.
-- Practice professional git workflow and pull request reviews. 
+- Practice professional git workflow and pull request reviews.
 - Implement Continuous integrations.
-- Further hone communicational skills to Frontend stack team by doing daily standups and slack networking. 
+- Further hone communicational skills with a Front-End Team by doing daily stand-ups and slack networking.
 <br>
 
 ### Planning
+
+The first four days of our project was dedicated to planning. In this time our Front-End and Back-End Teams were assigned to a student created project pitch and began work:
+
+* Day 1: Teams discussed any human factors and personnel limitations over the duration of the project, started work on a Minimal Viable Product Document, and created all infrastructure (GitHub: Organization, Repositories, Teams, & Projectboard).
+* Day 2: Teams discussed any capabilities and limitations in their selected tech-stack and finalized selection of what data would be collected, stored, and consumed.
+* Day 3: Teams completed the Minimal Viable Product Document
+* Day 4: Back-End Team created a small-scale test database and API as a proof of concept for approval by the Front-End Team and finalized the JSON Contract Document.
 
 <br>
 
 ### Tech Stack
 
-Après-Ski's Back-end is a ***Django REST Framework*** API, built with **Python**, and hosted on Heroku.
+Après-Ski's Back-end is a ***Django REST Framework*** API, built with ***Python*** & ***PostgreSQL***, and hosted on***Heroku***.
 
 <br>
 <div align='center'>
@@ -311,30 +318,29 @@ Après-Ski's Back-end is a ***Django REST Framework*** API, built with **Python*
 
 <br>
 
-### MVP and Extensions Roadmap
+### Minimum Viable Product (MVP) and Extensions Roadmap
 
-##### MVP
-Backend MVP goals were to create and deliver endpoints for our Frontend team to consume and display. For our Minimum Viable Product we created a Postgresql database with the following tables:
+***MVP***
 
-- Users
-- Restaurants
-- Engagements
-- (Ski) Lifts
-- (Restaurant) Hours
-- (Restaurant) Happy Hours
+The Back-End Teams's MVP goals were to design, create, and deploy all requested endpoints for our Front-End Team to consume and display. For this we started with a ***PostgreSQL*** database and the following tables:
 
-Each table stored real data on various restaurants and lifts in Breckinridge Colorado. Information was gathered through various travel and restaurant websites.  
+<br>
+<div align='center'>
+  <img src="assets/db_diagram.png" alt="db_diagram" width="50%">
+</div>
 
-##### Extensions/ future features
+Each table stored real data on various restaurants and lifts in Breckinridge Colorado. Information was gathered through various travel and restaurant websites and then turned into seed files, which we used to populate our database.
 
-Future features we wish to implement for this application would be: 
+After our database was setup we created the above endpoints (see: [API Endpoints](#api-endpoints) ), as requested by our Front-End Team, in accordance with the [json:api](https://jsonapi.org/) standard.
 
-- Allowing users to see how close restaurants are to each ski lift.
-- Show landmarks and information on the landmarks on the map
-- Photo Galleries for each restaurant
-- Allowing users to have further engagement by being able to 
-  - Rate each restaurant.
-  - Leave comments about the restaurant.
+All MVP goals were met. Testing for our API is at 99% coverage.
+
+***Extensions***
+
+Future features we wish to implement for our API:
+
+- Create another external API call to Geoapify to collect information on local landmarks.
+- Use ***Django REST Framework's*** TokenAuthentication class to implement authentication for any CREATE, POST, or PATCH requests.
 
 <br>
 
