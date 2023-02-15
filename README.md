@@ -425,7 +425,7 @@ Placeholder text
 </td>
 <td>
 <p>
-Placeholder text
+Being apart of the Apres-Ski team, I had a personal goal of wanting to get first hand experience being a part of a Service Oriented Architecture application. This came with side goals of further developing proper communicational skills and collaboration with the Front-End team. During my course at Turing School of Software and Design, my experience was focused on Ruby and Ruby on Rails, so choosing to develop our Apres-Ski Application in Python was also an exposure to another language I further wish to continue exploring!  
 </p>
 </td>
 </tr>
@@ -442,9 +442,9 @@ Do you have a better & cooler way of doing what we did? Your contribution would 
 Please fork the repo, create your branch, and create a pull request. You can also simply open an issue with the tag "enhancement".
 
 1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+2. Create your Feature Branch (`git checkout -b feature/<AmazingFeature>`)
 3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
+4. Push to the Branch (`git push origin feature/<AmazingFeature>`)
 5. Open a Pull Request
 
 Thanks again!
