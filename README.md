@@ -199,7 +199,13 @@ To install and run on your personal computer you will need to do the following:
 ## Project Overview
 
 ### Learning Goals
-
+Backend team learning goals were:
+- Gain exposure and experience to Python and Django Framework.
+- Implement Agile work process throughout development.
+- Use Service Oriented Architecture concepts.
+- Practice professional git workflow and pull request reviews. 
+- Implement Continuous integrations.
+- Further hone communicational skills to Frontend stack team by doing daily standups and slack networking. 
 <br>
 
 ### Planning
@@ -239,7 +245,7 @@ Future features we wish to implement for this application would be:
 - Allowing users to have further engagement by being able to 
   - rate each restaurant.
   - leave comments about the restaurant.
-  
+
 <br>
 
 <!-- COLLABORATORS -->
