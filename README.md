@@ -286,7 +286,14 @@ To install and run on your personal computer you will need to do the following:
 ## Project Overview
 
 ### Learning Goals
+Backend team learning goals were:
 
+- Gain exposure and experience to Python and Django Framework.
+- Implement Agile work process throughout development.
+- Use Service Oriented Architecture concepts.
+- Practice professional git workflow and pull request reviews. 
+- Implement Continuous integrations.
+- Further hone communicational skills to Frontend stack team by doing daily standups and slack networking. 
 <br>
 
 ### Planning
@@ -305,6 +312,29 @@ Après-Ski's Back-end is a ***Django REST Framework*** API, built with **Python*
 <br>
 
 ### MVP and Extensions Roadmap
+
+##### MVP
+Backend MVP goals were to create and deliver endpoints for our Frontend team to consume and display. For our Minimum Viable Product we created a Postgresql database with the following tables:
+
+- Users
+- Restaurants
+- Engagements
+- (Ski) Lifts
+- (Restaurant) Hours
+- (Restaurant) Happy Hours
+
+Each table stored real data on various restaurants and lifts in Breckinridge Colorado. Information was gathered through various travel and restaurant websites.  
+
+##### Extensions/ future features
+
+Future features we wish to implement for this application would be: 
+
+- Allowing users to see how close restaurants are to each ski lift.
+- Show landmarks and information on the landmarks on the map
+- Photo Galleries for each restaurant
+- Allowing users to have further engagement by being able to 
+  - Rate each restaurant.
+  - Leave comments about the restaurant.
 
 <br>
 
