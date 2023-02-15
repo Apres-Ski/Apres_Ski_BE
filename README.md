@@ -2,6 +2,7 @@
 
 <div align="center">
 
+  [![Python package][test-shield]][test-url]
   [![Contributors][contributors-shield]][contributors-url]
   [![Forks][forks-shield]][forks-url]
   [![Issues][issues-shield]][issues-url]
@@ -55,11 +56,21 @@ The web application geared towards snowsport entheusiests looking to find their 
 
 This is a Django REST Framework API designed for a React web application. To get started in the application, follow [this link](https://apres-ski-fe.vercel.app/) and select one of our test-users. Once you selected a user you will be able to:
 
-* Search for restaurants by:
-    * Vibe
-    * Proximity to the user
-    * Price
-    * Happy Hour
+- Browse a list of restaurants near you based on:
+    - Vibe
+    - Proximity to the user
+- Select "Filter" to narrow down the list of restaurants based on:
+    - Vibe
+    - Alcohol
+    - Happy Hour
+- Select "Show Details" on a restaurant to see further information such as:
+    - Address
+    - Food Type
+    - Alcohol
+    - Cost
+    - Hours
+    - Happy Hour
+- Select a restaurant marker on the map to automatically scroll to that restaurant
 
 <br>
 
@@ -456,19 +467,24 @@ This project was the capstone for our team at:
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
+
+<!-- Tests Shield -->
+  [test-shield]: https://github.com/Apres-Ski/Apres_Ski_BE/actions/workflows/blank.yml/badge.svg
+  [test-url]: https://github.com/Apres-Ski/Apres_Ski_BE/actions/workflows/blank.yml
+
 <!-- Contributors Shield -->
 
-[contributors-shield]: https://img.shields.io/github/contributors/Apres-Ski/Apres_Ski_BE.svg?style=for-the-badge
+[contributors-shield]: https://img.shields.io/github/contributors/Apres-Ski/Apres_Ski_BE.svg
 [contributors-url]: https://github.com/Apres-Ski/Apres_Ski_BE/graphs/contributors
 
 <!-- Forks Shield -->
 
-[forks-shield]: https://img.shields.io/github/forks/Apres-Ski/Apres_Ski_BE.svg?style=for-the-badge
+[forks-shield]: https://img.shields.io/github/forks/Apres-Ski/Apres_Ski_BE.svg
 [forks-url]: https://github.com/othneildrew/Apres-Ski/Apres_Ski_BE/network/members
 
 <!-- Issues Shield -->
 
-[issues-shield]: https://img.shields.io/github/issues/Apres-Ski/Apres_Ski_BE.svg?style=for-the-badge
+[issues-shield]: https://img.shields.io/github/issues/Apres-Ski/Apres_Ski_BE.svg
 [issues-url]: https://github.com/Apres-Ski/Apres_Ski_BE/issues
 
 <!-- LinkedIn Badges -->
