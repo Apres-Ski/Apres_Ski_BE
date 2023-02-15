@@ -236,15 +236,16 @@ Après-Ski's Back-end is a ***Django REST Framework*** API, built with **Python*
 <tr>
 <td>
   <img width="150px" style='border-radius: 6px 12px 18px 24px;' src="https://media.licdn.com/dms/image/C4E03AQEdZUKFgryaqg/profile-displayphoto-shrink_800_800/0/1567961066772?e=1680739200&v=beta&t=TFQt8RiDDMpJHbytApiShBpLVCCZlfeuUwLffp95tG8">
+
+[![GitHub: josephhilby][joe-github-follow-badge]][joe-GitHub] [![LinkedIn: josephmhilby][linkedin-badge]][joe-LinkedIn]
+
 </td>
 <td>
-
-[![GitHub: josephhilby][joe-github-follow-badge]][joe-GitHub]
-<br>
-[![LinkedIn: josephmhilby][linkedin-badge]][joe-LinkedIn]
-
+<p>
+My goal in this project was to step out of my comfort zone with Ruby on Rails and try out a new language and framework. While it made the project considerably harder, I really enjoyed digging through the docs of a new tech-stack and seeing just how quickly I could bring myself up-to-speed. <br><br>
+I am extremely happy that we were able to get 99% testing coverage, on 8 tables, each with full CRUD functionality, in a new language & framework, all in two weeks.
+</p>
 </td>
-
 </tr>
 </table>
 </div>
@@ -258,13 +259,14 @@ Après-Ski's Back-end is a ***Django REST Framework*** API, built with **Python*
 <tr>
 <td>
 <img width="150px" style='border-radius: 6px 12px 18px 24px;' src="https://media.licdn.com/dms/image/D4E03AQESEnUYGJprLA/profile-displayphoto-shrink_800_800/0/1673023729512?e=1680739200&v=beta&t=PhhX0_wEMPxiu2nO-OfDyCv73Ro_iyyGPjQ4YUnXSC4">
-</td>
-<td>
 
 [![GitHub: knestler][kristen-github-follow-badge]][kristen-GitHub]
 <br>
 [![LinkedIn: kristen-nestler][linkedin-badge]][kristen-LinkedIn]
-
+</td>
+<td>
+<p>
+</p>
 </td>
 </tr>
 </table>
@@ -279,13 +281,14 @@ Après-Ski's Back-end is a ***Django REST Framework*** API, built with **Python*
 <tr>
 <td>
 <img width="150px" style='border-radius: 6px 12px 18px 24px;' src="https://avatars.githubusercontent.com/u/36166420?v=4">
-</td>
-<td>
 
 [![GitHub: KevinT001][kevin-github-follow-badge]][kevin-GitHub]
 <br>
 [![LinkedIn: kevin-ta-b1a36723b][linkedin-badge]][kevin-LinkedIn]
-
+</td>
+<td>
+<p>
+</p>
 </td>
 </tr>
 </table>
