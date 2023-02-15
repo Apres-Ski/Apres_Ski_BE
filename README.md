@@ -95,83 +95,81 @@ To install and run on your personal computer you will need to do the following:
 ### GET
 
 <details>
-<summary> <code>localhost:8000/api/v1/restaurants</code> </summary>
+<summary> <code>localhost:8000/api/v1/restaurant</code> </summary>
 
 >**Description**
 > - Get a list of restaurants.
 >
 >**Parameters**
->
 > - N/A
 >
 >**Response**
->
 >#### 200 OK
 >
 > ```json
->{
-> "data": [
->  {
->   "type": "str",
->   "id": "int",
->   "attributes": {
->    "name": "str",
->    "address": "str",
->    "food_type": "str",
->    "cost": "str",
->    "cover_img": "str",
->    "alt_text": "str",
->    "lat": "str",
->    "lon": "str",
->    "alcoholic_drinks": "bool",
->    "has_happy_hour": "bool",
->    "hour": [
+> {
+>   "data": [
 >     {
->      "id": "int",
->      "sunday": "str",
->      "monday": "str",
->      "tuesday": "str",
->      "wednesday": "str",
->      "thursday": "str",
->      "friday": "str",
->      "saturday": "str",
->      "restaurant": "int (id)"
->     }
->    ],
->    "happyhour": [
->     {
->      "id": "int",
->      "sunday": "str",
->      "monday": "str",
->      "tuesday": "str",
->      "wednesday": "str",
->      "thursday": "str",
->      "friday": "str",
->      "saturday": "str",
->      "special": "str",
->      "restaurant": "int (id)"
->     }
->    ],
->    "engagement": [
->     {
->      "id": "int",
->      "vibe": "str",
->      "rating": "str",
->      "favorites": "bool",
->      "restaurant": [
->       "int"
->      ],
->      "user": [
->       "int"
->      ]
->     },
->     {"..."}
+>       "type": "str",
+>       "id": "int",
+>       "attributes": {
+>           "name": "str",
+>           "address": "str",
+>           "food_type": "str",
+>           "cost": "str",
+>           "cover_img": "str",
+>           "alt_text": "str",
+>           "lat": "str",
+>           "lon": "str",
+>           "alcoholic_drinks": "bool",
+>           "has_happy_hour": "bool",
+>           "hour": [
+>             {
+>               "id": "int",
+>               "sunday": "str",
+>               "monday": "str",
+>               "tuesday": "str",
+>               "wednesday": "str",
+>               "thursday": "str",
+>               "friday": "str",
+>               "saturday": "str",
+>               "restaurant": "int (id)"
+>             }
+>           ],
+>           "happyhour": [
+>             {
+>               "id": "int",
+>               "sunday": "str",
+>               "monday": "str",
+>               "tuesday": "str",
+>               "wednesday": "str",
+>               "thursday": "str",
+>               "friday": "str",
+>               "saturday": "str",
+>               "special": "str",
+>               "restaurant": "int (id)"
+>             }
+>           ],
+>           "engagement": [
+>             {
+>               "id": "int",
+>               "vibe": "str",
+>               "rating": "str",
+>               "favorites": "bool",
+>               "restaurant": [
+>                   "int"
+>               ],
+>               "user": [
+>                   "int"
+>               ]
+>             },
+>             {"..."}
+>           ]
+>         }
+>      },
+>      {"..."}
 >    ]
->   }
->  },
->  {"..."}
-> ]
->}
+> }
 >```
 >
 >#### 404 Not Found
@@ -195,16 +193,21 @@ To install and run on your personal computer you will need to do the following:
 </details>
 
 <details>
- <summary><code>localhost:8000/api/v1/users</code></summary>
+ <summary><code>localhost:8000/api/v1/user</code></summary>
 
-### Response Body (JSON)
-
-#### 200 OK
-
+>**Description**
+> * Get a list of users.
+>
+>**Parameters**
+> * N/A
+>
+>**Response**
+>#### 200 OK
+>
 > ```json
->{
->	"data": [
->		{
+> {
+>  "data": [
+>	  	{
 >			"type": "str",
 >			"id": "int",
 >			"attributes": {
@@ -217,10 +220,9 @@ To install and run on your personal computer you will need to do the following:
 >	  ]
 >}
 >```
-
-
-#### 404 Not Found
-
+>
+>#### 404 Not Found
+>
 >```json
 >{
 >	"errors": [
@@ -233,17 +235,20 @@ To install and run on your personal computer you will need to do the following:
 >}
 >```
 
-#### Notes:
-
 </details>
 
 <details>
- <summary><code>localhost:8000/api/v1/lifts</code></summary>
+ <summary><code>localhost:8000/api/v1/lift</code></summary>
 
-### Response Body (JSON)
-
-#### 200 OK
-
+>**Description**
+> * Get a list of lifts.
+>
+>**Parameters**
+> * N/A
+>
+>**Response**
+>#### 200 OK
+>
 > ```json
 >{
 >	"data": [
@@ -260,8 +265,8 @@ To install and run on your personal computer you will need to do the following:
 >	  ]
 >}
 >```
-
-#### 404 Not Found
+>
+>#### 404 Not Found
 
 >```json
 >{
@@ -274,8 +279,6 @@ To install and run on your personal computer you will need to do the following:
 >	]
 >}
 >```
-
-#### Notes:
 
 </details>
 
