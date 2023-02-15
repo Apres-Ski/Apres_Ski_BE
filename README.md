@@ -233,7 +233,13 @@ Each table stored real data on various restaurants and lifts in Breckinridge Col
 ##### Extensions/ future features
 
 Future features we wish to implement for this application would be: 
-
+- Allowing users to see how close restaurants are to each ski lift.
+- Show landmarks and information on the landmarks on the map
+- Photo Galleries for each restaurant
+- Allowing users to have further engagement by being able to 
+  - rate each restaurant.
+  - leave comments about the restaurant.
+  
 <br>
 
 <!-- COLLABORATORS -->
