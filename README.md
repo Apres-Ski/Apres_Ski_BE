@@ -413,7 +413,7 @@ Placeholder text
 </td>
 <td>
 <p>
-Placeholder text
+Being apart of the Apres-Ski team, I had a personal goal of wanting to get first hand experience being a part of a Service Oriented Architecture application. This came with side goals of further developing proper communicational skills and collaboration with the Front-End team. During my course at Turing School of Software and Design, my experience was focused on Ruby and Ruby on Rails, so choosing to develop our Apres-Ski Application in Python was also an exposure to another language I further wish to continue exploring!  
 </p>
 </td>
 </tr>
