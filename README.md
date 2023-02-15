@@ -199,6 +199,91 @@ To install and run on your personal computer you will need to do the following:
 
 </details>
 
+<details>
+ <summary><code>localhost:8000/api/v1/users</code></summary>
+ 
+### Response Body (JSON)
+
+#### 200 OK
+
+> ```json
+>{ 
+>	"data": [
+>		{
+>			"type": "str",
+>			"id": "int",
+>			"attributes": {
+>				"name": "str",
+>				"lat": "str",
+>				"lon": "str",
+>           }
+>     },
+>     {"..."}
+>	  ]
+>}
+>```
+
+
+#### 404 Not Found
+
+>```json
+>{ 
+>	"errors": [
+>		{
+>			"detail": "Not found.",
+>			"status": "404",
+>			"code": "not_found"
+>		}
+>	]
+>}
+>```
+	
+#### Notes:
+
+</details>
+
+<details>
+ <summary><code>localhost:8000/api/v1/lifts</code></summary>
+ 
+### Response Body (JSON)
+
+#### 200 OK
+
+> ```json
+>{ 
+>	"data": [
+>		{
+>			"type": "str",
+>			"id": "int",
+>			"attributes": {
+>				"name": "str",
+>				"lat": "str",
+>				"lon": "str",
+>            }
+>	    },
+>	    {"..."}
+>	  ]
+>}
+>```
+
+#### 404 Not Found
+
+>```json
+>{ 
+>	"errors": [
+>		{
+>			"detail": "Not found.",
+>			"status": "404",
+>			"code": "not_found"
+>		}
+>	]
+>}
+>```
+	
+#### Notes:
+
+</details>
+
 <br>
 
 <!-- PROJECT OVERVIEW -->
