@@ -351,15 +351,17 @@ Future features we wish to implement for this application would be:
 <tr>
 <td>
   <img width="150px" style='border-radius: 6px 12px 18px 24px;' src="https://media.licdn.com/dms/image/C4E03AQEdZUKFgryaqg/profile-displayphoto-shrink_800_800/0/1567961066772?e=1680739200&v=beta&t=TFQt8RiDDMpJHbytApiShBpLVCCZlfeuUwLffp95tG8">
-</td>
-<td>
 
-[![GitHub: josephhilby][joe-github-follow-badge]][joe-GitHub]
-<br>
+[![GitHub: josephhilby][joe-github-follow-badge]][joe-GitHub] <br>
 [![LinkedIn: josephmhilby][linkedin-badge]][joe-LinkedIn]
 
 </td>
-
+<td>
+<p>
+My goal in this project was to step out of my comfort zone with Ruby on Rails and try out a new language and framework. While it made the project considerably harder, I really enjoyed digging through the docs of a new tech-stack and seeing just how quickly I could bring myself up-to-speed. <br><br>
+I am extremely happy that we were able to get 99% testing coverage, on 8 tables, each with full CRUD functionality, in a new language & framework, all in two weeks.
+</p>
+</td>
 </tr>
 </table>
 </div>
@@ -373,13 +375,15 @@ Future features we wish to implement for this application would be:
 <tr>
 <td>
 <img width="150px" style='border-radius: 6px 12px 18px 24px;' src="https://media.licdn.com/dms/image/D4E03AQESEnUYGJprLA/profile-displayphoto-shrink_800_800/0/1673023729512?e=1680739200&v=beta&t=PhhX0_wEMPxiu2nO-OfDyCv73Ro_iyyGPjQ4YUnXSC4">
-</td>
-<td>
 
-[![GitHub: knestler][kristen-github-follow-badge]][kristen-GitHub]
-<br>
+[![GitHub: knestler][kristen-github-follow-badge]][kristen-GitHub] <br>
 [![LinkedIn: kristen-nestler][linkedin-badge]][kristen-LinkedIn]
 
+</td>
+<td>
+<p>
+Placeholder text
+</p>
 </td>
 </tr>
 </table>
@@ -394,13 +398,14 @@ Future features we wish to implement for this application would be:
 <tr>
 <td>
 <img width="150px" style='border-radius: 6px 12px 18px 24px;' src="https://avatars.githubusercontent.com/u/36166420?v=4">
+
+[![GitHub: KevinT001][kevin-github-follow-badge]][kevin-GitHub] <br>
+[![LinkedIn: kevin-ta-b1a36723b][linkedin-badge]][kevin-LinkedIn]
 </td>
 <td>
-
-[![GitHub: KevinT001][kevin-github-follow-badge]][kevin-GitHub]
-<br>
-[![LinkedIn: kevin-ta-b1a36723b][linkedin-badge]][kevin-LinkedIn]
-
+<p>
+Placeholder text
+</p>
 </td>
 </tr>
 </table>
@@ -441,23 +446,36 @@ This project was the capstone for our team at:
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+<!-- Contributors Shield -->
+
 [contributors-shield]: https://img.shields.io/github/contributors/Apres-Ski/Apres_Ski_BE.svg?style=for-the-badge
 [contributors-url]: https://github.com/Apres-Ski/Apres_Ski_BE/graphs/contributors
+
+<!-- Forks Shield -->
+
 [forks-shield]: https://img.shields.io/github/forks/Apres-Ski/Apres_Ski_BE.svg?style=for-the-badge
 [forks-url]: https://github.com/othneildrew/Apres-Ski/Apres_Ski_BE/network/members
+
+<!-- Issues Shield -->
+
 [issues-shield]: https://img.shields.io/github/issues/Apres-Ski/Apres_Ski_BE.svg?style=for-the-badge
 [issues-url]: https://github.com/Apres-Ski/Apres_Ski_BE/issues
 
+<!-- LinkedIn Badges -->
+
 [linkedin-badge]: https://img.shields.io/badge/LinkedIn-%23?style=flat&logo=Linkedin&logoColor=black&color=0A66C2
+
 [joe-LinkedIn]: https://www.linkedin.com/in/josephmhilby/
 [kristen-LinkedIn]: https://www.linkedin.com/in/kristen-nestler/
 [kevin-LinkedIn]: https://www.linkedin.com/in/kevin-ta-b1a36723b/
 
-[joe-github-follow-badge]: https://img.shields.io/github/followers/josephhilby?label=GitHub&style=social
-[kristen-github-follow-badge]: https://img.shields.io/github/followers/knestler?label=GitHub&style=social
-[kevin-github-follow-badge]: https://img.shields.io/github/followers/KevinT001?label=GitHub&style=social
+<!-- GitHub Badges -->
 
+[joe-github-follow-badge]: https://img.shields.io/github/followers/josephhilby?label=GitHub&style=social
 [joe-GitHub]: https://github.com/josephhilby
+
+[kristen-github-follow-badge]: https://img.shields.io/github/followers/knestler?label=GitHub&style=social
 [kristen-GitHub]: https://github.com/knestler
+
+[kevin-github-follow-badge]: https://img.shields.io/github/followers/KevinT001?label=GitHub&style=social
 [kevin-GitHub]: https://github.com/KevinT001
