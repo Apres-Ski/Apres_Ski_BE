@@ -331,22 +331,30 @@ This project was the capstone for our team at:
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+<!-- Contributors Shield -->
 
 [contributors-shield]: https://img.shields.io/github/contributors/Apres-Ski/Apres_Ski_BE.svg?style=for-the-badge
 [contributors-url]: https://github.com/Apres-Ski/Apres_Ski_BE/graphs/contributors
 
+<!-- Forks Shield -->
+
 [forks-shield]: https://img.shields.io/github/forks/Apres-Ski/Apres_Ski_BE.svg?style=for-the-badge
 [forks-url]: https://github.com/othneildrew/Apres-Ski/Apres_Ski_BE/network/members
 
+<!-- Issues Shield -->
+
 [issues-shield]: https://img.shields.io/github/issues/Apres-Ski/Apres_Ski_BE.svg?style=for-the-badge
 [issues-url]: https://github.com/Apres-Ski/Apres_Ski_BE/issues
+
+<!-- LinkedIn Badges -->
 
 [linkedin-badge]: https://img.shields.io/badge/LinkedIn-%23?style=flat&logo=Linkedin&logoColor=black&color=0A66C2
 
 [joe-LinkedIn]: https://www.linkedin.com/in/josephmhilby/
 [kristen-LinkedIn]: https://www.linkedin.com/in/kristen-nestler/
 [kevin-LinkedIn]: https://www.linkedin.com/in/kevin-ta-b1a36723b/
+
+<!-- GitHub Badges -->
 
 [joe-github-follow-badge]: https://img.shields.io/github/followers/josephhilby?label=GitHub&style=social
 [joe-GitHub]: https://github.com/josephhilby
