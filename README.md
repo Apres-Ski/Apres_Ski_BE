@@ -219,6 +219,9 @@ Après-Ski's Back-end is a ***Django REST Framework*** API, built with **Python*
 
 ### MVP and Extensions Roadmap
 
+##### MVP
+Backend MVP goals were to create and deliver endpoints for our Frontend team to consume and display. For our Minimum Viable Product we created a Postgresql database witht he follwing tables:
+
 <br>
 
 <!-- COLLABORATORS -->
