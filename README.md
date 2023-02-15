@@ -331,10 +331,11 @@ The Back-End Teams's MVP goals were to design, create, and deploy all requested 
 <div align='center'>
   <img src="assets/db_diagram.png" alt="db_diagram" width="50%">
 </div>
+<br>
 
 Each table stored real data on various restaurants and lifts in Breckinridge Colorado. Information was gathered through various travel and restaurant websites and then turned into seed files, which we used to populate our database.
 
-After our database was setup we created the above endpoints (see: [API Endpoints](#api-endpoints) ), as requested by our Front-End Team, in accordance with the [json:api](https://jsonapi.org/) standard.
+After our database was setup we created the above endpoints (see: [API Endpoints](#api-endpoints)), as requested by our Front-End Team, in accordance with the [json:api](https://jsonapi.org/) standard.
 
 All MVP goals were met. Testing for our API is at 99% coverage.
 
