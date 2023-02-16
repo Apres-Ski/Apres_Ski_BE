@@ -195,13 +195,13 @@ To install and run on your personal computer you will need to do the following:
 >
 >```json
 >{
-> "errors": [
->  {
->   "detail": "Not found.",
->   "status": "404",
->   "code": "not_found"
->  }
-> ]
+>   "errors": [
+>     {
+>       "detail": "Not found.",
+>       "status": "404",
+>       "code": "not_found"
+>     }
+>    ]
 >}
 >```
 >
@@ -230,10 +230,10 @@ To install and run on your personal computer you will need to do the following:
 >			"type": "str",
 >			"id": "int",
 >			"attributes": {
->				"name": "str",
->				"lat": "str",
->				"lon": "str",
->           }
+>				  "name": "str",
+>				  "lat": "str",
+>				  "lon": "str",
+>       }
 >     },
 >     {"..."}
 >	  ]
@@ -244,13 +244,13 @@ To install and run on your personal computer you will need to do the following:
 >
 >```json
 >{
->	"errors": [
->		{
->			"detail": "Not found.",
->			"status": "404",
->			"code": "not_found"
->		}
->	]
+>   "errors": [
+>     {
+>       "detail": "Not found.",
+>       "status": "404",
+>       "code": "not_found"
+>     }
+>    ]
 >}
 >```
 
@@ -275,10 +275,10 @@ To install and run on your personal computer you will need to do the following:
 >			"type": "str",
 >			"id": "int",
 >			"attributes": {
->				"name": "str",
->				"lat": "str",
->				"lon": "str",
->            }
+>				  "name": "str",
+>				  "lat": "str",
+>				  "lon": "str",
+>      }
 >	    },
 >	    {"..."}
 >	  ]
@@ -289,13 +289,13 @@ To install and run on your personal computer you will need to do the following:
 
 >```json
 >{
->	"errors": [
->		{
->			"detail": "Not found.",
->			"status": "404",
->			"code": "not_found"
->		}
->	]
+>   "errors": [
+>     {
+>       "detail": "Not found.",
+>       "status": "404",
+>       "code": "not_found"
+>     }
+>    ]
 >}
 >```
 
