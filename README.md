@@ -444,7 +444,7 @@ Après-Ski delivered on all fronts. It was a great experience working with a tru
 </tr>
 <tr>
 <td>
-<img width="150px" style='border-radius: 6px 12px 18px 24px;' src="https://avatars.githubusercontent.com/u/36166420?v=4">
+<img width="250px" style='border-radius: 6px 12px 18px 24px;' src="https://avatars.githubusercontent.com/u/36166420?v=4">
 
 [![GitHub: KevinT001][kevin-github-follow-badge]][kevin-GitHub] <br>
 [![LinkedIn: kevin-ta-b1a36723b][linkedin-badge]][kevin-LinkedIn]
