@@ -7,20 +7,16 @@
   [![Forks][forks-shield]][forks-url]
   [![Issues][issues-shield]][issues-url]
 
-  <a href="https://github.com/Apres-Ski">
-    <img src="https://media.giphy.com/media/xEBZR96wLedVHzOeqw/giphy.gif">
-  </a>
-  <h2 align="center">
+<img src="https://raw.githubusercontent.com/Apres-Ski/Apres-Ski-FE/main/src/assets/app-gif.gif" height="425" />
 
-[Après-Ski App](https://apres-ski-fe.vercel.app/)
+<h3 align="center">
 
-  </h2>
+[Après-Ski App](https://github.com/Apres-Ski/Apres-Ski-FE/blob/main/src/assets/app-gif.gif)
 
-  <h3 align="center">
-    <a href="https://github.com/Apres-Ski/Apres_Ski_BE/issues">Report Bug</a>
+<a href="https://github.com/Apres-Ski/Apres_Ski_BE/issues">Report Bug</a>
     ·
-    <a href="https://github.com/Apres-Ski/Apres_Ski_BE/issues">Request Feature</a>
-  </h3>
+<a href="https://github.com/Apres-Ski/Apres_Ski_BE/issues">Request Feature</a>
+</h3>
 </div>
 <br>
 
@@ -54,7 +50,7 @@ The web application geared towards snowsport entheusiests looking to find their 
 
 ### Web Usage
 
-This is a Django REST Framework API designed for a React web application. To get started in the application, follow [this link](https://apres-ski-fe.vercel.app/) and select one of our test-users. Once you selected a user you will be able to:
+This is a Django REST Framework API designed for a use with our [Front-End Team's](https://github.com/Apres-Ski/Apres-Ski-FE) React web application. To get started in the application, follow [this link](https://apres-ski-fe.vercel.app/) and select one of our test-users. Once you selected a user you will be able to:
 
 - Browse a list of restaurants near you based on:
     - Vibe
@@ -92,11 +88,23 @@ To install and run on your personal computer you will need to do the following:
     ```zsh
     pip3 install -r requirements.txt
     ```
-6. Start a server.
+6. Migrate and seed database.
+    ```zsh
+    $ python3 manage.py migrate
+    $ python3 manage.py loaddata user.json
+    $ python3 manage.py loaddata restaurant.json
+    $ python3 manage.py loaddata engagement.json
+    $ python3 manage.py loaddata hour.json
+    $ python3 manage.py loaddata happyhour.json
+    $ python3 manage.py loaddata lift.json
+    $ python3 manage.py loaddata comment.json
+    $ python3 manage.py loaddata photo.json
+    ```
+7. Start a server.
     ```zsh
     python3 manage.py runserver
     ```
-7. Navigate to <http://localhost:8000/api/v1/>
+8. Navigate to <http://localhost:8000/api/v1/>
 
 <br />
 
