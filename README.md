@@ -2,10 +2,10 @@
 
 <div align="center">
 
-  [![Python package][test-shield]][test-url]
   [![Contributors][contributors-shield]][contributors-url]
   [![Forks][forks-shield]][forks-url]
   [![Issues][issues-shield]][issues-url]
+  [![Pytest Tests][test-shield]][test-url]
 
 <img src="https://raw.githubusercontent.com/Apres-Ski/Apres-Ski-FE/main/src/assets/app-gif.gif" height="425" />
 
@@ -493,8 +493,8 @@ This project was the capstone for our team at:
 <!-- MARKDOWN LINKS & IMAGES -->
 
 <!-- Tests Shield -->
-  [test-shield]: https://github.com/Apres-Ski/Apres_Ski_BE/actions/workflows/blank.yml/badge.svg
-  [test-url]: https://github.com/Apres-Ski/Apres_Ski_BE/actions/workflows/blank.yml
+  [test-shield]: https://github.com/Apres-Ski/Apres_Ski_BE/actions/workflows/pytest_ci_testing.yml/badge.svg
+  [test-url]: https://github.com/Apres-Ski/Apres_Ski_BE/actions/workflows/pytest_ci_testing.yml
 
 <!-- Contributors Shield -->
 
