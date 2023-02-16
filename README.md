@@ -11,7 +11,7 @@
 
 <h3 align="center">
 
-[Après-Ski App](https://github.com/Apres-Ski/Apres-Ski-FE/blob/main/src/assets/app-gif.gif)
+[Après-Ski App](https://apres-ski-fe.vercel.app/)
 
 <a href="https://github.com/Apres-Ski/Apres_Ski_BE/issues">Report Bug</a>
     ·
