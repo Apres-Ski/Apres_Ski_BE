@@ -429,7 +429,7 @@ I am extremely happy that we were able to get 99% testing coverage, on 8 tables,
 <p>
 When I pitched the idea for Après-Ski,  I was excited to combine my passions for skiing with my love for software engineering. I proposed using Python and Django for the backend, and Javascript and React for the front end so our team could gain more experience with learning new technologies. 
 
-Après-Ski delivered on all fronts. It was a great experience working with a true full-stack team to bring this application to life.  I learned new strategies to quickly learn unfamiliar tech stacks and successfully build a new application through the entire SLDC.
+Après-Ski delivered on all fronts. It was a great experience working with a true full-stack team to bring this application to life.  I gained new strategies to quickly learn unfamiliar tech stacks and used a full SDLC to successfully build Après-Ski.
 </p>
 </td>
 </tr>
