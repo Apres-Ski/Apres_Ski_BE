@@ -7,20 +7,16 @@
   [![Forks][forks-shield]][forks-url]
   [![Issues][issues-shield]][issues-url]
 
-  <a href="https://github.com/Apres-Ski">
-    <img src="https://media.giphy.com/media/xEBZR96wLedVHzOeqw/giphy.gif">
-  </a>
-  <h2 align="center">
+<img src="https://raw.githubusercontent.com/Apres-Ski/Apres-Ski-FE/main/src/assets/app-gif.gif" height="425" />
 
-[Après-Ski App](https://apres-ski-fe.vercel.app/)
+<h3 align="center">
 
-  </h2>
+[Après-Ski App](https://github.com/Apres-Ski/Apres-Ski-FE/blob/main/src/assets/app-gif.gif)
 
-  <h3 align="center">
-    <a href="https://github.com/Apres-Ski/Apres_Ski_BE/issues">Report Bug</a>
+<a href="https://github.com/Apres-Ski/Apres_Ski_BE/issues">Report Bug</a>
     ·
-    <a href="https://github.com/Apres-Ski/Apres_Ski_BE/issues">Request Feature</a>
-  </h3>
+<a href="https://github.com/Apres-Ski/Apres_Ski_BE/issues">Request Feature</a>
+</h3>
 </div>
 <br>
 
@@ -54,7 +50,7 @@ The web application geared towards snowsport entheusiests looking to find their 
 
 ### Web Usage
 
-This is a Django REST Framework API designed for a React web application. To get started in the application, follow [this link](https://apres-ski-fe.vercel.app/) and select one of our test-users. Once you selected a user you will be able to:
+This is a Django REST Framework API designed for a use with our [Front-End Team's](https://github.com/Apres-Ski/Apres-Ski-FE) React web application. To get started in the application, follow [this link](https://apres-ski-fe.vercel.app/) and select one of our test-users. Once you selected a user you will be able to:
 
 - Browse a list of restaurants near you based on:
     - Vibe
@@ -92,11 +88,23 @@ To install and run on your personal computer you will need to do the following:
     ```zsh
     pip3 install -r requirements.txt
     ```
-6. Start a server.
+6. Migrate and seed database.
+    ```zsh
+    $ python3 manage.py migrate
+    $ python3 manage.py loaddata user.json
+    $ python3 manage.py loaddata restaurant.json
+    $ python3 manage.py loaddata engagement.json
+    $ python3 manage.py loaddata hour.json
+    $ python3 manage.py loaddata happyhour.json
+    $ python3 manage.py loaddata lift.json
+    $ python3 manage.py loaddata comment.json
+    $ python3 manage.py loaddata photo.json
+    ```
+7. Start a server.
     ```zsh
     python3 manage.py runserver
     ```
-7. Navigate to <http://localhost:8000/api/v1/>
+8. Navigate to <http://localhost:8000/api/v1/>
 
 <br />
 
@@ -338,11 +346,12 @@ Après-Ski's Back-end is a ***Django REST Framework*** API, built with ***Python
 
 The Back-End Teams's MVP goals were to design, create, and deploy all requested endpoints for our Front-End Team to consume and display. For this we started with a ***PostgreSQL*** database and the following tables:
 
-<br>
-<div align='center'>
-  <img src="assets/db_diagram.png" alt="db_diagram" width="50%">
-</div>
-<br>
+- User
+- Restaurant
+- HappyHour
+- Hour
+- Lift
+- Engagement
 
 Each table stored real data on various restaurants and lifts in Breckinridge Colorado. Information was gathered through various travel and restaurant websites and then turned into seed files, which we used to populate our database.
 
@@ -352,7 +361,22 @@ All MVP goals were met. Testing for our API is at 99% coverage.
 
 ***Extensions***
 
-Future features we wish to implement for our API:
+The Back-End Team's Extension goals were to:
+
+- Create an external API call to Geoapify for /routing & /landmark endpoints.
+  - This was completed for /routing. However it was decided that other extensions should be prioritized due to time constraints.
+  - The /routing endpoint is not on our deployed site as it is not used by the Après-Ski webapp.
+- Create two new tables: Photo & Comment
+
+All extensions (except the /landmark endpoint) were completed and tested. Below is the final version of our database tables and relationships.
+
+<br>
+<div align='center'>
+  <img src="assets/db_diagram.png" alt="db_diagram" width="50%">
+</div>
+<br>
+
+Future features we would like to implement for our API:
 
 - Create another external API call to Geoapify to collect information on local landmarks.
 - Use ***Django REST Framework's*** TokenAuthentication class to implement authentication for any CREATE, POST, or PATCH requests.
@@ -425,7 +449,7 @@ Placeholder text
 </td>
 <td>
 <p>
-Being apart of the Apres-Ski team, I had a personal goal of wanting to get first hand experience being a part of a Service Oriented Architecture application. This came with side goals of further developing proper communicational skills and collaboration with the Front-End team. During my course at Turing School of Software and Design, my experience was focused on Ruby and Ruby on Rails, so choosing to develop our Apres-Ski Application in Python was also an exposure to another language I further wish to continue exploring!  
+Being apart of the Apres-Ski team, I had a personal goal of wanting to get first hand experience being a part of a Service Oriented Architecture application. This came with side goals of further developing proper communicational skills and collaboration with the Front-End team. During my course at Turing School of Software and Design, my experience was focused on Ruby and Ruby on Rails, so choosing to develop our Apres-Ski Application in Python was also an exposure to another language I further wish to continue exploring!
 </p>
 </td>
 </tr>
