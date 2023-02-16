@@ -338,11 +338,12 @@ Après-Ski's Back-end is a ***Django REST Framework*** API, built with ***Python
 
 The Back-End Teams's MVP goals were to design, create, and deploy all requested endpoints for our Front-End Team to consume and display. For this we started with a ***PostgreSQL*** database and the following tables:
 
-<br>
-<div align='center'>
-  <img src="assets/db_diagram.png" alt="db_diagram" width="50%">
-</div>
-<br>
+- User
+- Restaurant
+- HappyHour
+- Hour
+- Lift
+- Engagement
 
 Each table stored real data on various restaurants and lifts in Breckinridge Colorado. Information was gathered through various travel and restaurant websites and then turned into seed files, which we used to populate our database.
 
@@ -352,7 +353,22 @@ All MVP goals were met. Testing for our API is at 99% coverage.
 
 ***Extensions***
 
-Future features we wish to implement for our API:
+The Back-End Team's Extension goals were to:
+
+- Create an external API call to Geoapify for /routing & /landmark endpoints.
+  - This was completed for /routing. However it was decided that other extensions should be prioritized due to time constraints.
+  - The /routing endpoint is not on our deployed site as it is not used by the Après-Ski webapp.
+- Create two new tables: Photo & Comment
+
+All extensions (except the /landmark endpoint) were completed and tested. Below is the final version of our database tables and relationships.
+
+<br>
+<div align='center'>
+  <img src="assets/db_diagram.png" alt="db_diagram" width="50%">
+</div>
+<br>
+
+Future features we would like to implement for our API:
 
 - Create another external API call to Geoapify to collect information on local landmarks.
 - Use ***Django REST Framework's*** TokenAuthentication class to implement authentication for any CREATE, POST, or PATCH requests.
@@ -425,7 +441,7 @@ Placeholder text
 </td>
 <td>
 <p>
-Being apart of the Apres-Ski team, I had a personal goal of wanting to get first hand experience being a part of a Service Oriented Architecture application. This came with side goals of further developing proper communicational skills and collaboration with the Front-End team. During my course at Turing School of Software and Design, my experience was focused on Ruby and Ruby on Rails, so choosing to develop our Apres-Ski Application in Python was also an exposure to another language I further wish to continue exploring!  
+Being apart of the Apres-Ski team, I had a personal goal of wanting to get first hand experience being a part of a Service Oriented Architecture application. This came with side goals of further developing proper communicational skills and collaboration with the Front-End team. During my course at Turing School of Software and Design, my experience was focused on Ruby and Ruby on Rails, so choosing to develop our Apres-Ski Application in Python was also an exposure to another language I further wish to continue exploring!
 </p>
 </td>
 </tr>
