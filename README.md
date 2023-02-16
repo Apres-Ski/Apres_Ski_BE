@@ -394,7 +394,7 @@ Future features we would like to implement for our API:
 <th></th>
 </tr>
 <tr>
-<td>
+<td align='center'>
   <img width="150px" style='border-radius: 6px 12px 18px 24px;' src="https://media.licdn.com/dms/image/C4E03AQEdZUKFgryaqg/profile-displayphoto-shrink_800_800/0/1567961066772?e=1680739200&v=beta&t=TFQt8RiDDMpJHbytApiShBpLVCCZlfeuUwLffp95tG8">
 
 [![GitHub: josephhilby][joe-github-follow-badge]][joe-GitHub] <br>
@@ -418,7 +418,7 @@ I am extremely happy that we were able to get 99% testing coverage, on 8 tables,
 <th></th>
 </tr>
 <tr>
-<td>
+<td align='center'>
 <img width="150px" style='border-radius: 6px 12px 18px 24px;' src="https://media.licdn.com/dms/image/D4E03AQESEnUYGJprLA/profile-displayphoto-shrink_800_800/0/1673023729512?e=1680739200&v=beta&t=PhhX0_wEMPxiu2nO-OfDyCv73Ro_iyyGPjQ4YUnXSC4">
 
 [![GitHub: knestler][kristen-github-follow-badge]][kristen-GitHub] <br>
@@ -443,7 +443,7 @@ Après-Ski delivered on all fronts. It was a great experience working with a tru
 <th></th>
 </tr>
 <tr>
-<td>
+<td align='center'>
 <img width="250px" style='border-radius: 6px 12px 18px 24px;' src="https://avatars.githubusercontent.com/u/36166420?v=4">
 
 [![GitHub: KevinT001][kevin-github-follow-badge]][kevin-GitHub] <br>
