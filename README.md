@@ -390,7 +390,7 @@ Future features we would like to implement for our API:
 <div align='left'>
 <table style='border: none'>
 <tr>
-<th>Joseph Hilby</th>
+<th width='15%'>Joseph Hilby</th>
 <th></th>
 </tr>
 <tr>
@@ -414,7 +414,7 @@ I am extremely happy that we were able to get 99% testing coverage, on 8 tables,
 <div align='left'>
 <table style='border: none'>
 <tr>
-<th>Kristen Nestler</th>
+<th width='15%'>Kristen Nestler</th>
 <th></th>
 </tr>
 <tr>
@@ -439,7 +439,7 @@ Après-Ski delivered on all fronts. It was a great experience working with a tru
 <div align='left'>
 <table style='border: none'>
 <tr>
-<th>Kevin Ta</th>
+<th width='15%'>Kevin Ta</th>
 <th></th>
 </tr>
 <tr>
