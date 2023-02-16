@@ -2,10 +2,10 @@
 
 <div align="center">
 
-  [![Python package][test-shield]][test-url]
   [![Contributors][contributors-shield]][contributors-url]
   [![Forks][forks-shield]][forks-url]
   [![Issues][issues-shield]][issues-url]
+  [![Pytest Tests][test-shield]][test-url]
 
 <img src="https://raw.githubusercontent.com/Apres-Ski/Apres-Ski-FE/main/src/assets/app-gif.gif" height="425" />
 
@@ -195,13 +195,13 @@ To install and run on your personal computer you will need to do the following:
 >
 >```json
 >{
-> "errors": [
->  {
->   "detail": "Not found.",
->   "status": "404",
->   "code": "not_found"
->  }
-> ]
+>   "errors": [
+>     {
+>       "detail": "Not found.",
+>       "status": "404",
+>       "code": "not_found"
+>     }
+>    ]
 >}
 >```
 >
@@ -230,10 +230,10 @@ To install and run on your personal computer you will need to do the following:
 >			"type": "str",
 >			"id": "int",
 >			"attributes": {
->				"name": "str",
->				"lat": "str",
->				"lon": "str",
->           }
+>				  "name": "str",
+>				  "lat": "str",
+>				  "lon": "str",
+>       }
 >     },
 >     {"..."}
 >	  ]
@@ -244,13 +244,13 @@ To install and run on your personal computer you will need to do the following:
 >
 >```json
 >{
->	"errors": [
->		{
->			"detail": "Not found.",
->			"status": "404",
->			"code": "not_found"
->		}
->	]
+>   "errors": [
+>     {
+>       "detail": "Not found.",
+>       "status": "404",
+>       "code": "not_found"
+>     }
+>    ]
 >}
 >```
 
@@ -275,10 +275,10 @@ To install and run on your personal computer you will need to do the following:
 >			"type": "str",
 >			"id": "int",
 >			"attributes": {
->				"name": "str",
->				"lat": "str",
->				"lon": "str",
->            }
+>				  "name": "str",
+>				  "lat": "str",
+>				  "lon": "str",
+>      }
 >	    },
 >	    {"..."}
 >	  ]
@@ -289,13 +289,13 @@ To install and run on your personal computer you will need to do the following:
 
 >```json
 >{
->	"errors": [
->		{
->			"detail": "Not found.",
->			"status": "404",
->			"code": "not_found"
->		}
->	]
+>   "errors": [
+>     {
+>       "detail": "Not found.",
+>       "status": "404",
+>       "code": "not_found"
+>     }
+>    ]
 >}
 >```
 
@@ -495,8 +495,8 @@ This project was the capstone for our team at:
 <!-- MARKDOWN LINKS & IMAGES -->
 
 <!-- Tests Shield -->
-  [test-shield]: https://github.com/Apres-Ski/Apres_Ski_BE/actions/workflows/blank.yml/badge.svg
-  [test-url]: https://github.com/Apres-Ski/Apres_Ski_BE/actions/workflows/blank.yml
+  [test-shield]: https://github.com/Apres-Ski/Apres_Ski_BE/actions/workflows/pytest_ci_testing.yml/badge.svg
+  [test-url]: https://github.com/Apres-Ski/Apres_Ski_BE/actions/workflows/pytest_ci_testing.yml
 
 <!-- Contributors Shield -->
 
