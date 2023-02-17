@@ -482,7 +482,7 @@ Thanks again!
 Special *thank you!*, for your insight and help, as we designed and built an API in a totally new language and framework:
 
 * [Mike Hernandez](https://github.com/mikez321)
-* [Jake Cohen]()
+* [Jake Cohen](https://github.com/jrambold)
 
 Thank you [Tricia Holmes](https://github.com/tricia-holmes) on our Front-End Team for your PR setting up CORS!
 
