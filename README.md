@@ -395,7 +395,7 @@ Future features we would like to implement for our API:
 </tr>
 <tr>
 <td align='center'>
-  <img width="150px" style='border-radius: 6px 12px 18px 24px;' src="https://media.licdn.com/dms/image/C4E03AQEdZUKFgryaqg/profile-displayphoto-shrink_800_800/0/1567961066772?e=1680739200&v=beta&t=TFQt8RiDDMpJHbytApiShBpLVCCZlfeuUwLffp95tG8">
+  <img width="150px" style='border-radius: 6px 12px 18px 24px;' src="https://media.licdn.com/dms/image/D5603AQFBwBZWgwT9Uw/profile-displayphoto-shrink_200_200/0/1677597181341?e=1683158400&v=beta&t=qYUGd93vSZFbnKWishpx7lFyrnghqqdKjU8xKplS3oM">
 
 [![GitHub: josephhilby][joe-github-follow-badge]][joe-GitHub] <br>
 [![LinkedIn: josephmhilby][linkedin-badge]][joe-LinkedIn]
