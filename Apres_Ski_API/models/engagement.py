@@ -10,5 +10,5 @@ class Engagement(models.Model):
   vibe = models.CharField(max_length=200)
   rating = models.CharField(max_length=200)
   favorites = models.BooleanField()
-  restaurant = models.ManyToManyField(Restaurant, related_name='engagement')
-  user = models.ManyToManyField(User)
+  restaurant = models.ForeignKey(Restaurant, related_name='engagement', on_delete=models.CASCADE)
+  user = models.ForeignKey(User, on_delete=models.CASCADE)
