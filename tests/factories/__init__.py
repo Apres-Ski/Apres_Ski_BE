@@ -80,6 +80,8 @@ class PhotoFactory(factory.django.DjangoModelFactory):
 
 class CommentFactory(factory.django.DjangoModelFactory):
     comment = factory.LazyAttribute(lambda x: faker.aba())
+    restaurant = factory.SubFactory(RestaurantFactory)
+    user = factory.SubFactory(UserFactory)
 
     class Meta:
         model = Comment
@@ -88,6 +90,8 @@ class EngagementFactory(factory.django.DjangoModelFactory):
     vibe = factory.LazyAttribute(lambda x: faker.aba())
     rating = factory.LazyAttribute(lambda x: faker.aba())
     favorites = factory.LazyAttribute(lambda x: faker.boolean(chance_of_getting_true=25))
+    restaurant = factory.SubFactory(RestaurantFactory)
+    user = factory.SubFactory(UserFactory)
 
     class Meta:
         model = Engagement
