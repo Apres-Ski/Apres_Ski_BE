@@ -12,8 +12,8 @@ class EngagementCreateTests(TestCase):
                       "vibe": "casual",
                       "rating": "4.5",
                       "favorites": True,
-                      "restaurant": [restaurant.pk],
-                      "user": [user.pk]
+                      "restaurant": restaurant.pk,
+                      "user": user.pk
         }
         response = client.post("/api/v1/engagement/", engagement)
 
