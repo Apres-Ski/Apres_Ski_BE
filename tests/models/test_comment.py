@@ -8,14 +8,14 @@ class CommentTests(TestCase):
   def setUp(self):
     self.restaurant_1 = RestaurantFactory()
     self.user_1 = UserFactory()
-    self.comment = CommentFactory(comment="This is a comment")
-    self.comment.restaurant.set([self.restaurant_1.pk])
-    self.comment.user.set([self.user_1.pk])
+    self.comment = CommentFactory(comment="This is a comment",
+                                  restaurant=self.restaurant_1,
+                                  user=self.user_1)
 
   def test_comment_instance(self):
     assert isinstance(self.comment, Comment)
 
   def test_comment_state(self):
     assert self.comment.comment == "This is a comment"
-    assert self.comment.restaurant.count() == 1
-    assert self.comment.user.count() == 1
+    assert self.comment.restaurant == self.restaurant_1
+    assert self.comment.user == self.user_1
