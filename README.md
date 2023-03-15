@@ -24,7 +24,7 @@ Hungry and tired after a day at Breckenridge? Looking to find somewhere that's f
 
 **Find it with Après-Ski!**
 
-The web application geared towards snowsport entheusiests looking to find their post slopes *food & drinks* to round out a good day.
+The web application geared towards snowsport enthusiasts looking to find their post slopes *food & drinks* to round out a good day.
 <br>
 
 ---
@@ -427,7 +427,7 @@ I am extremely happy that we were able to get 99% testing coverage, on 8 tables,
 </td>
 <td>
 <p>
-When I pitched the idea for Après-Ski,  I was excited to combine my passions for skiing with my love for software engineering. I proposed using Python and Django for the backend, and Javascript and React for the front end so our team could gain more experience with learning new technologies. 
+When I pitched the idea for Après-Ski,  I was excited to combine my passions for skiing with my love for software engineering. I proposed using Python and Django for the backend, and Javascript and React for the front end so our team could gain more experience with learning new technologies.
 
 Après-Ski delivered on all fronts. It was a great experience working with a true full-stack team to bring this application to life.  I gained new strategies to quickly learn unfamiliar tech stacks and used these technologies in combination with a full SDLC to successfully and efficiently build our Après-Ski application.
 </p>
