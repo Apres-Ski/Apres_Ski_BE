@@ -25,5 +25,122 @@
       "lat": "39.4786490224492",
       "lon": "-106.052519920665"
     }
+  },
+  {
+    "model": "Apres_Ski_API.user",
+    "pk": 4,
+    "fields": {
+      "name": "Test User 1",
+      "lat": "0.0",
+      "lon": "0.0"
+    }
+  },
+  {
+    "model": "Apres_Ski_API.user",
+    "pk": 5,
+    "fields": {
+      "name": "Test User 2",
+      "lat": "0.0",
+      "lon": "0.0"
+    }
+  },
+  {
+    "model": "Apres_Ski_API.user",
+    "pk": 6,
+    "fields": {
+      "name": "Test User 3",
+      "lat": "0.0",
+      "lon": "0.0"
+    }
+  },
+  {
+    "model": "Apres_Ski_API.user",
+    "pk": 7,
+    "fields": {
+      "name": "Test User 4",
+      "lat": "0.0",
+      "lon": "0.0"
+    }
+  },
+  {
+    "model": "Apres_Ski_API.user",
+    "pk": 8,
+    "fields": {
+      "name": "Test User 5",
+      "lat": "0.0",
+      "lon": "0.0"
+    }
+  },
+  {
+    "model": "Apres_Ski_API.user",
+    "pk": 9,
+    "fields": {
+      "name": "Test User 6",
+      "lat": "0.0",
+      "lon": "0.0"
+    }
+  },
+  {
+    "model": "Apres_Ski_API.user",
+    "pk": 10,
+    "fields": {
+      "name": "Test User 7",
+      "lat": "0.0",
+      "lon": "0.0"
+    }
+  },
+  {
+    "model": "Apres_Ski_API.user",
+    "pk": 11,
+    "fields": {
+      "name": "Test User 8",
+      "lat": "0.0",
+      "lon": "0.0"
+    }
+  },
+  {
+    "model": "Apres_Ski_API.user",
+    "pk": 12,
+    "fields": {
+      "name": "Test User 9",
+      "lat": "0.0",
+      "lon": "0.0"
+    }
+  },
+  {
+    "model": "Apres_Ski_API.user",
+    "pk": 13,
+    "fields": {
+      "name": "Test User 10",
+      "lat": "0.0",
+      "lon": "0.0"
+    }
+  },
+  {
+    "model": "Apres_Ski_API.user",
+    "pk": 14,
+    "fields": {
+      "name": "Test User 11",
+      "lat": "0.0",
+      "lon": "0.0"
+    }
+  },
+  {
+    "model": "Apres_Ski_API.user",
+    "pk": 15,
+    "fields": {
+      "name": "Test User 12",
+      "lat": "0.0",
+      "lon": "0.0"
+    }
+  },
+  {
+    "model": "Apres_Ski_API.user",
+    "pk": 16,
+    "fields": {
+      "name": "Test User 13",
+      "lat": "0.0",
+      "lon": "0.0"
+    }
   }
 ]
