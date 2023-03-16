@@ -31,7 +31,7 @@ class RestaurantUpdateTests(TestCase):
         assert entry['type'] == 'Restaurant'
         assert isinstance(entry['id'], str)
         assert isinstance(entry['attributes'], dict)
-        assert len(entry['attributes']) == 13
+        assert len(entry['attributes']) == 14
         assert isinstance(entry['attributes']['name'], str)
         assert entry['attributes']['name'] == 'new_name'
         assert isinstance(entry['attributes']['address'], str)
@@ -46,6 +46,7 @@ class RestaurantUpdateTests(TestCase):
         assert isinstance(entry['attributes']['hour'], list)
         assert isinstance(entry['attributes']['happyhour'], list)
         assert isinstance(entry['attributes']['engagement'], list)
+        assert isinstance(entry['attributes']['photo'], list)
 
     def test_restaurant_update_404(self):
         restaurant = RestaurantFactory()

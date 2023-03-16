@@ -11,7 +11,7 @@ class RestaurantSerializerTests(TestCase):
 
     data = serialized_restaurant.data
     assert isinstance(data, dict)
-    assert len(data) == 14
+    assert len(data) == 15
     assert isinstance(data['id'], int)
     assert isinstance(data['name'], str)
     assert isinstance(data['address'], str)
@@ -26,3 +26,4 @@ class RestaurantSerializerTests(TestCase):
     assert isinstance(data['hour'], list)
     assert isinstance(data['happyhour'], list)
     assert isinstance(data['engagement'], list)
+    assert isinstance(data['photo'], list)
