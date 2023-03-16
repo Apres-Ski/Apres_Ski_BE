@@ -32,7 +32,7 @@ class RestaurantCreateTests(TestCase):
         assert entry['type'] == 'Restaurant'
         assert isinstance(entry['id'], str)
         assert isinstance(entry['attributes'], dict)
-        assert len(entry['attributes']) == 13
+        assert len(entry['attributes']) == 14
         assert isinstance(entry['attributes']['name'], str)
         assert isinstance(entry['attributes']['address'], str)
         assert isinstance(entry['attributes']['food_type'], str)
@@ -46,3 +46,4 @@ class RestaurantCreateTests(TestCase):
         assert isinstance(entry['attributes']['hour'], list)
         assert isinstance(entry['attributes']['happyhour'], list)
         assert isinstance(entry['attributes']['engagement'], list)
+        assert isinstance(entry['attributes']['photo'], list)
