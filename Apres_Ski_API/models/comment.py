@@ -7,5 +7,5 @@ class Comment(models.Model):
     app_label = 'Apres_Ski_API'
 
   comment = models.CharField(max_length=500)
-  restaurant = models.ManyToManyField(Restaurant, related_name='comment')
-  user = models.ManyToManyField(User)
+  restaurant = models.ForeignKey(Restaurant, related_name='comment', on_delete=models.CASCADE)
+  user = models.ForeignKey(User, on_delete=models.CASCADE)

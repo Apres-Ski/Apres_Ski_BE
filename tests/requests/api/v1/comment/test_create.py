@@ -9,8 +9,8 @@ class CommentCreateTests(TestCase):
         user = UserFactory()
         client = Client()
         comment = { "comment": "super cool",
-                    "restaurant": [restaurant.pk],
-                    "user": [user.pk]
+                    "restaurant": restaurant.pk,
+                    "user": user.pk
         }
         response = client.post("/api/v1/comment/", comment)
 

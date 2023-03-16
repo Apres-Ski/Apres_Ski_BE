@@ -4,12 +4,8 @@
     "pk": 1,
     "fields": {
       "comment": "super cool",
-      "restaurant": [
-        1
-      ],
-      "user": [
-        1
-      ]
+      "restaurant": 1,
+      "user": 1
     }
   }
 ]

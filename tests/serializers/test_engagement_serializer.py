@@ -16,5 +16,5 @@ class EngagementSerializerTests(TestCase):
     assert isinstance(data['vibe'], str)
     assert isinstance(data['rating'], str)
     assert isinstance(data['favorites'], bool)
-    assert isinstance(data['restaurant'], list)
-    assert isinstance(data['user'], list)
+    assert isinstance(data['restaurant'], int)
+    assert isinstance(data['user'], int)

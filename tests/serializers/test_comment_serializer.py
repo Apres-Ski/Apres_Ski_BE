@@ -14,5 +14,5 @@ class CommentSerializerTests(TestCase):
     assert len(data) == 4
     assert isinstance(data['id'], int)
     assert isinstance(data['comment'], str)
-    assert isinstance(data['restaurant'], list)
-    assert isinstance(data['user'], list)
+    assert isinstance(data['restaurant'], int)
+    assert isinstance(data['user'], int)

@@ -6,8 +6,8 @@
       "vibe": "casual",
       "rating": "4.5",
       "favorites": true,
-      "restaurant": [1],
-      "user": [1]
+      "restaurant": 1,
+      "user": 1
     }
   },
   {
@@ -17,8 +17,8 @@
       "vibe": "upscale",
       "rating": "4.0",
       "favorites": true,
-      "restaurant": [1],
-      "user": [2]
+      "restaurant": 1,
+      "user": 2
     }
   },
   {
@@ -28,8 +28,8 @@
       "vibe": "casual",
       "rating": "3.0",
       "favorites": false,
-      "restaurant": [2],
-      "user": [3]
+      "restaurant": 2,
+      "user": 3
     }
   },
   {
@@ -39,8 +39,8 @@
       "vibe": "relaxed",
       "rating": "3",
       "favorites": true,
-      "restaurant": [2],
-      "user": [1]
+      "restaurant": 2,
+      "user": 1
     }
   },
   {
@@ -50,8 +50,8 @@
       "vibe": "fun",
       "rating": "4.0",
       "favorites": true,
-      "restaurant": [2],
-      "user": [2]
+      "restaurant": 2,
+      "user": 2
     }
   },
   {
@@ -61,8 +61,8 @@
       "vibe": "casual",
       "rating": "3.5",
       "favorites": false,
-      "restaurant": [3],
-      "user": [3]
+      "restaurant": 3,
+      "user": 3
     }
   },
   {
@@ -72,8 +72,8 @@
       "vibe": "upscale",
       "rating": "4.0",
       "favorites": true,
-      "restaurant": [3],
-      "user": [1]
+      "restaurant": 3,
+      "user": 1
     }
   },
   {
@@ -83,8 +83,8 @@
       "vibe": "cozy",
       "rating": "4.5",
       "favorites": false,
-      "restaurant": [3],
-      "user": [2]
+      "restaurant": 3,
+      "user": 2
     }
   },
   {
@@ -94,8 +94,8 @@
       "vibe": "quick & easy",
       "rating": "2.0",
       "favorites": false,
-      "restaurant": [4],
-      "user": [3]
+      "restaurant": 4,
+      "user": 3
     }
   },
   {
@@ -105,8 +105,8 @@
       "vibe": "family friendly",
       "rating": "5.0",
       "favorites": true,
-      "restaurant": [4],
-      "user": [1]
+      "restaurant": 4,
+      "user": 1
     }
   },
   {
@@ -116,8 +116,8 @@
       "vibe": "casual",
       "rating": "3.0",
       "favorites": false,
-      "restaurant": [4],
-      "user": [2]
+      "restaurant": 4,
+      "user": 2
     }
   },
   {
@@ -127,8 +127,8 @@
       "vibe": "casual",
       "rating": "3.0",
       "favorites": true,
-      "restaurant": [5],
-      "user": [3]
+      "restaurant": 5,
+      "user": 3
     }
   },
   {
@@ -138,8 +138,8 @@
       "vibe": "relaxed",
       "rating": "4.0",
       "favorites": true,
-      "restaurant": [5],
-      "user": [1]
+      "restaurant": 5,
+      "user": 1
     }
   },
   {
@@ -149,8 +149,8 @@
       "vibe": "relaxed",
       "rating": "3.5",
       "favorites": false,
-      "restaurant": [5],
-      "user": [2]
+      "restaurant": 5,
+      "user": 2
     }
   },
   {
@@ -160,8 +160,8 @@
       "vibe": "casual",
       "rating": "4.0",
       "favorites": true,
-      "restaurant": [6],
-      "user": [3]
+      "restaurant": 6,
+      "user": 3
     }
   },
   {
@@ -171,8 +171,8 @@
       "vibe": "lively",
       "rating": "5.0",
       "favorites": true,
-      "restaurant": [6],
-      "user": [1]
+      "restaurant": 6,
+      "user": 1
     }
   },
   {
@@ -182,8 +182,8 @@
       "vibe": "fun",
       "rating": "4.5",
       "favorites": true,
-      "restaurant": [6],
-      "user": [2]
+      "restaurant": 6,
+      "user": 2
     }
   },
   {
@@ -193,8 +193,8 @@
       "vibe": "casual",
       "rating": "3.5",
       "favorites": false,
-      "restaurant": [7],
-      "user": [3]
+      "restaurant": 7,
+      "user": 3
     }
   },
   {
@@ -204,8 +204,8 @@
       "vibe": "lively",
       "rating": "4.0",
       "favorites": true,
-      "restaurant": [7],
-      "user": [1]
+      "restaurant": 7,
+      "user": 1
     }
   },
   {
@@ -215,8 +215,8 @@
       "vibe": "family friendly",
       "rating": "3.5",
       "favorites": false,
-      "restaurant": [7],
-      "user": [2]
+      "restaurant": 7,
+      "user": 2
     }
   },
   {
@@ -226,8 +226,8 @@
       "vibe": "casual",
       "rating": "4.0",
       "favorites": true,
-      "restaurant": [8],
-      "user": [3]
+      "restaurant": 8,
+      "user": 3
     }
   },
   {
@@ -237,8 +237,8 @@
       "vibe": "relaxed",
       "rating": "4.5",
       "favorites": false,
-      "restaurant": [8],
-      "user": [1]
+      "restaurant": 8,
+      "user": 1
     }
   },
   {
@@ -248,8 +248,8 @@
       "vibe": "family friendly",
       "rating": "5.0",
       "favorites": true,
-      "restaurant": [8],
-      "user": [2]
+      "restaurant": 8,
+      "user": 2
     }
   },
   {
@@ -259,8 +259,8 @@
       "vibe": "casual",
       "rating": "2.0",
       "favorites": false,
-      "restaurant": [9],
-      "user": [3]
+      "restaurant": 9,
+      "user": 3
     }
   },
   {
@@ -270,8 +270,8 @@
       "vibe": "lively",
       "rating": "2.5",
       "favorites": false,
-      "restaurant": [9],
-      "user": [1]
+      "restaurant": 9,
+      "user": 1
     }
   },
   {
@@ -281,8 +281,8 @@
       "vibe": "family friendly",
       "rating": "4.0",
       "favorites": true,
-      "restaurant": [9],
-      "user": [2]
+      "restaurant": 9,
+      "user": 2
     }
   },
   {
@@ -292,8 +292,8 @@
       "vibe": "casual",
       "rating": "1.0",
       "favorites": false,
-      "restaurant": [10],
-      "user": [3]
+      "restaurant": 10,
+      "user": 3
     }
   },
   {
@@ -303,8 +303,8 @@
       "vibe": "quick & easy",
       "rating": "2.0",
       "favorites": false,
-      "restaurant": [10],
-      "user": [1]
+      "restaurant": 10,
+      "user": 1
     }
   },
   {
@@ -314,8 +314,8 @@
       "vibe": "lively",
       "rating": "2.5",
       "favorites": false,
-      "restaurant": [10],
-      "user": [2]
+      "restaurant": 10,
+      "user": 2
     }
   },
   {
@@ -325,8 +325,8 @@
       "vibe": "casual",
       "rating": "3.5",
       "favorites": false,
-      "restaurant": [11],
-      "user": [3]
+      "restaurant": 11,
+      "user": 3
     }
   },
   {
@@ -336,8 +336,8 @@
       "vibe": "lively",
       "rating": "4.0",
       "favorites": true,
-      "restaurant": [11],
-      "user": [1]
+      "restaurant": 11,
+      "user": 1
     }
   },
   {
@@ -347,8 +347,8 @@
       "vibe": "fun",
       "rating": "5.0",
       "favorites": true,
-      "restaurant": [11],
-      "user": [2]
+      "restaurant": 11,
+      "user": 2
     }
   },
   {
@@ -358,8 +358,8 @@
       "vibe": "casual",
       "rating": "2.5",
       "favorites": false,
-      "restaurant": [12],
-      "user": [3]
+      "restaurant": 12,
+      "user": 3
     }
   },
   {
@@ -369,8 +369,8 @@
       "vibe": "quick & easy",
       "rating": "3.0",
       "favorites": true,
-      "restaurant": [12],
-      "user": [1]
+      "restaurant": 12,
+      "user": 1
     }
   },
   {
@@ -380,8 +380,8 @@
       "vibe": "family friendly",
       "rating": "5.0",
       "favorites": true,
-      "restaurant": [12],
-      "user": [2]
+      "restaurant": 12,
+      "user": 2
     }
   },
   {
@@ -391,8 +391,8 @@
       "vibe": "family friendly",
       "rating": "5.0",
       "favorites": true,
-      "restaurant": [13],
-      "user": [3]
+      "restaurant": 13,
+      "user": 3
     }
   },
   {
@@ -402,8 +402,8 @@
       "vibe": "quick & easy",
       "rating": "4.0",
       "favorites": true,
-      "restaurant": [13],
-      "user": [1]
+      "restaurant": 13,
+      "user": 1
     }
   },
   {
@@ -413,8 +413,8 @@
       "vibe": "casual",
       "rating": "3.5",
       "favorites": false,
-      "restaurant": [13],
-      "user": [2]
+      "restaurant": 13,
+      "user": 2
     }
   },
   {
@@ -424,8 +424,8 @@
       "vibe": "casual",
       "rating": "1",
       "favorites": false,
-      "restaurant": [14],
-      "user": [3]
+      "restaurant": 14,
+      "user": 3
     }
   },
   {
@@ -435,8 +435,8 @@
       "vibe": "lively",
       "rating": "3.5",
       "favorites": true,
-      "restaurant": [14],
-      "user": [1]
+      "restaurant": 14,
+      "user": 1
     }
   },
   {
@@ -446,8 +446,8 @@
       "vibe": "fun",
       "rating": "4.0",
       "favorites": true,
-      "restaurant": [14],
-      "user": [2]
+      "restaurant": 14,
+      "user": 2
     }
   },
   {
@@ -457,8 +457,8 @@
       "vibe": "casual",
       "rating": "3.0",
       "favorites": false,
-      "restaurant": [15],
-      "user": [3]
+      "restaurant": 15,
+      "user": 3
     }
   },
   {
@@ -468,8 +468,8 @@
       "vibe": "quick & easy",
       "rating": "4.0",
       "favorites": true,
-      "restaurant": [15],
-      "user": [1]
+      "restaurant": 15,
+      "user": 1
     }
   },
   {
@@ -479,8 +479,8 @@
       "vibe": "family friendly",
       "rating": "4.5",
       "favorites": true,
-      "restaurant": [15],
-      "user": [2]
+      "restaurant": 15,
+      "user": 2
     }
   },
   {
@@ -490,8 +490,8 @@
       "vibe": "casual",
       "rating": "2.5",
       "favorites": false,
-      "restaurant": [16],
-      "user": [3]
+      "restaurant": 16,
+      "user": 3
     }
   },
   {
@@ -501,8 +501,8 @@
       "vibe": "lively",
       "rating": "4.0",
       "favorites": true,
-      "restaurant": [16],
-      "user": [1]
+      "restaurant": 16,
+      "user": 1
     }
   },
   {
@@ -512,8 +512,8 @@
       "vibe": "family friendly",
       "rating": "5.0",
       "favorites": true,
-      "restaurant": [16],
-      "user": [2]
+      "restaurant": 16,
+      "user": 2
     }
   },
   {
@@ -523,8 +523,8 @@
       "vibe": "casual",
       "rating": "1.5",
       "favorites": false,
-      "restaurant": [17],
-      "user": [3]
+      "restaurant": 17,
+      "user": 3
     }
   },
   {
@@ -534,8 +534,8 @@
       "vibe": "family friendly",
       "rating": "4.0",
       "favorites": true,
-      "restaurant": [17],
-      "user": [1]
+      "restaurant": 17,
+      "user": 1
     }
   },
   {
@@ -545,8 +545,8 @@
       "vibe": "lively",
       "rating": "3.5",
       "favorites": false,
-      "restaurant": [17],
-      "user": [2]
+      "restaurant": 17,
+      "user": 2
     }
   },
   {
@@ -556,8 +556,8 @@
       "vibe": "casual",
       "rating": "5.0",
       "favorites": true,
-      "restaurant": [18],
-      "user": [3]
+      "restaurant": 18,
+      "user": 3
     }
   },
   {
@@ -567,8 +567,8 @@
       "vibe": "lively",
       "rating": "3.0",
       "favorites": false,
-      "restaurant": [18],
-      "user": [1]
+      "restaurant": 18,
+      "user": 1
     }
   },
   {
@@ -578,8 +578,8 @@
       "vibe": "family friendly",
       "rating": "4.5",
       "favorites": true,
-      "restaurant": [18],
-      "user": [2]
+      "restaurant": 18,
+      "user": 2
     }
   },
   {
@@ -589,8 +589,8 @@
       "vibe": "casual",
       "rating": "1.0",
       "favorites": false,
-      "restaurant": [19],
-      "user": [3]
+      "restaurant": 19,
+      "user": 3
     }
   },
   {
@@ -600,8 +600,8 @@
       "vibe": "relaxed",
       "rating": "4.5",
       "favorites": true,
-      "restaurant": [19],
-      "user": [1]
+      "restaurant": 19,
+      "user": 1
     }
   },
   {
@@ -611,8 +611,8 @@
       "vibe": "lively",
       "rating": "5.0",
       "favorites": true,
-      "restaurant": [19],
-      "user": [2]
+      "restaurant": 19,
+      "user": 2
     }
   }
 ]
